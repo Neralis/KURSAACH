@@ -1,0 +1,14 @@
+C:\Users\ip521-14\source\repos\KURSAACH\KURSAACH\bin\Debug\KURSAACH.exe.config
+C:\Users\ip521-14\source\repos\KURSAACH\KURSAACH\bin\Debug\KURSAACH.exe
+C:\Users\ip521-14\source\repos\KURSAACH\KURSAACH\bin\Debug\KURSAACH.pdb
+C:\Users\ip521-14\source\repos\KURSAACH\KURSAACH\bin\Debug\MaterialSkin.dll
+C:\Users\ip521-14\source\repos\KURSAACH\KURSAACH\obj\Debug\KURSAACH.csprojAssemblyReference.cache
+C:\Users\ip521-14\source\repos\KURSAACH\KURSAACH\obj\Debug\KURSAACH.Form1.resources
+C:\Users\ip521-14\source\repos\KURSAACH\KURSAACH\obj\Debug\KURSAACH.Properties.Resources.resources
+C:\Users\ip521-14\source\repos\KURSAACH\KURSAACH\obj\Debug\KURSAACH.csproj.GenerateResource.cache
+C:\Users\ip521-14\source\repos\KURSAACH\KURSAACH\obj\Debug\KURSAACH.csproj.CoreCompileInputs.cache
+C:\Users\ip521-14\source\repos\KURSAACH\KURSAACH\obj\Debug\KURSAACH.csproj.CopyComplete
+C:\Users\ip521-14\source\repos\KURSAACH\KURSAACH\obj\Debug\KURSAACH.exe
+C:\Users\ip521-14\source\repos\KURSAACH\KURSAACH\obj\Debug\KURSAACH.pdb
+C:\Users\ip521-14\source\repos\KURSAACH\KURSAACH\obj\Debug\KURSAACH.Form2.resources
+C:\Users\ip521-14\source\repos\KURSAACH\KURSAACH\obj\Debug\KURSAACH.Form3.resources
