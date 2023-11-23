@@ -76,5 +76,10 @@ namespace KURSAACH
             tabControl2.Visible = true;
             tabControl1.Visible = false;
         }
+
+        private void Form2_FormClosed(object sender, FormClosedEventArgs e)
+        {
+            Application.Exit();
+        }
     }
 }

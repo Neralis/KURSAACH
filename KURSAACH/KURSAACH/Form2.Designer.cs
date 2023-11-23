@@ -35,49 +35,46 @@
             this.miniToolStrip = new System.Windows.Forms.BindingNavigator(this.components);
             this.tabControl1 = new System.Windows.Forms.TabControl();
             this.tabPage1 = new System.Windows.Forms.TabPage();
-            this.tabPage2 = new System.Windows.Forms.TabPage();
-            this.tabPage3 = new System.Windows.Forms.TabPage();
-            this.tabPage4 = new System.Windows.Forms.TabPage();
-            this.bindingNavigator1 = new System.Windows.Forms.BindingNavigator(this.components);
-            this.bindingNavigatorSeparator = new System.Windows.Forms.ToolStripSeparator();
-            this.bindingNavigatorPositionItem = new System.Windows.Forms.ToolStripTextBox();
-            this.bindingNavigatorCountItem = new System.Windows.Forms.ToolStripLabel();
-            this.bindingNavigatorSeparator1 = new System.Windows.Forms.ToolStripSeparator();
-            this.bindingNavigatorSeparator2 = new System.Windows.Forms.ToolStripSeparator();
-            this.bindingNavigator2 = new System.Windows.Forms.BindingNavigator(this.components);
-            this.toolStripLabel1 = new System.Windows.Forms.ToolStripLabel();
-            this.toolStripSeparator1 = new System.Windows.Forms.ToolStripSeparator();
-            this.toolStripTextBox1 = new System.Windows.Forms.ToolStripTextBox();
-            this.toolStripSeparator2 = new System.Windows.Forms.ToolStripSeparator();
-            this.toolStripSeparator3 = new System.Windows.Forms.ToolStripSeparator();
-            this.bindingNavigator3 = new System.Windows.Forms.BindingNavigator(this.components);
-            this.toolStripLabel2 = new System.Windows.Forms.ToolStripLabel();
-            this.toolStripSeparator4 = new System.Windows.Forms.ToolStripSeparator();
-            this.toolStripTextBox2 = new System.Windows.Forms.ToolStripTextBox();
-            this.toolStripSeparator5 = new System.Windows.Forms.ToolStripSeparator();
-            this.toolStripSeparator6 = new System.Windows.Forms.ToolStripSeparator();
-            this.bindingNavigator4 = new System.Windows.Forms.BindingNavigator(this.components);
-            this.toolStripLabel3 = new System.Windows.Forms.ToolStripLabel();
-            this.toolStripSeparator7 = new System.Windows.Forms.ToolStripSeparator();
-            this.toolStripTextBox3 = new System.Windows.Forms.ToolStripTextBox();
-            this.toolStripSeparator8 = new System.Windows.Forms.ToolStripSeparator();
-            this.toolStripSeparator9 = new System.Windows.Forms.ToolStripSeparator();
             this.dataGridView1 = new System.Windows.Forms.DataGridView();
-            this.clientsBindingSource = new System.Windows.Forms.BindingSource(this.components);
-            this.clientsTableAdapter = new KURSAACH.KR_Ip521_NikitinDataSetTableAdapters.ClientsTableAdapter();
             this.iDClientDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.clientNameDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.adressDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.phoneNumberDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.clientsBindingSource = new System.Windows.Forms.BindingSource(this.components);
+            this.bindingNavigator1 = new System.Windows.Forms.BindingNavigator(this.components);
+            this.bindingNavigatorAddNewItem = new System.Windows.Forms.ToolStripButton();
+            this.bindingNavigatorCountItem = new System.Windows.Forms.ToolStripLabel();
+            this.bindingNavigatorDeleteItem = new System.Windows.Forms.ToolStripButton();
+            this.bindingNavigatorMoveFirstItem = new System.Windows.Forms.ToolStripButton();
+            this.bindingNavigatorMovePreviousItem = new System.Windows.Forms.ToolStripButton();
+            this.bindingNavigatorSeparator = new System.Windows.Forms.ToolStripSeparator();
+            this.bindingNavigatorPositionItem = new System.Windows.Forms.ToolStripTextBox();
+            this.bindingNavigatorSeparator1 = new System.Windows.Forms.ToolStripSeparator();
+            this.bindingNavigatorMoveNextItem = new System.Windows.Forms.ToolStripButton();
+            this.bindingNavigatorMoveLastItem = new System.Windows.Forms.ToolStripButton();
+            this.bindingNavigatorSeparator2 = new System.Windows.Forms.ToolStripSeparator();
+            this.toolStripButton19 = new System.Windows.Forms.ToolStripButton();
+            this.tabPage2 = new System.Windows.Forms.TabPage();
             this.dataGridView2 = new System.Windows.Forms.DataGridView();
-            this.couriersBindingSource = new System.Windows.Forms.BindingSource(this.components);
-            this.couriersTableAdapter = new KURSAACH.KR_Ip521_NikitinDataSetTableAdapters.CouriersTableAdapter();
             this.iDCourierDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.deliveryStatusDataGridViewCheckBoxColumn = new System.Windows.Forms.DataGridViewCheckBoxColumn();
             this.courierNameDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.couriersBindingSource = new System.Windows.Forms.BindingSource(this.components);
+            this.bindingNavigator2 = new System.Windows.Forms.BindingNavigator(this.components);
+            this.toolStripButton1 = new System.Windows.Forms.ToolStripButton();
+            this.toolStripLabel1 = new System.Windows.Forms.ToolStripLabel();
+            this.toolStripButton2 = new System.Windows.Forms.ToolStripButton();
+            this.toolStripButton3 = new System.Windows.Forms.ToolStripButton();
+            this.toolStripButton4 = new System.Windows.Forms.ToolStripButton();
+            this.toolStripSeparator1 = new System.Windows.Forms.ToolStripSeparator();
+            this.toolStripTextBox1 = new System.Windows.Forms.ToolStripTextBox();
+            this.toolStripSeparator2 = new System.Windows.Forms.ToolStripSeparator();
+            this.toolStripButton5 = new System.Windows.Forms.ToolStripButton();
+            this.toolStripButton6 = new System.Windows.Forms.ToolStripButton();
+            this.toolStripSeparator3 = new System.Windows.Forms.ToolStripSeparator();
+            this.toolStripButton20 = new System.Windows.Forms.ToolStripButton();
+            this.tabPage3 = new System.Windows.Forms.TabPage();
             this.dataGridView3 = new System.Windows.Forms.DataGridView();
-            this.orderBindingSource = new System.Windows.Forms.BindingSource(this.components);
-            this.orderTableAdapter = new KURSAACH.KR_Ip521_NikitinDataSetTableAdapters.OrderTableAdapter();
             this.iDOrderDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.statusDataGridViewCheckBoxColumn = new System.Windows.Forms.DataGridViewCheckBoxColumn();
             this.orderContentDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
@@ -86,41 +83,44 @@
             this.workersWorkerIDDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.couriersIDCourierDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.costDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.orderBindingSource = new System.Windows.Forms.BindingSource(this.components);
+            this.bindingNavigator3 = new System.Windows.Forms.BindingNavigator(this.components);
+            this.toolStripButton7 = new System.Windows.Forms.ToolStripButton();
+            this.toolStripLabel2 = new System.Windows.Forms.ToolStripLabel();
+            this.toolStripButton8 = new System.Windows.Forms.ToolStripButton();
+            this.toolStripButton9 = new System.Windows.Forms.ToolStripButton();
+            this.toolStripButton10 = new System.Windows.Forms.ToolStripButton();
+            this.toolStripSeparator4 = new System.Windows.Forms.ToolStripSeparator();
+            this.toolStripTextBox2 = new System.Windows.Forms.ToolStripTextBox();
+            this.toolStripSeparator5 = new System.Windows.Forms.ToolStripSeparator();
+            this.toolStripButton11 = new System.Windows.Forms.ToolStripButton();
+            this.toolStripButton12 = new System.Windows.Forms.ToolStripButton();
+            this.toolStripSeparator6 = new System.Windows.Forms.ToolStripSeparator();
+            this.toolStripButton21 = new System.Windows.Forms.ToolStripButton();
+            this.tabPage4 = new System.Windows.Forms.TabPage();
             this.dataGridView4 = new System.Windows.Forms.DataGridView();
-            this.workersBindingSource = new System.Windows.Forms.BindingSource(this.components);
-            this.workersTableAdapter = new KURSAACH.KR_Ip521_NikitinDataSetTableAdapters.WorkersTableAdapter();
             this.workerIDDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.workerNameDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.postDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.workPlaceDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.bindingNavigatorAddNewItem = new System.Windows.Forms.ToolStripButton();
-            this.bindingNavigatorDeleteItem = new System.Windows.Forms.ToolStripButton();
-            this.bindingNavigatorMoveFirstItem = new System.Windows.Forms.ToolStripButton();
-            this.bindingNavigatorMovePreviousItem = new System.Windows.Forms.ToolStripButton();
-            this.bindingNavigatorMoveNextItem = new System.Windows.Forms.ToolStripButton();
-            this.bindingNavigatorMoveLastItem = new System.Windows.Forms.ToolStripButton();
-            this.toolStripButton19 = new System.Windows.Forms.ToolStripButton();
-            this.toolStripButton1 = new System.Windows.Forms.ToolStripButton();
-            this.toolStripButton2 = new System.Windows.Forms.ToolStripButton();
-            this.toolStripButton3 = new System.Windows.Forms.ToolStripButton();
-            this.toolStripButton4 = new System.Windows.Forms.ToolStripButton();
-            this.toolStripButton5 = new System.Windows.Forms.ToolStripButton();
-            this.toolStripButton6 = new System.Windows.Forms.ToolStripButton();
-            this.toolStripButton20 = new System.Windows.Forms.ToolStripButton();
-            this.toolStripButton7 = new System.Windows.Forms.ToolStripButton();
-            this.toolStripButton8 = new System.Windows.Forms.ToolStripButton();
-            this.toolStripButton9 = new System.Windows.Forms.ToolStripButton();
-            this.toolStripButton10 = new System.Windows.Forms.ToolStripButton();
-            this.toolStripButton11 = new System.Windows.Forms.ToolStripButton();
-            this.toolStripButton12 = new System.Windows.Forms.ToolStripButton();
+            this.workersBindingSource = new System.Windows.Forms.BindingSource(this.components);
+            this.bindingNavigator4 = new System.Windows.Forms.BindingNavigator(this.components);
             this.toolStripButton13 = new System.Windows.Forms.ToolStripButton();
+            this.toolStripLabel3 = new System.Windows.Forms.ToolStripLabel();
             this.toolStripButton14 = new System.Windows.Forms.ToolStripButton();
             this.toolStripButton15 = new System.Windows.Forms.ToolStripButton();
             this.toolStripButton16 = new System.Windows.Forms.ToolStripButton();
+            this.toolStripSeparator7 = new System.Windows.Forms.ToolStripSeparator();
+            this.toolStripTextBox3 = new System.Windows.Forms.ToolStripTextBox();
+            this.toolStripSeparator8 = new System.Windows.Forms.ToolStripSeparator();
             this.toolStripButton17 = new System.Windows.Forms.ToolStripButton();
             this.toolStripButton18 = new System.Windows.Forms.ToolStripButton();
-            this.toolStripButton21 = new System.Windows.Forms.ToolStripButton();
+            this.toolStripSeparator9 = new System.Windows.Forms.ToolStripSeparator();
             this.toolStripButton22 = new System.Windows.Forms.ToolStripButton();
+            this.clientsTableAdapter = new KURSAACH.KR_Ip521_NikitinDataSetTableAdapters.ClientsTableAdapter();
+            this.couriersTableAdapter = new KURSAACH.KR_Ip521_NikitinDataSetTableAdapters.CouriersTableAdapter();
+            this.orderTableAdapter = new KURSAACH.KR_Ip521_NikitinDataSetTableAdapters.OrderTableAdapter();
+            this.workersTableAdapter = new KURSAACH.KR_Ip521_NikitinDataSetTableAdapters.WorkersTableAdapter();
             this.menuStrip1 = new System.Windows.Forms.MenuStrip();
             this.базаДанныхToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.таблицыToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
@@ -129,6 +129,9 @@
             this.tabControl2 = new System.Windows.Forms.TabControl();
             this.tabPage5 = new System.Windows.Forms.TabPage();
             this.dataGridView5 = new System.Windows.Forms.DataGridView();
+            this.минимальнаяценаDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.максимальнаяценаDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.mAXИMINЦенаBindingSource = new System.Windows.Forms.BindingSource(this.components);
             this.bindingNavigator5 = new System.Windows.Forms.BindingNavigator(this.components);
             this.toolStripButton23 = new System.Windows.Forms.ToolStripButton();
             this.toolStripLabel4 = new System.Windows.Forms.ToolStripLabel();
@@ -144,6 +147,11 @@
             this.toolStripButton29 = new System.Windows.Forms.ToolStripButton();
             this.tabPage6 = new System.Windows.Forms.TabPage();
             this.dataGridView6 = new System.Windows.Forms.DataGridView();
+            this.iDClientDataGridViewTextBoxColumn1 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.clientNameDataGridViewTextBoxColumn1 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.iDOrderDataGridViewTextBoxColumn1 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.statusDataGridViewCheckBoxColumn1 = new System.Windows.Forms.DataGridViewCheckBoxColumn();
+            this.выполненныеЗаказыBindingSource = new System.Windows.Forms.BindingSource(this.components);
             this.bindingNavigator6 = new System.Windows.Forms.BindingNavigator(this.components);
             this.toolStripButton30 = new System.Windows.Forms.ToolStripButton();
             this.toolStripLabel5 = new System.Windows.Forms.ToolStripLabel();
@@ -159,9 +167,12 @@
             this.toolStripButton36 = new System.Windows.Forms.ToolStripButton();
             this.tabPage7 = new System.Windows.Forms.TabPage();
             this.dataGridView7 = new System.Windows.Forms.DataGridView();
-            this.dataGridViewCheckBoxColumn2 = new System.Windows.Forms.DataGridViewCheckBoxColumn();
+            this.statusDataGridViewCheckBoxColumn2 = new System.Windows.Forms.DataGridViewCheckBoxColumn();
+            this.колвоDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.заказыTrueFalseBindingSource1 = new System.Windows.Forms.BindingSource(this.components);
             this.bindingNavigator7 = new System.Windows.Forms.BindingNavigator(this.components);
             this.toolStripButton37 = new System.Windows.Forms.ToolStripButton();
+            this.заказыTrueFalseBindingSource = new System.Windows.Forms.BindingSource(this.components);
             this.toolStripLabel6 = new System.Windows.Forms.ToolStripLabel();
             this.toolStripButton38 = new System.Windows.Forms.ToolStripButton();
             this.toolStripButton39 = new System.Windows.Forms.ToolStripButton();
@@ -174,10 +185,9 @@
             this.toolStripSeparator18 = new System.Windows.Forms.ToolStripSeparator();
             this.toolStripButton43 = new System.Windows.Forms.ToolStripButton();
             this.tabPage8 = new System.Windows.Forms.TabPage();
-            this.dataGridView8 = new System.Windows.Forms.DataGridView();
-            this.dataGridViewTextBoxColumn14 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.bindingNavigator8 = new System.Windows.Forms.BindingNavigator(this.components);
             this.toolStripButton44 = new System.Windows.Forms.ToolStripButton();
+            this.заказыИРаботникиBindingSource = new System.Windows.Forms.BindingSource(this.components);
             this.toolStripLabel7 = new System.Windows.Forms.ToolStripLabel();
             this.toolStripButton45 = new System.Windows.Forms.ToolStripButton();
             this.toolStripButton46 = new System.Windows.Forms.ToolStripButton();
@@ -189,24 +199,10 @@
             this.toolStripButton49 = new System.Windows.Forms.ToolStripButton();
             this.toolStripSeparator21 = new System.Windows.Forms.ToolStripSeparator();
             this.toolStripButton50 = new System.Windows.Forms.ToolStripButton();
-            this.mAXИMINЦенаBindingSource = new System.Windows.Forms.BindingSource(this.components);
-            this.mAX_и_MIN_ценаTableAdapter = new KURSAACH.KR_Ip521_NikitinDataSetTableAdapters.MAX_и_MIN_ценаTableAdapter();
-            this.минимальнаяценаDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.максимальнаяценаDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.выполненныеЗаказыBindingSource = new System.Windows.Forms.BindingSource(this.components);
-            this.выполненные_заказыTableAdapter = new KURSAACH.KR_Ip521_NikitinDataSetTableAdapters.Выполненные_заказыTableAdapter();
-            this.iDClientDataGridViewTextBoxColumn1 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.clientNameDataGridViewTextBoxColumn1 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.iDOrderDataGridViewTextBoxColumn1 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.statusDataGridViewCheckBoxColumn1 = new System.Windows.Forms.DataGridViewCheckBoxColumn();
-            this.заказыTrueFalseBindingSource = new System.Windows.Forms.BindingSource(this.components);
-            this.заказы_True_FalseTableAdapter = new KURSAACH.KR_Ip521_NikitinDataSetTableAdapters.Заказы_True_FalseTableAdapter();
-            this.заказыИРаботникиBindingSource = new System.Windows.Forms.BindingSource(this.components);
-            this.заказы_и_работникиTableAdapter = new KURSAACH.KR_Ip521_NikitinDataSetTableAdapters.Заказы_и_работникиTableAdapter();
             this.tabPage9 = new System.Windows.Forms.TabPage();
-            this.dataGridView9 = new System.Windows.Forms.DataGridView();
             this.bindingNavigator9 = new System.Windows.Forms.BindingNavigator(this.components);
             this.toolStripButton51 = new System.Windows.Forms.ToolStripButton();
+            this.курьерыВДоставкеBindingSource = new System.Windows.Forms.BindingSource(this.components);
             this.toolStripLabel8 = new System.Windows.Forms.ToolStripLabel();
             this.toolStripButton52 = new System.Windows.Forms.ToolStripButton();
             this.toolStripButton53 = new System.Windows.Forms.ToolStripButton();
@@ -218,39 +214,13 @@
             this.toolStripButton56 = new System.Windows.Forms.ToolStripButton();
             this.toolStripSeparator24 = new System.Windows.Forms.ToolStripSeparator();
             this.toolStripButton57 = new System.Windows.Forms.ToolStripButton();
-            this.заказыИРаботникиBindingSource1 = new System.Windows.Forms.BindingSource(this.components);
-            this.курьерыВДоставкеBindingSource = new System.Windows.Forms.BindingSource(this.components);
-            this.курьеры_в_доставкеTableAdapter = new KURSAACH.KR_Ip521_NikitinDataSetTableAdapters.Курьеры_в_доставкеTableAdapter();
+            this.dataGridView9 = new System.Windows.Forms.DataGridView();
             this.courierNameDataGridViewTextBoxColumn1 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.deliveryStatusDataGridViewCheckBoxColumn1 = new System.Windows.Forms.DataGridViewCheckBoxColumn();
             this.tabPage10 = new System.Windows.Forms.TabPage();
-            this.dataGridView10 = new System.Windows.Forms.DataGridView();
-            this.dataGridViewTextBoxColumn1 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.курьерыИЗаказыBindingSource = new System.Windows.Forms.BindingSource(this.components);
-            this.курьеры_и_заказыTableAdapter = new KURSAACH.KR_Ip521_NikitinDataSetTableAdapters.Курьеры_и_заказыTableAdapter();
-            this.tabPage11 = new System.Windows.Forms.TabPage();
-            this.dataGridView11 = new System.Windows.Forms.DataGridView();
-            this.работникиКухниBindingSource = new System.Windows.Forms.BindingSource(this.components);
-            this.работники_кухниTableAdapter = new KURSAACH.KR_Ip521_NikitinDataSetTableAdapters.Работники_кухниTableAdapter();
-            this.workerIDDataGridViewTextBoxColumn1 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.workerNameDataGridViewTextBoxColumn1 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.tabPage12 = new System.Windows.Forms.TabPage();
-            this.dataGridView12 = new System.Windows.Forms.DataGridView();
-            this.средняяЦенаЗаказаBindingSource = new System.Windows.Forms.BindingSource(this.components);
-            this.средняя_цена_заказаTableAdapter = new KURSAACH.KR_Ip521_NikitinDataSetTableAdapters.Средняя_цена_заказаTableAdapter();
-            this.средняяценаDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.tabPage13 = new System.Windows.Forms.TabPage();
-            this.dataGridView13 = new System.Windows.Forms.DataGridView();
-            this.суммаВыполненныхЗаказовBindingSource = new System.Windows.Forms.BindingSource(this.components);
-            this.сумма_выполненных_заказовTableAdapter = new KURSAACH.KR_Ip521_NikitinDataSetTableAdapters.Сумма_выполненных_заказовTableAdapter();
-            this.sUMMDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.tabPage14 = new System.Windows.Forms.TabPage();
-            this.dataGridView14 = new System.Windows.Forms.DataGridView();
-            this.ценаЗаказа1500BindingSource = new System.Windows.Forms.BindingSource(this.components);
-            this.цена_заказа__1500TableAdapter = new KURSAACH.KR_Ip521_NikitinDataSetTableAdapters.Цена_заказа__1500TableAdapter();
-            this.больше1500DataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.bindingNavigator10 = new System.Windows.Forms.BindingNavigator(this.components);
             this.toolStripButton58 = new System.Windows.Forms.ToolStripButton();
+            this.курьерыИЗаказыBindingSource = new System.Windows.Forms.BindingSource(this.components);
             this.toolStripLabel9 = new System.Windows.Forms.ToolStripLabel();
             this.toolStripButton59 = new System.Windows.Forms.ToolStripButton();
             this.toolStripButton60 = new System.Windows.Forms.ToolStripButton();
@@ -262,8 +232,12 @@
             this.toolStripButton63 = new System.Windows.Forms.ToolStripButton();
             this.toolStripSeparator27 = new System.Windows.Forms.ToolStripSeparator();
             this.toolStripButton64 = new System.Windows.Forms.ToolStripButton();
+            this.dataGridView10 = new System.Windows.Forms.DataGridView();
+            this.dataGridViewTextBoxColumn1 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.tabPage11 = new System.Windows.Forms.TabPage();
             this.bindingNavigator11 = new System.Windows.Forms.BindingNavigator(this.components);
             this.toolStripButton65 = new System.Windows.Forms.ToolStripButton();
+            this.работникиКухниBindingSource = new System.Windows.Forms.BindingSource(this.components);
             this.toolStripLabel10 = new System.Windows.Forms.ToolStripLabel();
             this.toolStripButton66 = new System.Windows.Forms.ToolStripButton();
             this.toolStripButton67 = new System.Windows.Forms.ToolStripButton();
@@ -275,8 +249,13 @@
             this.toolStripButton70 = new System.Windows.Forms.ToolStripButton();
             this.toolStripSeparator30 = new System.Windows.Forms.ToolStripSeparator();
             this.toolStripButton71 = new System.Windows.Forms.ToolStripButton();
+            this.dataGridView11 = new System.Windows.Forms.DataGridView();
+            this.workerIDDataGridViewTextBoxColumn1 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.workerNameDataGridViewTextBoxColumn1 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.tabPage12 = new System.Windows.Forms.TabPage();
             this.bindingNavigator12 = new System.Windows.Forms.BindingNavigator(this.components);
             this.toolStripButton72 = new System.Windows.Forms.ToolStripButton();
+            this.средняяЦенаЗаказаBindingSource = new System.Windows.Forms.BindingSource(this.components);
             this.toolStripLabel11 = new System.Windows.Forms.ToolStripLabel();
             this.toolStripButton73 = new System.Windows.Forms.ToolStripButton();
             this.toolStripButton74 = new System.Windows.Forms.ToolStripButton();
@@ -288,8 +267,12 @@
             this.toolStripButton77 = new System.Windows.Forms.ToolStripButton();
             this.toolStripSeparator33 = new System.Windows.Forms.ToolStripSeparator();
             this.toolStripButton78 = new System.Windows.Forms.ToolStripButton();
+            this.dataGridView12 = new System.Windows.Forms.DataGridView();
+            this.средняяценаDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.tabPage13 = new System.Windows.Forms.TabPage();
             this.bindingNavigator13 = new System.Windows.Forms.BindingNavigator(this.components);
             this.toolStripButton79 = new System.Windows.Forms.ToolStripButton();
+            this.суммаВыполненныхЗаказовBindingSource = new System.Windows.Forms.BindingSource(this.components);
             this.toolStripLabel12 = new System.Windows.Forms.ToolStripLabel();
             this.toolStripButton80 = new System.Windows.Forms.ToolStripButton();
             this.toolStripButton81 = new System.Windows.Forms.ToolStripButton();
@@ -301,8 +284,12 @@
             this.toolStripButton84 = new System.Windows.Forms.ToolStripButton();
             this.toolStripSeparator36 = new System.Windows.Forms.ToolStripSeparator();
             this.toolStripButton85 = new System.Windows.Forms.ToolStripButton();
+            this.dataGridView13 = new System.Windows.Forms.DataGridView();
+            this.sUMMDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.tabPage14 = new System.Windows.Forms.TabPage();
             this.bindingNavigator14 = new System.Windows.Forms.BindingNavigator(this.components);
             this.toolStripButton86 = new System.Windows.Forms.ToolStripButton();
+            this.ценаЗаказа1500BindingSource = new System.Windows.Forms.BindingSource(this.components);
             this.toolStripLabel13 = new System.Windows.Forms.ToolStripLabel();
             this.toolStripButton87 = new System.Windows.Forms.ToolStripButton();
             this.toolStripButton88 = new System.Windows.Forms.ToolStripButton();
@@ -314,83 +301,102 @@
             this.toolStripButton91 = new System.Windows.Forms.ToolStripButton();
             this.toolStripSeparator39 = new System.Windows.Forms.ToolStripSeparator();
             this.toolStripButton92 = new System.Windows.Forms.ToolStripButton();
+            this.dataGridView14 = new System.Windows.Forms.DataGridView();
+            this.больше1500DataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.mAX_и_MIN_ценаTableAdapter = new KURSAACH.KR_Ip521_NikitinDataSetTableAdapters.MAX_и_MIN_ценаTableAdapter();
+            this.выполненные_заказыTableAdapter = new KURSAACH.KR_Ip521_NikitinDataSetTableAdapters.Выполненные_заказыTableAdapter();
+            this.заказы_True_FalseTableAdapter = new KURSAACH.KR_Ip521_NikitinDataSetTableAdapters.Заказы_True_FalseTableAdapter();
+            this.заказы_и_работникиTableAdapter = new KURSAACH.KR_Ip521_NikitinDataSetTableAdapters.Заказы_и_работникиTableAdapter();
+            this.заказыИРаботникиBindingSource1 = new System.Windows.Forms.BindingSource(this.components);
+            this.курьеры_в_доставкеTableAdapter = new KURSAACH.KR_Ip521_NikitinDataSetTableAdapters.Курьеры_в_доставкеTableAdapter();
+            this.курьеры_и_заказыTableAdapter = new KURSAACH.KR_Ip521_NikitinDataSetTableAdapters.Курьеры_и_заказыTableAdapter();
+            this.работники_кухниTableAdapter = new KURSAACH.KR_Ip521_NikitinDataSetTableAdapters.Работники_кухниTableAdapter();
+            this.средняя_цена_заказаTableAdapter = new KURSAACH.KR_Ip521_NikitinDataSetTableAdapters.Средняя_цена_заказаTableAdapter();
+            this.сумма_выполненных_заказовTableAdapter = new KURSAACH.KR_Ip521_NikitinDataSetTableAdapters.Сумма_выполненных_заказовTableAdapter();
+            this.цена_заказа__1500TableAdapter = new KURSAACH.KR_Ip521_NikitinDataSetTableAdapters.Цена_заказа__1500TableAdapter();
+            this.dataGridView8 = new System.Windows.Forms.DataGridView();
+            this.workerIDDataGridViewTextBoxColumn2 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.iDOrderDataGridViewTextBoxColumn2 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.orderContentDataGridViewTextBoxColumn1 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.costDataGridViewTextBoxColumn1 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             ((System.ComponentModel.ISupportInitialize)(this.bindingSource1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.kR_Ip521_NikitinDataSet)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.miniToolStrip)).BeginInit();
             this.tabControl1.SuspendLayout();
             this.tabPage1.SuspendLayout();
-            this.tabPage2.SuspendLayout();
-            this.tabPage3.SuspendLayout();
-            this.tabPage4.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.bindingNavigator1)).BeginInit();
-            this.bindingNavigator1.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.bindingNavigator2)).BeginInit();
-            this.bindingNavigator2.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.bindingNavigator3)).BeginInit();
-            this.bindingNavigator3.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.bindingNavigator4)).BeginInit();
-            this.bindingNavigator4.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.clientsBindingSource)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.bindingNavigator1)).BeginInit();
+            this.bindingNavigator1.SuspendLayout();
+            this.tabPage2.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.couriersBindingSource)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.bindingNavigator2)).BeginInit();
+            this.bindingNavigator2.SuspendLayout();
+            this.tabPage3.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView3)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.orderBindingSource)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.bindingNavigator3)).BeginInit();
+            this.bindingNavigator3.SuspendLayout();
+            this.tabPage4.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView4)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.workersBindingSource)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.bindingNavigator4)).BeginInit();
+            this.bindingNavigator4.SuspendLayout();
             this.menuStrip1.SuspendLayout();
             this.tabControl2.SuspendLayout();
             this.tabPage5.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView5)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.mAXИMINЦенаBindingSource)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.bindingNavigator5)).BeginInit();
             this.bindingNavigator5.SuspendLayout();
             this.tabPage6.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView6)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.выполненныеЗаказыBindingSource)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.bindingNavigator6)).BeginInit();
             this.bindingNavigator6.SuspendLayout();
             this.tabPage7.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView7)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.заказыTrueFalseBindingSource1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.bindingNavigator7)).BeginInit();
             this.bindingNavigator7.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.заказыTrueFalseBindingSource)).BeginInit();
             this.tabPage8.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridView8)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.bindingNavigator8)).BeginInit();
             this.bindingNavigator8.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.mAXИMINЦенаBindingSource)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.выполненныеЗаказыBindingSource)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.заказыTrueFalseBindingSource)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.заказыИРаботникиBindingSource)).BeginInit();
             this.tabPage9.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridView9)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.bindingNavigator9)).BeginInit();
             this.bindingNavigator9.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.заказыИРаботникиBindingSource1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.курьерыВДоставкеBindingSource)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.dataGridView9)).BeginInit();
             this.tabPage10.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridView10)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.курьерыИЗаказыBindingSource)).BeginInit();
-            this.tabPage11.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridView11)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.работникиКухниBindingSource)).BeginInit();
-            this.tabPage12.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridView12)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.средняяЦенаЗаказаBindingSource)).BeginInit();
-            this.tabPage13.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridView13)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.суммаВыполненныхЗаказовBindingSource)).BeginInit();
-            this.tabPage14.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridView14)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.ценаЗаказа1500BindingSource)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.bindingNavigator10)).BeginInit();
             this.bindingNavigator10.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.курьерыИЗаказыBindingSource)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.dataGridView10)).BeginInit();
+            this.tabPage11.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.bindingNavigator11)).BeginInit();
             this.bindingNavigator11.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.работникиКухниBindingSource)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.dataGridView11)).BeginInit();
+            this.tabPage12.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.bindingNavigator12)).BeginInit();
             this.bindingNavigator12.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.средняяЦенаЗаказаBindingSource)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.dataGridView12)).BeginInit();
+            this.tabPage13.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.bindingNavigator13)).BeginInit();
             this.bindingNavigator13.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.суммаВыполненныхЗаказовBindingSource)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.dataGridView13)).BeginInit();
+            this.tabPage14.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.bindingNavigator14)).BeginInit();
             this.bindingNavigator14.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.ценаЗаказа1500BindingSource)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.dataGridView14)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.заказыИРаботникиBindingSource1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.dataGridView8)).BeginInit();
             this.SuspendLayout();
             // 
             // bindingSource1
@@ -445,46 +451,56 @@
             this.tabPage1.Location = new System.Drawing.Point(4, 22);
             this.tabPage1.Name = "tabPage1";
             this.tabPage1.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPage1.Size = new System.Drawing.Size(786, 499);
+            this.tabPage1.Size = new System.Drawing.Size(786, 482);
             this.tabPage1.TabIndex = 0;
             this.tabPage1.Text = "Clients";
             this.tabPage1.UseVisualStyleBackColor = true;
             // 
-            // tabPage2
+            // dataGridView1
             // 
-            this.tabPage2.Controls.Add(this.dataGridView2);
-            this.tabPage2.Controls.Add(this.bindingNavigator2);
-            this.tabPage2.Location = new System.Drawing.Point(4, 22);
-            this.tabPage2.Name = "tabPage2";
-            this.tabPage2.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPage2.Size = new System.Drawing.Size(786, 482);
-            this.tabPage2.TabIndex = 1;
-            this.tabPage2.Text = "Couriers";
-            this.tabPage2.UseVisualStyleBackColor = true;
+            this.dataGridView1.AutoGenerateColumns = false;
+            this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dataGridView1.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
+            this.iDClientDataGridViewTextBoxColumn,
+            this.clientNameDataGridViewTextBoxColumn,
+            this.adressDataGridViewTextBoxColumn,
+            this.phoneNumberDataGridViewTextBoxColumn});
+            this.dataGridView1.DataSource = this.clientsBindingSource;
+            this.dataGridView1.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.dataGridView1.Location = new System.Drawing.Point(3, 3);
+            this.dataGridView1.Name = "dataGridView1";
+            this.dataGridView1.Size = new System.Drawing.Size(780, 451);
+            this.dataGridView1.TabIndex = 1;
             // 
-            // tabPage3
+            // iDClientDataGridViewTextBoxColumn
             // 
-            this.tabPage3.Controls.Add(this.dataGridView3);
-            this.tabPage3.Controls.Add(this.bindingNavigator3);
-            this.tabPage3.Location = new System.Drawing.Point(4, 22);
-            this.tabPage3.Name = "tabPage3";
-            this.tabPage3.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPage3.Size = new System.Drawing.Size(786, 499);
-            this.tabPage3.TabIndex = 2;
-            this.tabPage3.Text = "Order";
-            this.tabPage3.UseVisualStyleBackColor = true;
+            this.iDClientDataGridViewTextBoxColumn.DataPropertyName = "ID_Client";
+            this.iDClientDataGridViewTextBoxColumn.HeaderText = "ID_Client";
+            this.iDClientDataGridViewTextBoxColumn.Name = "iDClientDataGridViewTextBoxColumn";
+            this.iDClientDataGridViewTextBoxColumn.ReadOnly = true;
             // 
-            // tabPage4
+            // clientNameDataGridViewTextBoxColumn
             // 
-            this.tabPage4.Controls.Add(this.dataGridView4);
-            this.tabPage4.Controls.Add(this.bindingNavigator4);
-            this.tabPage4.Location = new System.Drawing.Point(4, 22);
-            this.tabPage4.Name = "tabPage4";
-            this.tabPage4.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPage4.Size = new System.Drawing.Size(786, 506);
-            this.tabPage4.TabIndex = 3;
-            this.tabPage4.Text = "Workers";
-            this.tabPage4.UseVisualStyleBackColor = true;
+            this.clientNameDataGridViewTextBoxColumn.DataPropertyName = "ClientName";
+            this.clientNameDataGridViewTextBoxColumn.HeaderText = "ClientName";
+            this.clientNameDataGridViewTextBoxColumn.Name = "clientNameDataGridViewTextBoxColumn";
+            // 
+            // adressDataGridViewTextBoxColumn
+            // 
+            this.adressDataGridViewTextBoxColumn.DataPropertyName = "Adress";
+            this.adressDataGridViewTextBoxColumn.HeaderText = "Adress";
+            this.adressDataGridViewTextBoxColumn.Name = "adressDataGridViewTextBoxColumn";
+            // 
+            // phoneNumberDataGridViewTextBoxColumn
+            // 
+            this.phoneNumberDataGridViewTextBoxColumn.DataPropertyName = "PhoneNumber";
+            this.phoneNumberDataGridViewTextBoxColumn.HeaderText = "PhoneNumber";
+            this.phoneNumberDataGridViewTextBoxColumn.Name = "phoneNumberDataGridViewTextBoxColumn";
+            // 
+            // clientsBindingSource
+            // 
+            this.clientsBindingSource.DataMember = "Clients";
+            this.clientsBindingSource.DataSource = this.bindingSource1;
             // 
             // bindingNavigator1
             // 
@@ -507,7 +523,7 @@
             this.bindingNavigatorAddNewItem,
             this.bindingNavigatorDeleteItem,
             this.toolStripButton19});
-            this.bindingNavigator1.Location = new System.Drawing.Point(3, 471);
+            this.bindingNavigator1.Location = new System.Drawing.Point(3, 454);
             this.bindingNavigator1.MoveFirstItem = this.bindingNavigatorMoveFirstItem;
             this.bindingNavigator1.MoveLastItem = this.bindingNavigatorMoveLastItem;
             this.bindingNavigator1.MoveNextItem = this.bindingNavigatorMoveNextItem;
@@ -517,6 +533,49 @@
             this.bindingNavigator1.Size = new System.Drawing.Size(780, 25);
             this.bindingNavigator1.TabIndex = 0;
             this.bindingNavigator1.Text = "bindingNavigator1";
+            // 
+            // bindingNavigatorAddNewItem
+            // 
+            this.bindingNavigatorAddNewItem.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
+            this.bindingNavigatorAddNewItem.Image = ((System.Drawing.Image)(resources.GetObject("bindingNavigatorAddNewItem.Image")));
+            this.bindingNavigatorAddNewItem.Name = "bindingNavigatorAddNewItem";
+            this.bindingNavigatorAddNewItem.RightToLeftAutoMirrorImage = true;
+            this.bindingNavigatorAddNewItem.Size = new System.Drawing.Size(23, 22);
+            this.bindingNavigatorAddNewItem.Text = "Добавить";
+            // 
+            // bindingNavigatorCountItem
+            // 
+            this.bindingNavigatorCountItem.Name = "bindingNavigatorCountItem";
+            this.bindingNavigatorCountItem.Size = new System.Drawing.Size(43, 22);
+            this.bindingNavigatorCountItem.Text = "для {0}";
+            this.bindingNavigatorCountItem.ToolTipText = "Общее число элементов";
+            // 
+            // bindingNavigatorDeleteItem
+            // 
+            this.bindingNavigatorDeleteItem.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
+            this.bindingNavigatorDeleteItem.Image = ((System.Drawing.Image)(resources.GetObject("bindingNavigatorDeleteItem.Image")));
+            this.bindingNavigatorDeleteItem.Name = "bindingNavigatorDeleteItem";
+            this.bindingNavigatorDeleteItem.RightToLeftAutoMirrorImage = true;
+            this.bindingNavigatorDeleteItem.Size = new System.Drawing.Size(23, 22);
+            this.bindingNavigatorDeleteItem.Text = "Удалить";
+            // 
+            // bindingNavigatorMoveFirstItem
+            // 
+            this.bindingNavigatorMoveFirstItem.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
+            this.bindingNavigatorMoveFirstItem.Image = ((System.Drawing.Image)(resources.GetObject("bindingNavigatorMoveFirstItem.Image")));
+            this.bindingNavigatorMoveFirstItem.Name = "bindingNavigatorMoveFirstItem";
+            this.bindingNavigatorMoveFirstItem.RightToLeftAutoMirrorImage = true;
+            this.bindingNavigatorMoveFirstItem.Size = new System.Drawing.Size(23, 22);
+            this.bindingNavigatorMoveFirstItem.Text = "Переместить в начало";
+            // 
+            // bindingNavigatorMovePreviousItem
+            // 
+            this.bindingNavigatorMovePreviousItem.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
+            this.bindingNavigatorMovePreviousItem.Image = ((System.Drawing.Image)(resources.GetObject("bindingNavigatorMovePreviousItem.Image")));
+            this.bindingNavigatorMovePreviousItem.Name = "bindingNavigatorMovePreviousItem";
+            this.bindingNavigatorMovePreviousItem.RightToLeftAutoMirrorImage = true;
+            this.bindingNavigatorMovePreviousItem.Size = new System.Drawing.Size(23, 22);
+            this.bindingNavigatorMovePreviousItem.Text = "Переместить назад";
             // 
             // bindingNavigatorSeparator
             // 
@@ -532,22 +591,94 @@
             this.bindingNavigatorPositionItem.Text = "0";
             this.bindingNavigatorPositionItem.ToolTipText = "Текущее положение";
             // 
-            // bindingNavigatorCountItem
-            // 
-            this.bindingNavigatorCountItem.Name = "bindingNavigatorCountItem";
-            this.bindingNavigatorCountItem.Size = new System.Drawing.Size(43, 22);
-            this.bindingNavigatorCountItem.Text = "для {0}";
-            this.bindingNavigatorCountItem.ToolTipText = "Общее число элементов";
-            // 
             // bindingNavigatorSeparator1
             // 
-            this.bindingNavigatorSeparator1.Name = "bindingNavigatorSeparator";
+            this.bindingNavigatorSeparator1.Name = "bindingNavigatorSeparator1";
             this.bindingNavigatorSeparator1.Size = new System.Drawing.Size(6, 25);
+            // 
+            // bindingNavigatorMoveNextItem
+            // 
+            this.bindingNavigatorMoveNextItem.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
+            this.bindingNavigatorMoveNextItem.Image = ((System.Drawing.Image)(resources.GetObject("bindingNavigatorMoveNextItem.Image")));
+            this.bindingNavigatorMoveNextItem.Name = "bindingNavigatorMoveNextItem";
+            this.bindingNavigatorMoveNextItem.RightToLeftAutoMirrorImage = true;
+            this.bindingNavigatorMoveNextItem.Size = new System.Drawing.Size(23, 22);
+            this.bindingNavigatorMoveNextItem.Text = "Переместить вперед";
+            // 
+            // bindingNavigatorMoveLastItem
+            // 
+            this.bindingNavigatorMoveLastItem.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
+            this.bindingNavigatorMoveLastItem.Image = ((System.Drawing.Image)(resources.GetObject("bindingNavigatorMoveLastItem.Image")));
+            this.bindingNavigatorMoveLastItem.Name = "bindingNavigatorMoveLastItem";
+            this.bindingNavigatorMoveLastItem.RightToLeftAutoMirrorImage = true;
+            this.bindingNavigatorMoveLastItem.Size = new System.Drawing.Size(23, 22);
+            this.bindingNavigatorMoveLastItem.Text = "Переместить в конец";
             // 
             // bindingNavigatorSeparator2
             // 
-            this.bindingNavigatorSeparator2.Name = "bindingNavigatorSeparator";
+            this.bindingNavigatorSeparator2.Name = "bindingNavigatorSeparator2";
             this.bindingNavigatorSeparator2.Size = new System.Drawing.Size(6, 25);
+            // 
+            // toolStripButton19
+            // 
+            this.toolStripButton19.Alignment = System.Windows.Forms.ToolStripItemAlignment.Right;
+            this.toolStripButton19.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
+            this.toolStripButton19.Image = global::KURSAACH.Properties.Resources.list;
+            this.toolStripButton19.ImageTransparentColor = System.Drawing.Color.Magenta;
+            this.toolStripButton19.Name = "toolStripButton19";
+            this.toolStripButton19.Size = new System.Drawing.Size(23, 22);
+            this.toolStripButton19.Text = "toolStripButton19";
+            this.toolStripButton19.Click += new System.EventHandler(this.toolStripButton19_Click);
+            // 
+            // tabPage2
+            // 
+            this.tabPage2.Controls.Add(this.dataGridView2);
+            this.tabPage2.Controls.Add(this.bindingNavigator2);
+            this.tabPage2.Location = new System.Drawing.Point(4, 22);
+            this.tabPage2.Name = "tabPage2";
+            this.tabPage2.Padding = new System.Windows.Forms.Padding(3);
+            this.tabPage2.Size = new System.Drawing.Size(786, 482);
+            this.tabPage2.TabIndex = 1;
+            this.tabPage2.Text = "Couriers";
+            this.tabPage2.UseVisualStyleBackColor = true;
+            // 
+            // dataGridView2
+            // 
+            this.dataGridView2.AutoGenerateColumns = false;
+            this.dataGridView2.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dataGridView2.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
+            this.iDCourierDataGridViewTextBoxColumn,
+            this.deliveryStatusDataGridViewCheckBoxColumn,
+            this.courierNameDataGridViewTextBoxColumn});
+            this.dataGridView2.DataSource = this.couriersBindingSource;
+            this.dataGridView2.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.dataGridView2.Location = new System.Drawing.Point(3, 3);
+            this.dataGridView2.Name = "dataGridView2";
+            this.dataGridView2.Size = new System.Drawing.Size(780, 451);
+            this.dataGridView2.TabIndex = 2;
+            // 
+            // iDCourierDataGridViewTextBoxColumn
+            // 
+            this.iDCourierDataGridViewTextBoxColumn.DataPropertyName = "ID_Courier";
+            this.iDCourierDataGridViewTextBoxColumn.HeaderText = "ID_Courier";
+            this.iDCourierDataGridViewTextBoxColumn.Name = "iDCourierDataGridViewTextBoxColumn";
+            // 
+            // deliveryStatusDataGridViewCheckBoxColumn
+            // 
+            this.deliveryStatusDataGridViewCheckBoxColumn.DataPropertyName = "DeliveryStatus";
+            this.deliveryStatusDataGridViewCheckBoxColumn.HeaderText = "DeliveryStatus";
+            this.deliveryStatusDataGridViewCheckBoxColumn.Name = "deliveryStatusDataGridViewCheckBoxColumn";
+            // 
+            // courierNameDataGridViewTextBoxColumn
+            // 
+            this.courierNameDataGridViewTextBoxColumn.DataPropertyName = "CourierName";
+            this.courierNameDataGridViewTextBoxColumn.HeaderText = "CourierName";
+            this.courierNameDataGridViewTextBoxColumn.Name = "courierNameDataGridViewTextBoxColumn";
+            // 
+            // couriersBindingSource
+            // 
+            this.couriersBindingSource.DataMember = "Couriers";
+            this.couriersBindingSource.DataSource = this.bindingSource1;
             // 
             // bindingNavigator2
             // 
@@ -580,12 +711,48 @@
             this.bindingNavigator2.TabIndex = 1;
             this.bindingNavigator2.Text = "bindingNavigator2";
             // 
+            // toolStripButton1
+            // 
+            this.toolStripButton1.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
+            this.toolStripButton1.Image = ((System.Drawing.Image)(resources.GetObject("toolStripButton1.Image")));
+            this.toolStripButton1.Name = "toolStripButton1";
+            this.toolStripButton1.RightToLeftAutoMirrorImage = true;
+            this.toolStripButton1.Size = new System.Drawing.Size(23, 22);
+            this.toolStripButton1.Text = "Добавить";
+            // 
             // toolStripLabel1
             // 
             this.toolStripLabel1.Name = "toolStripLabel1";
             this.toolStripLabel1.Size = new System.Drawing.Size(43, 22);
             this.toolStripLabel1.Text = "для {0}";
             this.toolStripLabel1.ToolTipText = "Общее число элементов";
+            // 
+            // toolStripButton2
+            // 
+            this.toolStripButton2.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
+            this.toolStripButton2.Image = ((System.Drawing.Image)(resources.GetObject("toolStripButton2.Image")));
+            this.toolStripButton2.Name = "toolStripButton2";
+            this.toolStripButton2.RightToLeftAutoMirrorImage = true;
+            this.toolStripButton2.Size = new System.Drawing.Size(23, 22);
+            this.toolStripButton2.Text = "Удалить";
+            // 
+            // toolStripButton3
+            // 
+            this.toolStripButton3.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
+            this.toolStripButton3.Image = ((System.Drawing.Image)(resources.GetObject("toolStripButton3.Image")));
+            this.toolStripButton3.Name = "toolStripButton3";
+            this.toolStripButton3.RightToLeftAutoMirrorImage = true;
+            this.toolStripButton3.Size = new System.Drawing.Size(23, 22);
+            this.toolStripButton3.Text = "Переместить в начало";
+            // 
+            // toolStripButton4
+            // 
+            this.toolStripButton4.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
+            this.toolStripButton4.Image = ((System.Drawing.Image)(resources.GetObject("toolStripButton4.Image")));
+            this.toolStripButton4.Name = "toolStripButton4";
+            this.toolStripButton4.RightToLeftAutoMirrorImage = true;
+            this.toolStripButton4.Size = new System.Drawing.Size(23, 22);
+            this.toolStripButton4.Text = "Переместить назад";
             // 
             // toolStripSeparator1
             // 
@@ -606,226 +773,51 @@
             this.toolStripSeparator2.Name = "toolStripSeparator2";
             this.toolStripSeparator2.Size = new System.Drawing.Size(6, 25);
             // 
+            // toolStripButton5
+            // 
+            this.toolStripButton5.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
+            this.toolStripButton5.Image = ((System.Drawing.Image)(resources.GetObject("toolStripButton5.Image")));
+            this.toolStripButton5.Name = "toolStripButton5";
+            this.toolStripButton5.RightToLeftAutoMirrorImage = true;
+            this.toolStripButton5.Size = new System.Drawing.Size(23, 22);
+            this.toolStripButton5.Text = "Переместить вперед";
+            // 
+            // toolStripButton6
+            // 
+            this.toolStripButton6.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
+            this.toolStripButton6.Image = ((System.Drawing.Image)(resources.GetObject("toolStripButton6.Image")));
+            this.toolStripButton6.Name = "toolStripButton6";
+            this.toolStripButton6.RightToLeftAutoMirrorImage = true;
+            this.toolStripButton6.Size = new System.Drawing.Size(23, 22);
+            this.toolStripButton6.Text = "Переместить в конец";
+            // 
             // toolStripSeparator3
             // 
             this.toolStripSeparator3.Name = "toolStripSeparator3";
             this.toolStripSeparator3.Size = new System.Drawing.Size(6, 25);
             // 
-            // bindingNavigator3
+            // toolStripButton20
             // 
-            this.bindingNavigator3.AddNewItem = this.toolStripButton7;
-            this.bindingNavigator3.BindingSource = this.orderBindingSource;
-            this.bindingNavigator3.CountItem = this.toolStripLabel2;
-            this.bindingNavigator3.DeleteItem = this.toolStripButton8;
-            this.bindingNavigator3.Dock = System.Windows.Forms.DockStyle.Bottom;
-            this.bindingNavigator3.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.toolStripButton9,
-            this.toolStripButton10,
-            this.toolStripSeparator4,
-            this.toolStripTextBox2,
-            this.toolStripLabel2,
-            this.toolStripSeparator5,
-            this.toolStripButton11,
-            this.toolStripButton12,
-            this.toolStripSeparator6,
-            this.toolStripButton7,
-            this.toolStripButton8,
-            this.toolStripButton21});
-            this.bindingNavigator3.Location = new System.Drawing.Point(3, 471);
-            this.bindingNavigator3.MoveFirstItem = this.toolStripButton9;
-            this.bindingNavigator3.MoveLastItem = this.toolStripButton12;
-            this.bindingNavigator3.MoveNextItem = this.toolStripButton11;
-            this.bindingNavigator3.MovePreviousItem = this.toolStripButton10;
-            this.bindingNavigator3.Name = "bindingNavigator3";
-            this.bindingNavigator3.PositionItem = this.toolStripTextBox2;
-            this.bindingNavigator3.Size = new System.Drawing.Size(780, 25);
-            this.bindingNavigator3.TabIndex = 1;
-            this.bindingNavigator3.Text = "bindingNavigator3";
+            this.toolStripButton20.Alignment = System.Windows.Forms.ToolStripItemAlignment.Right;
+            this.toolStripButton20.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
+            this.toolStripButton20.Image = global::KURSAACH.Properties.Resources.list;
+            this.toolStripButton20.ImageTransparentColor = System.Drawing.Color.Magenta;
+            this.toolStripButton20.Name = "toolStripButton20";
+            this.toolStripButton20.Size = new System.Drawing.Size(23, 22);
+            this.toolStripButton20.Text = "toolStripButton19";
+            this.toolStripButton20.Click += new System.EventHandler(this.toolStripButton19_Click);
             // 
-            // toolStripLabel2
+            // tabPage3
             // 
-            this.toolStripLabel2.Name = "toolStripLabel2";
-            this.toolStripLabel2.Size = new System.Drawing.Size(43, 22);
-            this.toolStripLabel2.Text = "для {0}";
-            this.toolStripLabel2.ToolTipText = "Общее число элементов";
-            // 
-            // toolStripSeparator4
-            // 
-            this.toolStripSeparator4.Name = "toolStripSeparator4";
-            this.toolStripSeparator4.Size = new System.Drawing.Size(6, 25);
-            // 
-            // toolStripTextBox2
-            // 
-            this.toolStripTextBox2.AccessibleName = "Положение";
-            this.toolStripTextBox2.AutoSize = false;
-            this.toolStripTextBox2.Name = "toolStripTextBox2";
-            this.toolStripTextBox2.Size = new System.Drawing.Size(50, 23);
-            this.toolStripTextBox2.Text = "0";
-            this.toolStripTextBox2.ToolTipText = "Текущее положение";
-            // 
-            // toolStripSeparator5
-            // 
-            this.toolStripSeparator5.Name = "toolStripSeparator5";
-            this.toolStripSeparator5.Size = new System.Drawing.Size(6, 25);
-            // 
-            // toolStripSeparator6
-            // 
-            this.toolStripSeparator6.Name = "toolStripSeparator6";
-            this.toolStripSeparator6.Size = new System.Drawing.Size(6, 25);
-            // 
-            // bindingNavigator4
-            // 
-            this.bindingNavigator4.AddNewItem = this.toolStripButton13;
-            this.bindingNavigator4.BindingSource = this.workersBindingSource;
-            this.bindingNavigator4.CountItem = this.toolStripLabel3;
-            this.bindingNavigator4.DeleteItem = this.toolStripButton14;
-            this.bindingNavigator4.Dock = System.Windows.Forms.DockStyle.Bottom;
-            this.bindingNavigator4.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.toolStripButton15,
-            this.toolStripButton16,
-            this.toolStripSeparator7,
-            this.toolStripTextBox3,
-            this.toolStripLabel3,
-            this.toolStripSeparator8,
-            this.toolStripButton17,
-            this.toolStripButton18,
-            this.toolStripSeparator9,
-            this.toolStripButton13,
-            this.toolStripButton14,
-            this.toolStripButton22});
-            this.bindingNavigator4.Location = new System.Drawing.Point(3, 478);
-            this.bindingNavigator4.MoveFirstItem = this.toolStripButton15;
-            this.bindingNavigator4.MoveLastItem = this.toolStripButton18;
-            this.bindingNavigator4.MoveNextItem = this.toolStripButton17;
-            this.bindingNavigator4.MovePreviousItem = this.toolStripButton16;
-            this.bindingNavigator4.Name = "bindingNavigator4";
-            this.bindingNavigator4.PositionItem = this.toolStripTextBox3;
-            this.bindingNavigator4.Size = new System.Drawing.Size(780, 25);
-            this.bindingNavigator4.TabIndex = 1;
-            this.bindingNavigator4.Text = "bindingNavigator4";
-            // 
-            // toolStripLabel3
-            // 
-            this.toolStripLabel3.Name = "toolStripLabel3";
-            this.toolStripLabel3.Size = new System.Drawing.Size(43, 22);
-            this.toolStripLabel3.Text = "для {0}";
-            this.toolStripLabel3.ToolTipText = "Общее число элементов";
-            // 
-            // toolStripSeparator7
-            // 
-            this.toolStripSeparator7.Name = "toolStripSeparator7";
-            this.toolStripSeparator7.Size = new System.Drawing.Size(6, 25);
-            // 
-            // toolStripTextBox3
-            // 
-            this.toolStripTextBox3.AccessibleName = "Положение";
-            this.toolStripTextBox3.AutoSize = false;
-            this.toolStripTextBox3.Name = "toolStripTextBox3";
-            this.toolStripTextBox3.Size = new System.Drawing.Size(50, 23);
-            this.toolStripTextBox3.Text = "0";
-            this.toolStripTextBox3.ToolTipText = "Текущее положение";
-            // 
-            // toolStripSeparator8
-            // 
-            this.toolStripSeparator8.Name = "toolStripSeparator8";
-            this.toolStripSeparator8.Size = new System.Drawing.Size(6, 25);
-            // 
-            // toolStripSeparator9
-            // 
-            this.toolStripSeparator9.Name = "toolStripSeparator9";
-            this.toolStripSeparator9.Size = new System.Drawing.Size(6, 25);
-            // 
-            // dataGridView1
-            // 
-            this.dataGridView1.AutoGenerateColumns = false;
-            this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataGridView1.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
-            this.iDClientDataGridViewTextBoxColumn,
-            this.clientNameDataGridViewTextBoxColumn,
-            this.adressDataGridViewTextBoxColumn,
-            this.phoneNumberDataGridViewTextBoxColumn});
-            this.dataGridView1.DataSource = this.clientsBindingSource;
-            this.dataGridView1.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.dataGridView1.Location = new System.Drawing.Point(3, 3);
-            this.dataGridView1.Name = "dataGridView1";
-            this.dataGridView1.Size = new System.Drawing.Size(780, 468);
-            this.dataGridView1.TabIndex = 1;
-            // 
-            // clientsBindingSource
-            // 
-            this.clientsBindingSource.DataMember = "Clients";
-            this.clientsBindingSource.DataSource = this.bindingSource1;
-            // 
-            // clientsTableAdapter
-            // 
-            this.clientsTableAdapter.ClearBeforeFill = true;
-            // 
-            // iDClientDataGridViewTextBoxColumn
-            // 
-            this.iDClientDataGridViewTextBoxColumn.DataPropertyName = "ID_Client";
-            this.iDClientDataGridViewTextBoxColumn.HeaderText = "ID_Client";
-            this.iDClientDataGridViewTextBoxColumn.Name = "iDClientDataGridViewTextBoxColumn";
-            this.iDClientDataGridViewTextBoxColumn.ReadOnly = true;
-            // 
-            // clientNameDataGridViewTextBoxColumn
-            // 
-            this.clientNameDataGridViewTextBoxColumn.DataPropertyName = "ClientName";
-            this.clientNameDataGridViewTextBoxColumn.HeaderText = "ClientName";
-            this.clientNameDataGridViewTextBoxColumn.Name = "clientNameDataGridViewTextBoxColumn";
-            // 
-            // adressDataGridViewTextBoxColumn
-            // 
-            this.adressDataGridViewTextBoxColumn.DataPropertyName = "Adress";
-            this.adressDataGridViewTextBoxColumn.HeaderText = "Adress";
-            this.adressDataGridViewTextBoxColumn.Name = "adressDataGridViewTextBoxColumn";
-            // 
-            // phoneNumberDataGridViewTextBoxColumn
-            // 
-            this.phoneNumberDataGridViewTextBoxColumn.DataPropertyName = "PhoneNumber";
-            this.phoneNumberDataGridViewTextBoxColumn.HeaderText = "PhoneNumber";
-            this.phoneNumberDataGridViewTextBoxColumn.Name = "phoneNumberDataGridViewTextBoxColumn";
-            // 
-            // dataGridView2
-            // 
-            this.dataGridView2.AutoGenerateColumns = false;
-            this.dataGridView2.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataGridView2.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
-            this.iDCourierDataGridViewTextBoxColumn,
-            this.deliveryStatusDataGridViewCheckBoxColumn,
-            this.courierNameDataGridViewTextBoxColumn});
-            this.dataGridView2.DataSource = this.couriersBindingSource;
-            this.dataGridView2.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.dataGridView2.Location = new System.Drawing.Point(3, 3);
-            this.dataGridView2.Name = "dataGridView2";
-            this.dataGridView2.Size = new System.Drawing.Size(780, 451);
-            this.dataGridView2.TabIndex = 2;
-            // 
-            // couriersBindingSource
-            // 
-            this.couriersBindingSource.DataMember = "Couriers";
-            this.couriersBindingSource.DataSource = this.bindingSource1;
-            // 
-            // couriersTableAdapter
-            // 
-            this.couriersTableAdapter.ClearBeforeFill = true;
-            // 
-            // iDCourierDataGridViewTextBoxColumn
-            // 
-            this.iDCourierDataGridViewTextBoxColumn.DataPropertyName = "ID_Courier";
-            this.iDCourierDataGridViewTextBoxColumn.HeaderText = "ID_Courier";
-            this.iDCourierDataGridViewTextBoxColumn.Name = "iDCourierDataGridViewTextBoxColumn";
-            // 
-            // deliveryStatusDataGridViewCheckBoxColumn
-            // 
-            this.deliveryStatusDataGridViewCheckBoxColumn.DataPropertyName = "DeliveryStatus";
-            this.deliveryStatusDataGridViewCheckBoxColumn.HeaderText = "DeliveryStatus";
-            this.deliveryStatusDataGridViewCheckBoxColumn.Name = "deliveryStatusDataGridViewCheckBoxColumn";
-            // 
-            // courierNameDataGridViewTextBoxColumn
-            // 
-            this.courierNameDataGridViewTextBoxColumn.DataPropertyName = "CourierName";
-            this.courierNameDataGridViewTextBoxColumn.HeaderText = "CourierName";
-            this.courierNameDataGridViewTextBoxColumn.Name = "courierNameDataGridViewTextBoxColumn";
+            this.tabPage3.Controls.Add(this.dataGridView3);
+            this.tabPage3.Controls.Add(this.bindingNavigator3);
+            this.tabPage3.Location = new System.Drawing.Point(4, 22);
+            this.tabPage3.Name = "tabPage3";
+            this.tabPage3.Padding = new System.Windows.Forms.Padding(3);
+            this.tabPage3.Size = new System.Drawing.Size(786, 482);
+            this.tabPage3.TabIndex = 2;
+            this.tabPage3.Text = "Order";
+            this.tabPage3.UseVisualStyleBackColor = true;
             // 
             // dataGridView3
             // 
@@ -844,17 +836,8 @@
             this.dataGridView3.Dock = System.Windows.Forms.DockStyle.Fill;
             this.dataGridView3.Location = new System.Drawing.Point(3, 3);
             this.dataGridView3.Name = "dataGridView3";
-            this.dataGridView3.Size = new System.Drawing.Size(780, 468);
+            this.dataGridView3.Size = new System.Drawing.Size(780, 451);
             this.dataGridView3.TabIndex = 2;
-            // 
-            // orderBindingSource
-            // 
-            this.orderBindingSource.DataMember = "Order";
-            this.orderBindingSource.DataSource = this.bindingSource1;
-            // 
-            // orderTableAdapter
-            // 
-            this.orderTableAdapter.ClearBeforeFill = true;
             // 
             // iDOrderDataGridViewTextBoxColumn
             // 
@@ -905,186 +888,41 @@
             this.costDataGridViewTextBoxColumn.HeaderText = "Cost";
             this.costDataGridViewTextBoxColumn.Name = "costDataGridViewTextBoxColumn";
             // 
-            // dataGridView4
+            // orderBindingSource
             // 
-            this.dataGridView4.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-            this.dataGridView4.AutoGenerateColumns = false;
-            this.dataGridView4.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataGridView4.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
-            this.workerIDDataGridViewTextBoxColumn,
-            this.workerNameDataGridViewTextBoxColumn,
-            this.postDataGridViewTextBoxColumn,
-            this.workPlaceDataGridViewTextBoxColumn});
-            this.dataGridView4.DataSource = this.workersBindingSource;
-            this.dataGridView4.Location = new System.Drawing.Point(3, 3);
-            this.dataGridView4.Name = "dataGridView4";
-            this.dataGridView4.Size = new System.Drawing.Size(774, 466);
-            this.dataGridView4.TabIndex = 2;
+            this.orderBindingSource.DataMember = "Order";
+            this.orderBindingSource.DataSource = this.bindingSource1;
             // 
-            // workersBindingSource
+            // bindingNavigator3
             // 
-            this.workersBindingSource.DataMember = "Workers";
-            this.workersBindingSource.DataSource = this.bindingSource1;
-            // 
-            // workersTableAdapter
-            // 
-            this.workersTableAdapter.ClearBeforeFill = true;
-            // 
-            // workerIDDataGridViewTextBoxColumn
-            // 
-            this.workerIDDataGridViewTextBoxColumn.DataPropertyName = "WorkerID";
-            this.workerIDDataGridViewTextBoxColumn.HeaderText = "WorkerID";
-            this.workerIDDataGridViewTextBoxColumn.Name = "workerIDDataGridViewTextBoxColumn";
-            // 
-            // workerNameDataGridViewTextBoxColumn
-            // 
-            this.workerNameDataGridViewTextBoxColumn.DataPropertyName = "WorkerName";
-            this.workerNameDataGridViewTextBoxColumn.HeaderText = "WorkerName";
-            this.workerNameDataGridViewTextBoxColumn.Name = "workerNameDataGridViewTextBoxColumn";
-            // 
-            // postDataGridViewTextBoxColumn
-            // 
-            this.postDataGridViewTextBoxColumn.DataPropertyName = "Post";
-            this.postDataGridViewTextBoxColumn.HeaderText = "Post";
-            this.postDataGridViewTextBoxColumn.Name = "postDataGridViewTextBoxColumn";
-            // 
-            // workPlaceDataGridViewTextBoxColumn
-            // 
-            this.workPlaceDataGridViewTextBoxColumn.DataPropertyName = "WorkPlace";
-            this.workPlaceDataGridViewTextBoxColumn.HeaderText = "WorkPlace";
-            this.workPlaceDataGridViewTextBoxColumn.Name = "workPlaceDataGridViewTextBoxColumn";
-            // 
-            // bindingNavigatorAddNewItem
-            // 
-            this.bindingNavigatorAddNewItem.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
-            this.bindingNavigatorAddNewItem.Image = ((System.Drawing.Image)(resources.GetObject("bindingNavigatorAddNewItem.Image")));
-            this.bindingNavigatorAddNewItem.Name = "bindingNavigatorAddNewItem";
-            this.bindingNavigatorAddNewItem.RightToLeftAutoMirrorImage = true;
-            this.bindingNavigatorAddNewItem.Size = new System.Drawing.Size(23, 22);
-            this.bindingNavigatorAddNewItem.Text = "Добавить";
-            // 
-            // bindingNavigatorDeleteItem
-            // 
-            this.bindingNavigatorDeleteItem.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
-            this.bindingNavigatorDeleteItem.Image = ((System.Drawing.Image)(resources.GetObject("bindingNavigatorDeleteItem.Image")));
-            this.bindingNavigatorDeleteItem.Name = "bindingNavigatorDeleteItem";
-            this.bindingNavigatorDeleteItem.RightToLeftAutoMirrorImage = true;
-            this.bindingNavigatorDeleteItem.Size = new System.Drawing.Size(23, 22);
-            this.bindingNavigatorDeleteItem.Text = "Удалить";
-            // 
-            // bindingNavigatorMoveFirstItem
-            // 
-            this.bindingNavigatorMoveFirstItem.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
-            this.bindingNavigatorMoveFirstItem.Image = ((System.Drawing.Image)(resources.GetObject("bindingNavigatorMoveFirstItem.Image")));
-            this.bindingNavigatorMoveFirstItem.Name = "bindingNavigatorMoveFirstItem";
-            this.bindingNavigatorMoveFirstItem.RightToLeftAutoMirrorImage = true;
-            this.bindingNavigatorMoveFirstItem.Size = new System.Drawing.Size(23, 22);
-            this.bindingNavigatorMoveFirstItem.Text = "Переместить в начало";
-            // 
-            // bindingNavigatorMovePreviousItem
-            // 
-            this.bindingNavigatorMovePreviousItem.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
-            this.bindingNavigatorMovePreviousItem.Image = ((System.Drawing.Image)(resources.GetObject("bindingNavigatorMovePreviousItem.Image")));
-            this.bindingNavigatorMovePreviousItem.Name = "bindingNavigatorMovePreviousItem";
-            this.bindingNavigatorMovePreviousItem.RightToLeftAutoMirrorImage = true;
-            this.bindingNavigatorMovePreviousItem.Size = new System.Drawing.Size(23, 22);
-            this.bindingNavigatorMovePreviousItem.Text = "Переместить назад";
-            // 
-            // bindingNavigatorMoveNextItem
-            // 
-            this.bindingNavigatorMoveNextItem.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
-            this.bindingNavigatorMoveNextItem.Image = ((System.Drawing.Image)(resources.GetObject("bindingNavigatorMoveNextItem.Image")));
-            this.bindingNavigatorMoveNextItem.Name = "bindingNavigatorMoveNextItem";
-            this.bindingNavigatorMoveNextItem.RightToLeftAutoMirrorImage = true;
-            this.bindingNavigatorMoveNextItem.Size = new System.Drawing.Size(23, 22);
-            this.bindingNavigatorMoveNextItem.Text = "Переместить вперед";
-            // 
-            // bindingNavigatorMoveLastItem
-            // 
-            this.bindingNavigatorMoveLastItem.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
-            this.bindingNavigatorMoveLastItem.Image = ((System.Drawing.Image)(resources.GetObject("bindingNavigatorMoveLastItem.Image")));
-            this.bindingNavigatorMoveLastItem.Name = "bindingNavigatorMoveLastItem";
-            this.bindingNavigatorMoveLastItem.RightToLeftAutoMirrorImage = true;
-            this.bindingNavigatorMoveLastItem.Size = new System.Drawing.Size(23, 22);
-            this.bindingNavigatorMoveLastItem.Text = "Переместить в конец";
-            // 
-            // toolStripButton19
-            // 
-            this.toolStripButton19.Alignment = System.Windows.Forms.ToolStripItemAlignment.Right;
-            this.toolStripButton19.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
-            this.toolStripButton19.Image = global::KURSAACH.Properties.Resources.list;
-            this.toolStripButton19.ImageTransparentColor = System.Drawing.Color.Magenta;
-            this.toolStripButton19.Name = "toolStripButton19";
-            this.toolStripButton19.Size = new System.Drawing.Size(23, 22);
-            this.toolStripButton19.Text = "toolStripButton19";
-            this.toolStripButton19.Click += new System.EventHandler(this.toolStripButton19_Click);
-            // 
-            // toolStripButton1
-            // 
-            this.toolStripButton1.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
-            this.toolStripButton1.Image = ((System.Drawing.Image)(resources.GetObject("toolStripButton1.Image")));
-            this.toolStripButton1.Name = "toolStripButton1";
-            this.toolStripButton1.RightToLeftAutoMirrorImage = true;
-            this.toolStripButton1.Size = new System.Drawing.Size(23, 22);
-            this.toolStripButton1.Text = "Добавить";
-            // 
-            // toolStripButton2
-            // 
-            this.toolStripButton2.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
-            this.toolStripButton2.Image = ((System.Drawing.Image)(resources.GetObject("toolStripButton2.Image")));
-            this.toolStripButton2.Name = "toolStripButton2";
-            this.toolStripButton2.RightToLeftAutoMirrorImage = true;
-            this.toolStripButton2.Size = new System.Drawing.Size(23, 22);
-            this.toolStripButton2.Text = "Удалить";
-            // 
-            // toolStripButton3
-            // 
-            this.toolStripButton3.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
-            this.toolStripButton3.Image = ((System.Drawing.Image)(resources.GetObject("toolStripButton3.Image")));
-            this.toolStripButton3.Name = "toolStripButton3";
-            this.toolStripButton3.RightToLeftAutoMirrorImage = true;
-            this.toolStripButton3.Size = new System.Drawing.Size(23, 22);
-            this.toolStripButton3.Text = "Переместить в начало";
-            // 
-            // toolStripButton4
-            // 
-            this.toolStripButton4.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
-            this.toolStripButton4.Image = ((System.Drawing.Image)(resources.GetObject("toolStripButton4.Image")));
-            this.toolStripButton4.Name = "toolStripButton4";
-            this.toolStripButton4.RightToLeftAutoMirrorImage = true;
-            this.toolStripButton4.Size = new System.Drawing.Size(23, 22);
-            this.toolStripButton4.Text = "Переместить назад";
-            // 
-            // toolStripButton5
-            // 
-            this.toolStripButton5.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
-            this.toolStripButton5.Image = ((System.Drawing.Image)(resources.GetObject("toolStripButton5.Image")));
-            this.toolStripButton5.Name = "toolStripButton5";
-            this.toolStripButton5.RightToLeftAutoMirrorImage = true;
-            this.toolStripButton5.Size = new System.Drawing.Size(23, 22);
-            this.toolStripButton5.Text = "Переместить вперед";
-            // 
-            // toolStripButton6
-            // 
-            this.toolStripButton6.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
-            this.toolStripButton6.Image = ((System.Drawing.Image)(resources.GetObject("toolStripButton6.Image")));
-            this.toolStripButton6.Name = "toolStripButton6";
-            this.toolStripButton6.RightToLeftAutoMirrorImage = true;
-            this.toolStripButton6.Size = new System.Drawing.Size(23, 22);
-            this.toolStripButton6.Text = "Переместить в конец";
-            // 
-            // toolStripButton20
-            // 
-            this.toolStripButton20.Alignment = System.Windows.Forms.ToolStripItemAlignment.Right;
-            this.toolStripButton20.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
-            this.toolStripButton20.Image = global::KURSAACH.Properties.Resources.list;
-            this.toolStripButton20.ImageTransparentColor = System.Drawing.Color.Magenta;
-            this.toolStripButton20.Name = "toolStripButton20";
-            this.toolStripButton20.Size = new System.Drawing.Size(23, 22);
-            this.toolStripButton20.Text = "toolStripButton19";
-            this.toolStripButton20.Click += new System.EventHandler(this.toolStripButton19_Click);
+            this.bindingNavigator3.AddNewItem = this.toolStripButton7;
+            this.bindingNavigator3.BindingSource = this.orderBindingSource;
+            this.bindingNavigator3.CountItem = this.toolStripLabel2;
+            this.bindingNavigator3.DeleteItem = this.toolStripButton8;
+            this.bindingNavigator3.Dock = System.Windows.Forms.DockStyle.Bottom;
+            this.bindingNavigator3.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.toolStripButton9,
+            this.toolStripButton10,
+            this.toolStripSeparator4,
+            this.toolStripTextBox2,
+            this.toolStripLabel2,
+            this.toolStripSeparator5,
+            this.toolStripButton11,
+            this.toolStripButton12,
+            this.toolStripSeparator6,
+            this.toolStripButton7,
+            this.toolStripButton8,
+            this.toolStripButton21});
+            this.bindingNavigator3.Location = new System.Drawing.Point(3, 454);
+            this.bindingNavigator3.MoveFirstItem = this.toolStripButton9;
+            this.bindingNavigator3.MoveLastItem = this.toolStripButton12;
+            this.bindingNavigator3.MoveNextItem = this.toolStripButton11;
+            this.bindingNavigator3.MovePreviousItem = this.toolStripButton10;
+            this.bindingNavigator3.Name = "bindingNavigator3";
+            this.bindingNavigator3.PositionItem = this.toolStripTextBox2;
+            this.bindingNavigator3.Size = new System.Drawing.Size(780, 25);
+            this.bindingNavigator3.TabIndex = 1;
+            this.bindingNavigator3.Text = "bindingNavigator3";
             // 
             // toolStripButton7
             // 
@@ -1094,6 +932,13 @@
             this.toolStripButton7.RightToLeftAutoMirrorImage = true;
             this.toolStripButton7.Size = new System.Drawing.Size(23, 22);
             this.toolStripButton7.Text = "Добавить";
+            // 
+            // toolStripLabel2
+            // 
+            this.toolStripLabel2.Name = "toolStripLabel2";
+            this.toolStripLabel2.Size = new System.Drawing.Size(43, 22);
+            this.toolStripLabel2.Text = "для {0}";
+            this.toolStripLabel2.ToolTipText = "Общее число элементов";
             // 
             // toolStripButton8
             // 
@@ -1122,6 +967,25 @@
             this.toolStripButton10.Size = new System.Drawing.Size(23, 22);
             this.toolStripButton10.Text = "Переместить назад";
             // 
+            // toolStripSeparator4
+            // 
+            this.toolStripSeparator4.Name = "toolStripSeparator4";
+            this.toolStripSeparator4.Size = new System.Drawing.Size(6, 25);
+            // 
+            // toolStripTextBox2
+            // 
+            this.toolStripTextBox2.AccessibleName = "Положение";
+            this.toolStripTextBox2.AutoSize = false;
+            this.toolStripTextBox2.Name = "toolStripTextBox2";
+            this.toolStripTextBox2.Size = new System.Drawing.Size(50, 23);
+            this.toolStripTextBox2.Text = "0";
+            this.toolStripTextBox2.ToolTipText = "Текущее положение";
+            // 
+            // toolStripSeparator5
+            // 
+            this.toolStripSeparator5.Name = "toolStripSeparator5";
+            this.toolStripSeparator5.Size = new System.Drawing.Size(6, 25);
+            // 
             // toolStripButton11
             // 
             this.toolStripButton11.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
@@ -1140,6 +1004,112 @@
             this.toolStripButton12.Size = new System.Drawing.Size(23, 22);
             this.toolStripButton12.Text = "Переместить в конец";
             // 
+            // toolStripSeparator6
+            // 
+            this.toolStripSeparator6.Name = "toolStripSeparator6";
+            this.toolStripSeparator6.Size = new System.Drawing.Size(6, 25);
+            // 
+            // toolStripButton21
+            // 
+            this.toolStripButton21.Alignment = System.Windows.Forms.ToolStripItemAlignment.Right;
+            this.toolStripButton21.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
+            this.toolStripButton21.Image = global::KURSAACH.Properties.Resources.list;
+            this.toolStripButton21.ImageTransparentColor = System.Drawing.Color.Magenta;
+            this.toolStripButton21.Name = "toolStripButton21";
+            this.toolStripButton21.Size = new System.Drawing.Size(23, 22);
+            this.toolStripButton21.Text = "toolStripButton19";
+            this.toolStripButton21.Click += new System.EventHandler(this.toolStripButton19_Click);
+            // 
+            // tabPage4
+            // 
+            this.tabPage4.Controls.Add(this.dataGridView4);
+            this.tabPage4.Controls.Add(this.bindingNavigator4);
+            this.tabPage4.Location = new System.Drawing.Point(4, 22);
+            this.tabPage4.Name = "tabPage4";
+            this.tabPage4.Padding = new System.Windows.Forms.Padding(3);
+            this.tabPage4.Size = new System.Drawing.Size(786, 482);
+            this.tabPage4.TabIndex = 3;
+            this.tabPage4.Text = "Workers";
+            this.tabPage4.UseVisualStyleBackColor = true;
+            // 
+            // dataGridView4
+            // 
+            this.dataGridView4.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.dataGridView4.AutoGenerateColumns = false;
+            this.dataGridView4.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dataGridView4.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
+            this.workerIDDataGridViewTextBoxColumn,
+            this.workerNameDataGridViewTextBoxColumn,
+            this.postDataGridViewTextBoxColumn,
+            this.workPlaceDataGridViewTextBoxColumn});
+            this.dataGridView4.DataSource = this.workersBindingSource;
+            this.dataGridView4.Location = new System.Drawing.Point(3, 3);
+            this.dataGridView4.Name = "dataGridView4";
+            this.dataGridView4.Size = new System.Drawing.Size(774, 466);
+            this.dataGridView4.TabIndex = 2;
+            // 
+            // workerIDDataGridViewTextBoxColumn
+            // 
+            this.workerIDDataGridViewTextBoxColumn.DataPropertyName = "WorkerID";
+            this.workerIDDataGridViewTextBoxColumn.HeaderText = "WorkerID";
+            this.workerIDDataGridViewTextBoxColumn.Name = "workerIDDataGridViewTextBoxColumn";
+            // 
+            // workerNameDataGridViewTextBoxColumn
+            // 
+            this.workerNameDataGridViewTextBoxColumn.DataPropertyName = "WorkerName";
+            this.workerNameDataGridViewTextBoxColumn.HeaderText = "WorkerName";
+            this.workerNameDataGridViewTextBoxColumn.Name = "workerNameDataGridViewTextBoxColumn";
+            // 
+            // postDataGridViewTextBoxColumn
+            // 
+            this.postDataGridViewTextBoxColumn.DataPropertyName = "Post";
+            this.postDataGridViewTextBoxColumn.HeaderText = "Post";
+            this.postDataGridViewTextBoxColumn.Name = "postDataGridViewTextBoxColumn";
+            // 
+            // workPlaceDataGridViewTextBoxColumn
+            // 
+            this.workPlaceDataGridViewTextBoxColumn.DataPropertyName = "WorkPlace";
+            this.workPlaceDataGridViewTextBoxColumn.HeaderText = "WorkPlace";
+            this.workPlaceDataGridViewTextBoxColumn.Name = "workPlaceDataGridViewTextBoxColumn";
+            // 
+            // workersBindingSource
+            // 
+            this.workersBindingSource.DataMember = "Workers";
+            this.workersBindingSource.DataSource = this.bindingSource1;
+            // 
+            // bindingNavigator4
+            // 
+            this.bindingNavigator4.AddNewItem = this.toolStripButton13;
+            this.bindingNavigator4.BindingSource = this.workersBindingSource;
+            this.bindingNavigator4.CountItem = this.toolStripLabel3;
+            this.bindingNavigator4.DeleteItem = this.toolStripButton14;
+            this.bindingNavigator4.Dock = System.Windows.Forms.DockStyle.Bottom;
+            this.bindingNavigator4.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.toolStripButton15,
+            this.toolStripButton16,
+            this.toolStripSeparator7,
+            this.toolStripTextBox3,
+            this.toolStripLabel3,
+            this.toolStripSeparator8,
+            this.toolStripButton17,
+            this.toolStripButton18,
+            this.toolStripSeparator9,
+            this.toolStripButton13,
+            this.toolStripButton14,
+            this.toolStripButton22});
+            this.bindingNavigator4.Location = new System.Drawing.Point(3, 454);
+            this.bindingNavigator4.MoveFirstItem = this.toolStripButton15;
+            this.bindingNavigator4.MoveLastItem = this.toolStripButton18;
+            this.bindingNavigator4.MoveNextItem = this.toolStripButton17;
+            this.bindingNavigator4.MovePreviousItem = this.toolStripButton16;
+            this.bindingNavigator4.Name = "bindingNavigator4";
+            this.bindingNavigator4.PositionItem = this.toolStripTextBox3;
+            this.bindingNavigator4.Size = new System.Drawing.Size(780, 25);
+            this.bindingNavigator4.TabIndex = 1;
+            this.bindingNavigator4.Text = "bindingNavigator4";
+            // 
             // toolStripButton13
             // 
             this.toolStripButton13.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
@@ -1148,6 +1118,13 @@
             this.toolStripButton13.RightToLeftAutoMirrorImage = true;
             this.toolStripButton13.Size = new System.Drawing.Size(23, 22);
             this.toolStripButton13.Text = "Добавить";
+            // 
+            // toolStripLabel3
+            // 
+            this.toolStripLabel3.Name = "toolStripLabel3";
+            this.toolStripLabel3.Size = new System.Drawing.Size(43, 22);
+            this.toolStripLabel3.Text = "для {0}";
+            this.toolStripLabel3.ToolTipText = "Общее число элементов";
             // 
             // toolStripButton14
             // 
@@ -1176,6 +1153,25 @@
             this.toolStripButton16.Size = new System.Drawing.Size(23, 22);
             this.toolStripButton16.Text = "Переместить назад";
             // 
+            // toolStripSeparator7
+            // 
+            this.toolStripSeparator7.Name = "toolStripSeparator7";
+            this.toolStripSeparator7.Size = new System.Drawing.Size(6, 25);
+            // 
+            // toolStripTextBox3
+            // 
+            this.toolStripTextBox3.AccessibleName = "Положение";
+            this.toolStripTextBox3.AutoSize = false;
+            this.toolStripTextBox3.Name = "toolStripTextBox3";
+            this.toolStripTextBox3.Size = new System.Drawing.Size(50, 23);
+            this.toolStripTextBox3.Text = "0";
+            this.toolStripTextBox3.ToolTipText = "Текущее положение";
+            // 
+            // toolStripSeparator8
+            // 
+            this.toolStripSeparator8.Name = "toolStripSeparator8";
+            this.toolStripSeparator8.Size = new System.Drawing.Size(6, 25);
+            // 
             // toolStripButton17
             // 
             this.toolStripButton17.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
@@ -1194,16 +1190,10 @@
             this.toolStripButton18.Size = new System.Drawing.Size(23, 22);
             this.toolStripButton18.Text = "Переместить в конец";
             // 
-            // toolStripButton21
+            // toolStripSeparator9
             // 
-            this.toolStripButton21.Alignment = System.Windows.Forms.ToolStripItemAlignment.Right;
-            this.toolStripButton21.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
-            this.toolStripButton21.Image = global::KURSAACH.Properties.Resources.list;
-            this.toolStripButton21.ImageTransparentColor = System.Drawing.Color.Magenta;
-            this.toolStripButton21.Name = "toolStripButton21";
-            this.toolStripButton21.Size = new System.Drawing.Size(23, 22);
-            this.toolStripButton21.Text = "toolStripButton19";
-            this.toolStripButton21.Click += new System.EventHandler(this.toolStripButton19_Click);
+            this.toolStripSeparator9.Name = "toolStripSeparator9";
+            this.toolStripSeparator9.Size = new System.Drawing.Size(6, 25);
             // 
             // toolStripButton22
             // 
@@ -1216,13 +1206,29 @@
             this.toolStripButton22.Text = "toolStripButton19";
             this.toolStripButton22.Click += new System.EventHandler(this.toolStripButton19_Click);
             // 
+            // clientsTableAdapter
+            // 
+            this.clientsTableAdapter.ClearBeforeFill = true;
+            // 
+            // couriersTableAdapter
+            // 
+            this.couriersTableAdapter.ClearBeforeFill = true;
+            // 
+            // orderTableAdapter
+            // 
+            this.orderTableAdapter.ClearBeforeFill = true;
+            // 
+            // workersTableAdapter
+            // 
+            this.workersTableAdapter.ClearBeforeFill = true;
+            // 
             // menuStrip1
             // 
             this.menuStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.базаДанныхToolStripMenuItem});
             this.menuStrip1.Location = new System.Drawing.Point(3, 24);
             this.menuStrip1.Name = "menuStrip1";
-            this.menuStrip1.Size = new System.Drawing.Size(794, 24);
+            this.menuStrip1.Size = new System.Drawing.Size(797, 24);
             this.menuStrip1.TabIndex = 1;
             this.menuStrip1.Text = "menuStrip1";
             // 
@@ -1239,21 +1245,21 @@
             // таблицыToolStripMenuItem
             // 
             this.таблицыToolStripMenuItem.Name = "таблицыToolStripMenuItem";
-            this.таблицыToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.таблицыToolStripMenuItem.Size = new System.Drawing.Size(171, 22);
             this.таблицыToolStripMenuItem.Text = "Таблицы";
             this.таблицыToolStripMenuItem.Click += new System.EventHandler(this.таблицыToolStripMenuItem_Click);
             // 
             // представленияToolStripMenuItem
             // 
             this.представленияToolStripMenuItem.Name = "представленияToolStripMenuItem";
-            this.представленияToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.представленияToolStripMenuItem.Size = new System.Drawing.Size(171, 22);
             this.представленияToolStripMenuItem.Text = "Представления";
             this.представленияToolStripMenuItem.Click += new System.EventHandler(this.представленияToolStripMenuItem_Click);
             // 
             // генерацияОтчетаToolStripMenuItem
             // 
             this.генерацияОтчетаToolStripMenuItem.Name = "генерацияОтчетаToolStripMenuItem";
-            this.генерацияОтчетаToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.генерацияОтчетаToolStripMenuItem.Size = new System.Drawing.Size(171, 22);
             this.генерацияОтчетаToolStripMenuItem.Text = "Генерация отчета";
             // 
             // tabControl2
@@ -1273,7 +1279,7 @@
             this.tabControl2.Margin = new System.Windows.Forms.Padding(3, 7, 3, 3);
             this.tabControl2.Name = "tabControl2";
             this.tabControl2.SelectedIndex = 0;
-            this.tabControl2.Size = new System.Drawing.Size(794, 525);
+            this.tabControl2.Size = new System.Drawing.Size(797, 525);
             this.tabControl2.TabIndex = 2;
             this.tabControl2.Visible = false;
             // 
@@ -1284,9 +1290,9 @@
             this.tabPage5.Location = new System.Drawing.Point(4, 22);
             this.tabPage5.Name = "tabPage5";
             this.tabPage5.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPage5.Size = new System.Drawing.Size(786, 499);
+            this.tabPage5.Size = new System.Drawing.Size(789, 499);
             this.tabPage5.TabIndex = 0;
-            this.tabPage5.Text = "Clients";
+            this.tabPage5.Text = "Max & Min";
             this.tabPage5.UseVisualStyleBackColor = true;
             // 
             // dataGridView5
@@ -1300,8 +1306,25 @@
             this.dataGridView5.Dock = System.Windows.Forms.DockStyle.Fill;
             this.dataGridView5.Location = new System.Drawing.Point(3, 3);
             this.dataGridView5.Name = "dataGridView5";
-            this.dataGridView5.Size = new System.Drawing.Size(780, 468);
+            this.dataGridView5.Size = new System.Drawing.Size(783, 468);
             this.dataGridView5.TabIndex = 1;
+            // 
+            // минимальнаяценаDataGridViewTextBoxColumn
+            // 
+            this.минимальнаяценаDataGridViewTextBoxColumn.DataPropertyName = "Минимальная_цена";
+            this.минимальнаяценаDataGridViewTextBoxColumn.HeaderText = "Минимальная_цена";
+            this.минимальнаяценаDataGridViewTextBoxColumn.Name = "минимальнаяценаDataGridViewTextBoxColumn";
+            // 
+            // максимальнаяценаDataGridViewTextBoxColumn
+            // 
+            this.максимальнаяценаDataGridViewTextBoxColumn.DataPropertyName = "Максимальная_цена";
+            this.максимальнаяценаDataGridViewTextBoxColumn.HeaderText = "Максимальная_цена";
+            this.максимальнаяценаDataGridViewTextBoxColumn.Name = "максимальнаяценаDataGridViewTextBoxColumn";
+            // 
+            // mAXИMINЦенаBindingSource
+            // 
+            this.mAXИMINЦенаBindingSource.DataMember = "MAX и MIN цена";
+            this.mAXИMINЦенаBindingSource.DataSource = this.bindingSource1;
             // 
             // bindingNavigator5
             // 
@@ -1331,7 +1354,7 @@
             this.bindingNavigator5.MovePreviousItem = this.toolStripButton26;
             this.bindingNavigator5.Name = "bindingNavigator5";
             this.bindingNavigator5.PositionItem = this.toolStripTextBox4;
-            this.bindingNavigator5.Size = new System.Drawing.Size(780, 25);
+            this.bindingNavigator5.Size = new System.Drawing.Size(783, 25);
             this.bindingNavigator5.TabIndex = 0;
             this.bindingNavigator5.Text = "bindingNavigator5";
             // 
@@ -1439,7 +1462,7 @@
             this.tabPage6.Padding = new System.Windows.Forms.Padding(3);
             this.tabPage6.Size = new System.Drawing.Size(786, 499);
             this.tabPage6.TabIndex = 1;
-            this.tabPage6.Text = "Couriers";
+            this.tabPage6.Text = "Выполненные заказы";
             this.tabPage6.UseVisualStyleBackColor = true;
             // 
             // dataGridView6
@@ -1457,6 +1480,35 @@
             this.dataGridView6.Name = "dataGridView6";
             this.dataGridView6.Size = new System.Drawing.Size(780, 468);
             this.dataGridView6.TabIndex = 2;
+            // 
+            // iDClientDataGridViewTextBoxColumn1
+            // 
+            this.iDClientDataGridViewTextBoxColumn1.DataPropertyName = "ID_Client";
+            this.iDClientDataGridViewTextBoxColumn1.HeaderText = "ID_Client";
+            this.iDClientDataGridViewTextBoxColumn1.Name = "iDClientDataGridViewTextBoxColumn1";
+            // 
+            // clientNameDataGridViewTextBoxColumn1
+            // 
+            this.clientNameDataGridViewTextBoxColumn1.DataPropertyName = "ClientName";
+            this.clientNameDataGridViewTextBoxColumn1.HeaderText = "ClientName";
+            this.clientNameDataGridViewTextBoxColumn1.Name = "clientNameDataGridViewTextBoxColumn1";
+            // 
+            // iDOrderDataGridViewTextBoxColumn1
+            // 
+            this.iDOrderDataGridViewTextBoxColumn1.DataPropertyName = "ID_Order";
+            this.iDOrderDataGridViewTextBoxColumn1.HeaderText = "ID_Order";
+            this.iDOrderDataGridViewTextBoxColumn1.Name = "iDOrderDataGridViewTextBoxColumn1";
+            // 
+            // statusDataGridViewCheckBoxColumn1
+            // 
+            this.statusDataGridViewCheckBoxColumn1.DataPropertyName = "Status";
+            this.statusDataGridViewCheckBoxColumn1.HeaderText = "Status";
+            this.statusDataGridViewCheckBoxColumn1.Name = "statusDataGridViewCheckBoxColumn1";
+            // 
+            // выполненныеЗаказыBindingSource
+            // 
+            this.выполненныеЗаказыBindingSource.DataMember = "Выполненные заказы";
+            this.выполненныеЗаказыBindingSource.DataSource = this.bindingSource1;
             // 
             // bindingNavigator6
             // 
@@ -1593,7 +1645,7 @@
             this.tabPage7.Padding = new System.Windows.Forms.Padding(3);
             this.tabPage7.Size = new System.Drawing.Size(786, 499);
             this.tabPage7.TabIndex = 2;
-            this.tabPage7.Text = "Order";
+            this.tabPage7.Text = "Заказы True & False";
             this.tabPage7.UseVisualStyleBackColor = true;
             // 
             // dataGridView7
@@ -1601,19 +1653,31 @@
             this.dataGridView7.AutoGenerateColumns = false;
             this.dataGridView7.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dataGridView7.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
-            this.dataGridViewCheckBoxColumn2});
-            this.dataGridView7.DataSource = this.заказыTrueFalseBindingSource;
+            this.statusDataGridViewCheckBoxColumn2,
+            this.колвоDataGridViewTextBoxColumn});
+            this.dataGridView7.DataSource = this.заказыTrueFalseBindingSource1;
             this.dataGridView7.Dock = System.Windows.Forms.DockStyle.Fill;
             this.dataGridView7.Location = new System.Drawing.Point(3, 3);
             this.dataGridView7.Name = "dataGridView7";
             this.dataGridView7.Size = new System.Drawing.Size(780, 468);
             this.dataGridView7.TabIndex = 2;
             // 
-            // dataGridViewCheckBoxColumn2
+            // statusDataGridViewCheckBoxColumn2
             // 
-            this.dataGridViewCheckBoxColumn2.DataPropertyName = "Status";
-            this.dataGridViewCheckBoxColumn2.HeaderText = "Status";
-            this.dataGridViewCheckBoxColumn2.Name = "dataGridViewCheckBoxColumn2";
+            this.statusDataGridViewCheckBoxColumn2.DataPropertyName = "Status";
+            this.statusDataGridViewCheckBoxColumn2.HeaderText = "Status";
+            this.statusDataGridViewCheckBoxColumn2.Name = "statusDataGridViewCheckBoxColumn2";
+            // 
+            // колвоDataGridViewTextBoxColumn
+            // 
+            this.колвоDataGridViewTextBoxColumn.DataPropertyName = "Кол-во";
+            this.колвоDataGridViewTextBoxColumn.HeaderText = "Кол-во";
+            this.колвоDataGridViewTextBoxColumn.Name = "колвоDataGridViewTextBoxColumn";
+            // 
+            // заказыTrueFalseBindingSource1
+            // 
+            this.заказыTrueFalseBindingSource1.DataMember = "Заказы True False";
+            this.заказыTrueFalseBindingSource1.DataSource = this.kR_Ip521_NikitinDataSet;
             // 
             // bindingNavigator7
             // 
@@ -1654,6 +1718,11 @@
             this.toolStripButton37.RightToLeftAutoMirrorImage = true;
             this.toolStripButton37.Size = new System.Drawing.Size(23, 22);
             this.toolStripButton37.Text = "Добавить";
+            // 
+            // заказыTrueFalseBindingSource
+            // 
+            this.заказыTrueFalseBindingSource.DataMember = "Заказы True False";
+            this.заказыTrueFalseBindingSource.DataSource = this.bindingSource1;
             // 
             // toolStripLabel6
             // 
@@ -1748,31 +1817,10 @@
             this.tabPage8.Location = new System.Drawing.Point(4, 22);
             this.tabPage8.Name = "tabPage8";
             this.tabPage8.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPage8.Size = new System.Drawing.Size(786, 499);
+            this.tabPage8.Size = new System.Drawing.Size(767, 499);
             this.tabPage8.TabIndex = 3;
-            this.tabPage8.Text = "Workers";
+            this.tabPage8.Text = "Заказы и работники";
             this.tabPage8.UseVisualStyleBackColor = true;
-            // 
-            // dataGridView8
-            // 
-            this.dataGridView8.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-            this.dataGridView8.AutoGenerateColumns = false;
-            this.dataGridView8.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataGridView8.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
-            this.dataGridViewTextBoxColumn14});
-            this.dataGridView8.DataSource = this.заказыИРаботникиBindingSource;
-            this.dataGridView8.Location = new System.Drawing.Point(3, 3);
-            this.dataGridView8.Name = "dataGridView8";
-            this.dataGridView8.Size = new System.Drawing.Size(774, 459);
-            this.dataGridView8.TabIndex = 2;
-            // 
-            // dataGridViewTextBoxColumn14
-            // 
-            this.dataGridViewTextBoxColumn14.DataPropertyName = "WorkerID";
-            this.dataGridViewTextBoxColumn14.HeaderText = "WorkerID";
-            this.dataGridViewTextBoxColumn14.Name = "dataGridViewTextBoxColumn14";
             // 
             // bindingNavigator8
             // 
@@ -1801,7 +1849,7 @@
             this.bindingNavigator8.MovePreviousItem = this.toolStripButton47;
             this.bindingNavigator8.Name = "bindingNavigator8";
             this.bindingNavigator8.PositionItem = this.toolStripTextBox7;
-            this.bindingNavigator8.Size = new System.Drawing.Size(780, 25);
+            this.bindingNavigator8.Size = new System.Drawing.Size(761, 25);
             this.bindingNavigator8.TabIndex = 1;
             this.bindingNavigator8.Text = "bindingNavigator8";
             // 
@@ -1813,6 +1861,11 @@
             this.toolStripButton44.RightToLeftAutoMirrorImage = true;
             this.toolStripButton44.Size = new System.Drawing.Size(23, 22);
             this.toolStripButton44.Text = "Добавить";
+            // 
+            // заказыИРаботникиBindingSource
+            // 
+            this.заказыИРаботникиBindingSource.DataMember = "Заказы и работники";
+            this.заказыИРаботникиBindingSource.DataSource = this.bindingSource1;
             // 
             // toolStripLabel7
             // 
@@ -1900,78 +1953,6 @@
             this.toolStripButton50.Size = new System.Drawing.Size(23, 22);
             this.toolStripButton50.Text = "toolStripButton19";
             // 
-            // mAXИMINЦенаBindingSource
-            // 
-            this.mAXИMINЦенаBindingSource.DataMember = "MAX и MIN цена";
-            this.mAXИMINЦенаBindingSource.DataSource = this.bindingSource1;
-            // 
-            // mAX_и_MIN_ценаTableAdapter
-            // 
-            this.mAX_и_MIN_ценаTableAdapter.ClearBeforeFill = true;
-            // 
-            // минимальнаяценаDataGridViewTextBoxColumn
-            // 
-            this.минимальнаяценаDataGridViewTextBoxColumn.DataPropertyName = "Минимальная_цена";
-            this.минимальнаяценаDataGridViewTextBoxColumn.HeaderText = "Минимальная_цена";
-            this.минимальнаяценаDataGridViewTextBoxColumn.Name = "минимальнаяценаDataGridViewTextBoxColumn";
-            // 
-            // максимальнаяценаDataGridViewTextBoxColumn
-            // 
-            this.максимальнаяценаDataGridViewTextBoxColumn.DataPropertyName = "Максимальная_цена";
-            this.максимальнаяценаDataGridViewTextBoxColumn.HeaderText = "Максимальная_цена";
-            this.максимальнаяценаDataGridViewTextBoxColumn.Name = "максимальнаяценаDataGridViewTextBoxColumn";
-            // 
-            // выполненныеЗаказыBindingSource
-            // 
-            this.выполненныеЗаказыBindingSource.DataMember = "Выполненные заказы";
-            this.выполненныеЗаказыBindingSource.DataSource = this.bindingSource1;
-            // 
-            // выполненные_заказыTableAdapter
-            // 
-            this.выполненные_заказыTableAdapter.ClearBeforeFill = true;
-            // 
-            // iDClientDataGridViewTextBoxColumn1
-            // 
-            this.iDClientDataGridViewTextBoxColumn1.DataPropertyName = "ID_Client";
-            this.iDClientDataGridViewTextBoxColumn1.HeaderText = "ID_Client";
-            this.iDClientDataGridViewTextBoxColumn1.Name = "iDClientDataGridViewTextBoxColumn1";
-            // 
-            // clientNameDataGridViewTextBoxColumn1
-            // 
-            this.clientNameDataGridViewTextBoxColumn1.DataPropertyName = "ClientName";
-            this.clientNameDataGridViewTextBoxColumn1.HeaderText = "ClientName";
-            this.clientNameDataGridViewTextBoxColumn1.Name = "clientNameDataGridViewTextBoxColumn1";
-            // 
-            // iDOrderDataGridViewTextBoxColumn1
-            // 
-            this.iDOrderDataGridViewTextBoxColumn1.DataPropertyName = "ID_Order";
-            this.iDOrderDataGridViewTextBoxColumn1.HeaderText = "ID_Order";
-            this.iDOrderDataGridViewTextBoxColumn1.Name = "iDOrderDataGridViewTextBoxColumn1";
-            // 
-            // statusDataGridViewCheckBoxColumn1
-            // 
-            this.statusDataGridViewCheckBoxColumn1.DataPropertyName = "Status";
-            this.statusDataGridViewCheckBoxColumn1.HeaderText = "Status";
-            this.statusDataGridViewCheckBoxColumn1.Name = "statusDataGridViewCheckBoxColumn1";
-            // 
-            // заказыTrueFalseBindingSource
-            // 
-            this.заказыTrueFalseBindingSource.DataMember = "Заказы True False";
-            this.заказыTrueFalseBindingSource.DataSource = this.bindingSource1;
-            // 
-            // заказы_True_FalseTableAdapter
-            // 
-            this.заказы_True_FalseTableAdapter.ClearBeforeFill = true;
-            // 
-            // заказыИРаботникиBindingSource
-            // 
-            this.заказыИРаботникиBindingSource.DataMember = "Заказы и работники";
-            this.заказыИРаботникиBindingSource.DataSource = this.bindingSource1;
-            // 
-            // заказы_и_работникиTableAdapter
-            // 
-            this.заказы_и_работникиTableAdapter.ClearBeforeFill = true;
-            // 
             // tabPage9
             // 
             this.tabPage9.Controls.Add(this.bindingNavigator9);
@@ -1981,27 +1962,13 @@
             this.tabPage9.Padding = new System.Windows.Forms.Padding(3);
             this.tabPage9.Size = new System.Drawing.Size(786, 499);
             this.tabPage9.TabIndex = 4;
-            this.tabPage9.Text = "tabPage9";
+            this.tabPage9.Text = "Курьеры в доставке";
             this.tabPage9.UseVisualStyleBackColor = true;
-            // 
-            // dataGridView9
-            // 
-            this.dataGridView9.AutoGenerateColumns = false;
-            this.dataGridView9.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataGridView9.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
-            this.courierNameDataGridViewTextBoxColumn1,
-            this.deliveryStatusDataGridViewCheckBoxColumn1});
-            this.dataGridView9.DataSource = this.курьерыВДоставкеBindingSource;
-            this.dataGridView9.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.dataGridView9.Location = new System.Drawing.Point(3, 3);
-            this.dataGridView9.Name = "dataGridView9";
-            this.dataGridView9.Size = new System.Drawing.Size(780, 493);
-            this.dataGridView9.TabIndex = 3;
             // 
             // bindingNavigator9
             // 
             this.bindingNavigator9.AddNewItem = this.toolStripButton51;
-            this.bindingNavigator9.BindingSource = this.workersBindingSource;
+            this.bindingNavigator9.BindingSource = this.курьерыВДоставкеBindingSource;
             this.bindingNavigator9.CountItem = this.toolStripLabel8;
             this.bindingNavigator9.DeleteItem = this.toolStripButton52;
             this.bindingNavigator9.Dock = System.Windows.Forms.DockStyle.Bottom;
@@ -2037,6 +2004,11 @@
             this.toolStripButton51.RightToLeftAutoMirrorImage = true;
             this.toolStripButton51.Size = new System.Drawing.Size(23, 22);
             this.toolStripButton51.Text = "Добавить";
+            // 
+            // курьерыВДоставкеBindingSource
+            // 
+            this.курьерыВДоставкеBindingSource.DataMember = "Курьеры в доставке";
+            this.курьерыВДоставкеBindingSource.DataSource = this.bindingSource1;
             // 
             // toolStripLabel8
             // 
@@ -2124,19 +2096,19 @@
             this.toolStripButton57.Size = new System.Drawing.Size(23, 22);
             this.toolStripButton57.Text = "toolStripButton19";
             // 
-            // заказыИРаботникиBindingSource1
+            // dataGridView9
             // 
-            this.заказыИРаботникиBindingSource1.DataMember = "Заказы и работники";
-            this.заказыИРаботникиBindingSource1.DataSource = this.bindingSource1;
-            // 
-            // курьерыВДоставкеBindingSource
-            // 
-            this.курьерыВДоставкеBindingSource.DataMember = "Курьеры в доставке";
-            this.курьерыВДоставкеBindingSource.DataSource = this.bindingSource1;
-            // 
-            // курьеры_в_доставкеTableAdapter
-            // 
-            this.курьеры_в_доставкеTableAdapter.ClearBeforeFill = true;
+            this.dataGridView9.AutoGenerateColumns = false;
+            this.dataGridView9.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dataGridView9.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
+            this.courierNameDataGridViewTextBoxColumn1,
+            this.deliveryStatusDataGridViewCheckBoxColumn1});
+            this.dataGridView9.DataSource = this.курьерыВДоставкеBindingSource;
+            this.dataGridView9.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.dataGridView9.Location = new System.Drawing.Point(3, 3);
+            this.dataGridView9.Name = "dataGridView9";
+            this.dataGridView9.Size = new System.Drawing.Size(780, 493);
+            this.dataGridView9.TabIndex = 3;
             // 
             // courierNameDataGridViewTextBoxColumn1
             // 
@@ -2159,208 +2131,13 @@
             this.tabPage10.Padding = new System.Windows.Forms.Padding(3);
             this.tabPage10.Size = new System.Drawing.Size(786, 499);
             this.tabPage10.TabIndex = 5;
-            this.tabPage10.Text = "tabPage10";
+            this.tabPage10.Text = "Курьеры и заказы";
             this.tabPage10.UseVisualStyleBackColor = true;
-            // 
-            // dataGridView10
-            // 
-            this.dataGridView10.AutoGenerateColumns = false;
-            this.dataGridView10.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataGridView10.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
-            this.dataGridViewTextBoxColumn1});
-            this.dataGridView10.DataSource = this.курьерыИЗаказыBindingSource;
-            this.dataGridView10.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.dataGridView10.Location = new System.Drawing.Point(3, 3);
-            this.dataGridView10.Name = "dataGridView10";
-            this.dataGridView10.Size = new System.Drawing.Size(780, 493);
-            this.dataGridView10.TabIndex = 4;
-            // 
-            // dataGridViewTextBoxColumn1
-            // 
-            this.dataGridViewTextBoxColumn1.DataPropertyName = "CourierName";
-            this.dataGridViewTextBoxColumn1.HeaderText = "CourierName";
-            this.dataGridViewTextBoxColumn1.Name = "dataGridViewTextBoxColumn1";
-            // 
-            // курьерыИЗаказыBindingSource
-            // 
-            this.курьерыИЗаказыBindingSource.DataMember = "Курьеры и заказы";
-            this.курьерыИЗаказыBindingSource.DataSource = this.bindingSource1;
-            // 
-            // курьеры_и_заказыTableAdapter
-            // 
-            this.курьеры_и_заказыTableAdapter.ClearBeforeFill = true;
-            // 
-            // tabPage11
-            // 
-            this.tabPage11.Controls.Add(this.bindingNavigator11);
-            this.tabPage11.Controls.Add(this.dataGridView11);
-            this.tabPage11.Location = new System.Drawing.Point(4, 22);
-            this.tabPage11.Name = "tabPage11";
-            this.tabPage11.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPage11.Size = new System.Drawing.Size(786, 499);
-            this.tabPage11.TabIndex = 6;
-            this.tabPage11.Text = "tabPage11";
-            this.tabPage11.UseVisualStyleBackColor = true;
-            // 
-            // dataGridView11
-            // 
-            this.dataGridView11.AutoGenerateColumns = false;
-            this.dataGridView11.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataGridView11.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
-            this.workerIDDataGridViewTextBoxColumn1,
-            this.workerNameDataGridViewTextBoxColumn1});
-            this.dataGridView11.DataSource = this.работникиКухниBindingSource;
-            this.dataGridView11.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.dataGridView11.Location = new System.Drawing.Point(3, 3);
-            this.dataGridView11.Name = "dataGridView11";
-            this.dataGridView11.Size = new System.Drawing.Size(780, 493);
-            this.dataGridView11.TabIndex = 4;
-            // 
-            // работникиКухниBindingSource
-            // 
-            this.работникиКухниBindingSource.DataMember = "Работники кухни";
-            this.работникиКухниBindingSource.DataSource = this.bindingSource1;
-            // 
-            // работники_кухниTableAdapter
-            // 
-            this.работники_кухниTableAdapter.ClearBeforeFill = true;
-            // 
-            // workerIDDataGridViewTextBoxColumn1
-            // 
-            this.workerIDDataGridViewTextBoxColumn1.DataPropertyName = "WorkerID";
-            this.workerIDDataGridViewTextBoxColumn1.HeaderText = "WorkerID";
-            this.workerIDDataGridViewTextBoxColumn1.Name = "workerIDDataGridViewTextBoxColumn1";
-            // 
-            // workerNameDataGridViewTextBoxColumn1
-            // 
-            this.workerNameDataGridViewTextBoxColumn1.DataPropertyName = "WorkerName";
-            this.workerNameDataGridViewTextBoxColumn1.HeaderText = "WorkerName";
-            this.workerNameDataGridViewTextBoxColumn1.Name = "workerNameDataGridViewTextBoxColumn1";
-            // 
-            // tabPage12
-            // 
-            this.tabPage12.Controls.Add(this.bindingNavigator12);
-            this.tabPage12.Controls.Add(this.dataGridView12);
-            this.tabPage12.Location = new System.Drawing.Point(4, 22);
-            this.tabPage12.Name = "tabPage12";
-            this.tabPage12.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPage12.Size = new System.Drawing.Size(786, 499);
-            this.tabPage12.TabIndex = 7;
-            this.tabPage12.Text = "tabPage12";
-            this.tabPage12.UseVisualStyleBackColor = true;
-            // 
-            // dataGridView12
-            // 
-            this.dataGridView12.AutoGenerateColumns = false;
-            this.dataGridView12.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataGridView12.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
-            this.средняяценаDataGridViewTextBoxColumn});
-            this.dataGridView12.DataSource = this.средняяЦенаЗаказаBindingSource;
-            this.dataGridView12.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.dataGridView12.Location = new System.Drawing.Point(3, 3);
-            this.dataGridView12.Name = "dataGridView12";
-            this.dataGridView12.Size = new System.Drawing.Size(780, 493);
-            this.dataGridView12.TabIndex = 4;
-            // 
-            // средняяЦенаЗаказаBindingSource
-            // 
-            this.средняяЦенаЗаказаBindingSource.DataMember = "Средняя цена заказа";
-            this.средняяЦенаЗаказаBindingSource.DataSource = this.bindingSource1;
-            // 
-            // средняя_цена_заказаTableAdapter
-            // 
-            this.средняя_цена_заказаTableAdapter.ClearBeforeFill = true;
-            // 
-            // средняяценаDataGridViewTextBoxColumn
-            // 
-            this.средняяценаDataGridViewTextBoxColumn.DataPropertyName = "Средняя_цена";
-            this.средняяценаDataGridViewTextBoxColumn.HeaderText = "Средняя_цена";
-            this.средняяценаDataGridViewTextBoxColumn.Name = "средняяценаDataGridViewTextBoxColumn";
-            // 
-            // tabPage13
-            // 
-            this.tabPage13.Controls.Add(this.bindingNavigator13);
-            this.tabPage13.Controls.Add(this.dataGridView13);
-            this.tabPage13.Location = new System.Drawing.Point(4, 22);
-            this.tabPage13.Name = "tabPage13";
-            this.tabPage13.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPage13.Size = new System.Drawing.Size(786, 499);
-            this.tabPage13.TabIndex = 8;
-            this.tabPage13.Text = "tabPage13";
-            this.tabPage13.UseVisualStyleBackColor = true;
-            // 
-            // dataGridView13
-            // 
-            this.dataGridView13.AutoGenerateColumns = false;
-            this.dataGridView13.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataGridView13.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
-            this.sUMMDataGridViewTextBoxColumn});
-            this.dataGridView13.DataSource = this.суммаВыполненныхЗаказовBindingSource;
-            this.dataGridView13.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.dataGridView13.Location = new System.Drawing.Point(3, 3);
-            this.dataGridView13.Name = "dataGridView13";
-            this.dataGridView13.Size = new System.Drawing.Size(780, 493);
-            this.dataGridView13.TabIndex = 4;
-            // 
-            // суммаВыполненныхЗаказовBindingSource
-            // 
-            this.суммаВыполненныхЗаказовBindingSource.DataMember = "Сумма выполненных заказов";
-            this.суммаВыполненныхЗаказовBindingSource.DataSource = this.bindingSource1;
-            // 
-            // сумма_выполненных_заказовTableAdapter
-            // 
-            this.сумма_выполненных_заказовTableAdapter.ClearBeforeFill = true;
-            // 
-            // sUMMDataGridViewTextBoxColumn
-            // 
-            this.sUMMDataGridViewTextBoxColumn.DataPropertyName = "SUMM";
-            this.sUMMDataGridViewTextBoxColumn.HeaderText = "SUMM";
-            this.sUMMDataGridViewTextBoxColumn.Name = "sUMMDataGridViewTextBoxColumn";
-            // 
-            // tabPage14
-            // 
-            this.tabPage14.Controls.Add(this.bindingNavigator14);
-            this.tabPage14.Controls.Add(this.dataGridView14);
-            this.tabPage14.Location = new System.Drawing.Point(4, 22);
-            this.tabPage14.Name = "tabPage14";
-            this.tabPage14.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPage14.Size = new System.Drawing.Size(786, 499);
-            this.tabPage14.TabIndex = 9;
-            this.tabPage14.Text = "tabPage14";
-            this.tabPage14.UseVisualStyleBackColor = true;
-            // 
-            // dataGridView14
-            // 
-            this.dataGridView14.AutoGenerateColumns = false;
-            this.dataGridView14.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataGridView14.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
-            this.больше1500DataGridViewTextBoxColumn});
-            this.dataGridView14.DataSource = this.ценаЗаказа1500BindingSource;
-            this.dataGridView14.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.dataGridView14.Location = new System.Drawing.Point(3, 3);
-            this.dataGridView14.Name = "dataGridView14";
-            this.dataGridView14.Size = new System.Drawing.Size(780, 493);
-            this.dataGridView14.TabIndex = 4;
-            // 
-            // ценаЗаказа1500BindingSource
-            // 
-            this.ценаЗаказа1500BindingSource.DataMember = "Цена заказа >1500";
-            this.ценаЗаказа1500BindingSource.DataSource = this.bindingSource1;
-            // 
-            // цена_заказа__1500TableAdapter
-            // 
-            this.цена_заказа__1500TableAdapter.ClearBeforeFill = true;
-            // 
-            // больше1500DataGridViewTextBoxColumn
-            // 
-            this.больше1500DataGridViewTextBoxColumn.DataPropertyName = "Больше_1500";
-            this.больше1500DataGridViewTextBoxColumn.HeaderText = "Больше_1500";
-            this.больше1500DataGridViewTextBoxColumn.Name = "больше1500DataGridViewTextBoxColumn";
             // 
             // bindingNavigator10
             // 
             this.bindingNavigator10.AddNewItem = this.toolStripButton58;
-            this.bindingNavigator10.BindingSource = this.couriersBindingSource;
+            this.bindingNavigator10.BindingSource = this.курьерыИЗаказыBindingSource;
             this.bindingNavigator10.CountItem = this.toolStripLabel9;
             this.bindingNavigator10.DeleteItem = this.toolStripButton59;
             this.bindingNavigator10.Dock = System.Windows.Forms.DockStyle.Bottom;
@@ -2396,6 +2173,11 @@
             this.toolStripButton58.RightToLeftAutoMirrorImage = true;
             this.toolStripButton58.Size = new System.Drawing.Size(23, 22);
             this.toolStripButton58.Text = "Добавить";
+            // 
+            // курьерыИЗаказыBindingSource
+            // 
+            this.курьерыИЗаказыBindingSource.DataMember = "Курьеры и заказы";
+            this.курьерыИЗаказыBindingSource.DataSource = this.bindingSource1;
             // 
             // toolStripLabel9
             // 
@@ -2483,10 +2265,41 @@
             this.toolStripButton64.Size = new System.Drawing.Size(23, 22);
             this.toolStripButton64.Text = "toolStripButton19";
             // 
+            // dataGridView10
+            // 
+            this.dataGridView10.AutoGenerateColumns = false;
+            this.dataGridView10.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dataGridView10.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
+            this.dataGridViewTextBoxColumn1});
+            this.dataGridView10.DataSource = this.курьерыИЗаказыBindingSource;
+            this.dataGridView10.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.dataGridView10.Location = new System.Drawing.Point(3, 3);
+            this.dataGridView10.Name = "dataGridView10";
+            this.dataGridView10.Size = new System.Drawing.Size(780, 493);
+            this.dataGridView10.TabIndex = 4;
+            // 
+            // dataGridViewTextBoxColumn1
+            // 
+            this.dataGridViewTextBoxColumn1.DataPropertyName = "CourierName";
+            this.dataGridViewTextBoxColumn1.HeaderText = "CourierName";
+            this.dataGridViewTextBoxColumn1.Name = "dataGridViewTextBoxColumn1";
+            // 
+            // tabPage11
+            // 
+            this.tabPage11.Controls.Add(this.bindingNavigator11);
+            this.tabPage11.Controls.Add(this.dataGridView11);
+            this.tabPage11.Location = new System.Drawing.Point(4, 22);
+            this.tabPage11.Name = "tabPage11";
+            this.tabPage11.Padding = new System.Windows.Forms.Padding(3);
+            this.tabPage11.Size = new System.Drawing.Size(786, 499);
+            this.tabPage11.TabIndex = 6;
+            this.tabPage11.Text = "Работники кухни";
+            this.tabPage11.UseVisualStyleBackColor = true;
+            // 
             // bindingNavigator11
             // 
             this.bindingNavigator11.AddNewItem = this.toolStripButton65;
-            this.bindingNavigator11.BindingSource = this.couriersBindingSource;
+            this.bindingNavigator11.BindingSource = this.работникиКухниBindingSource;
             this.bindingNavigator11.CountItem = this.toolStripLabel10;
             this.bindingNavigator11.DeleteItem = this.toolStripButton66;
             this.bindingNavigator11.Dock = System.Windows.Forms.DockStyle.Bottom;
@@ -2522,6 +2335,11 @@
             this.toolStripButton65.RightToLeftAutoMirrorImage = true;
             this.toolStripButton65.Size = new System.Drawing.Size(23, 22);
             this.toolStripButton65.Text = "Добавить";
+            // 
+            // работникиКухниBindingSource
+            // 
+            this.работникиКухниBindingSource.DataMember = "Работники кухни";
+            this.работникиКухниBindingSource.DataSource = this.bindingSource1;
             // 
             // toolStripLabel10
             // 
@@ -2609,10 +2427,48 @@
             this.toolStripButton71.Size = new System.Drawing.Size(23, 22);
             this.toolStripButton71.Text = "toolStripButton19";
             // 
+            // dataGridView11
+            // 
+            this.dataGridView11.AutoGenerateColumns = false;
+            this.dataGridView11.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dataGridView11.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
+            this.workerIDDataGridViewTextBoxColumn1,
+            this.workerNameDataGridViewTextBoxColumn1});
+            this.dataGridView11.DataSource = this.работникиКухниBindingSource;
+            this.dataGridView11.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.dataGridView11.Location = new System.Drawing.Point(3, 3);
+            this.dataGridView11.Name = "dataGridView11";
+            this.dataGridView11.Size = new System.Drawing.Size(780, 493);
+            this.dataGridView11.TabIndex = 4;
+            // 
+            // workerIDDataGridViewTextBoxColumn1
+            // 
+            this.workerIDDataGridViewTextBoxColumn1.DataPropertyName = "WorkerID";
+            this.workerIDDataGridViewTextBoxColumn1.HeaderText = "WorkerID";
+            this.workerIDDataGridViewTextBoxColumn1.Name = "workerIDDataGridViewTextBoxColumn1";
+            // 
+            // workerNameDataGridViewTextBoxColumn1
+            // 
+            this.workerNameDataGridViewTextBoxColumn1.DataPropertyName = "WorkerName";
+            this.workerNameDataGridViewTextBoxColumn1.HeaderText = "WorkerName";
+            this.workerNameDataGridViewTextBoxColumn1.Name = "workerNameDataGridViewTextBoxColumn1";
+            // 
+            // tabPage12
+            // 
+            this.tabPage12.Controls.Add(this.bindingNavigator12);
+            this.tabPage12.Controls.Add(this.dataGridView12);
+            this.tabPage12.Location = new System.Drawing.Point(4, 22);
+            this.tabPage12.Name = "tabPage12";
+            this.tabPage12.Padding = new System.Windows.Forms.Padding(3);
+            this.tabPage12.Size = new System.Drawing.Size(786, 499);
+            this.tabPage12.TabIndex = 7;
+            this.tabPage12.Text = "Ср. Цена";
+            this.tabPage12.UseVisualStyleBackColor = true;
+            // 
             // bindingNavigator12
             // 
             this.bindingNavigator12.AddNewItem = this.toolStripButton72;
-            this.bindingNavigator12.BindingSource = this.couriersBindingSource;
+            this.bindingNavigator12.BindingSource = this.средняяЦенаЗаказаBindingSource;
             this.bindingNavigator12.CountItem = this.toolStripLabel11;
             this.bindingNavigator12.DeleteItem = this.toolStripButton73;
             this.bindingNavigator12.Dock = System.Windows.Forms.DockStyle.Bottom;
@@ -2648,6 +2504,11 @@
             this.toolStripButton72.RightToLeftAutoMirrorImage = true;
             this.toolStripButton72.Size = new System.Drawing.Size(23, 22);
             this.toolStripButton72.Text = "Добавить";
+            // 
+            // средняяЦенаЗаказаBindingSource
+            // 
+            this.средняяЦенаЗаказаBindingSource.DataMember = "Средняя цена заказа";
+            this.средняяЦенаЗаказаBindingSource.DataSource = this.bindingSource1;
             // 
             // toolStripLabel11
             // 
@@ -2735,10 +2596,41 @@
             this.toolStripButton78.Size = new System.Drawing.Size(23, 22);
             this.toolStripButton78.Text = "toolStripButton19";
             // 
+            // dataGridView12
+            // 
+            this.dataGridView12.AutoGenerateColumns = false;
+            this.dataGridView12.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dataGridView12.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
+            this.средняяценаDataGridViewTextBoxColumn});
+            this.dataGridView12.DataSource = this.средняяЦенаЗаказаBindingSource;
+            this.dataGridView12.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.dataGridView12.Location = new System.Drawing.Point(3, 3);
+            this.dataGridView12.Name = "dataGridView12";
+            this.dataGridView12.Size = new System.Drawing.Size(780, 493);
+            this.dataGridView12.TabIndex = 4;
+            // 
+            // средняяценаDataGridViewTextBoxColumn
+            // 
+            this.средняяценаDataGridViewTextBoxColumn.DataPropertyName = "Средняя_цена";
+            this.средняяценаDataGridViewTextBoxColumn.HeaderText = "Средняя_цена";
+            this.средняяценаDataGridViewTextBoxColumn.Name = "средняяценаDataGridViewTextBoxColumn";
+            // 
+            // tabPage13
+            // 
+            this.tabPage13.Controls.Add(this.bindingNavigator13);
+            this.tabPage13.Controls.Add(this.dataGridView13);
+            this.tabPage13.Location = new System.Drawing.Point(4, 22);
+            this.tabPage13.Name = "tabPage13";
+            this.tabPage13.Padding = new System.Windows.Forms.Padding(3);
+            this.tabPage13.Size = new System.Drawing.Size(786, 499);
+            this.tabPage13.TabIndex = 8;
+            this.tabPage13.Text = "Сумма выполненных";
+            this.tabPage13.UseVisualStyleBackColor = true;
+            // 
             // bindingNavigator13
             // 
             this.bindingNavigator13.AddNewItem = this.toolStripButton79;
-            this.bindingNavigator13.BindingSource = this.couriersBindingSource;
+            this.bindingNavigator13.BindingSource = this.суммаВыполненныхЗаказовBindingSource;
             this.bindingNavigator13.CountItem = this.toolStripLabel12;
             this.bindingNavigator13.DeleteItem = this.toolStripButton80;
             this.bindingNavigator13.Dock = System.Windows.Forms.DockStyle.Bottom;
@@ -2774,6 +2666,11 @@
             this.toolStripButton79.RightToLeftAutoMirrorImage = true;
             this.toolStripButton79.Size = new System.Drawing.Size(23, 22);
             this.toolStripButton79.Text = "Добавить";
+            // 
+            // суммаВыполненныхЗаказовBindingSource
+            // 
+            this.суммаВыполненныхЗаказовBindingSource.DataMember = "Сумма выполненных заказов";
+            this.суммаВыполненныхЗаказовBindingSource.DataSource = this.bindingSource1;
             // 
             // toolStripLabel12
             // 
@@ -2861,10 +2758,41 @@
             this.toolStripButton85.Size = new System.Drawing.Size(23, 22);
             this.toolStripButton85.Text = "toolStripButton19";
             // 
+            // dataGridView13
+            // 
+            this.dataGridView13.AutoGenerateColumns = false;
+            this.dataGridView13.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dataGridView13.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
+            this.sUMMDataGridViewTextBoxColumn});
+            this.dataGridView13.DataSource = this.суммаВыполненныхЗаказовBindingSource;
+            this.dataGridView13.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.dataGridView13.Location = new System.Drawing.Point(3, 3);
+            this.dataGridView13.Name = "dataGridView13";
+            this.dataGridView13.Size = new System.Drawing.Size(780, 493);
+            this.dataGridView13.TabIndex = 4;
+            // 
+            // sUMMDataGridViewTextBoxColumn
+            // 
+            this.sUMMDataGridViewTextBoxColumn.DataPropertyName = "SUMM";
+            this.sUMMDataGridViewTextBoxColumn.HeaderText = "SUMM";
+            this.sUMMDataGridViewTextBoxColumn.Name = "sUMMDataGridViewTextBoxColumn";
+            // 
+            // tabPage14
+            // 
+            this.tabPage14.Controls.Add(this.bindingNavigator14);
+            this.tabPage14.Controls.Add(this.dataGridView14);
+            this.tabPage14.Location = new System.Drawing.Point(4, 22);
+            this.tabPage14.Name = "tabPage14";
+            this.tabPage14.Padding = new System.Windows.Forms.Padding(3);
+            this.tabPage14.Size = new System.Drawing.Size(786, 499);
+            this.tabPage14.TabIndex = 9;
+            this.tabPage14.Text = "Цена >1500";
+            this.tabPage14.UseVisualStyleBackColor = true;
+            // 
             // bindingNavigator14
             // 
             this.bindingNavigator14.AddNewItem = this.toolStripButton86;
-            this.bindingNavigator14.BindingSource = this.couriersBindingSource;
+            this.bindingNavigator14.BindingSource = this.ценаЗаказа1500BindingSource;
             this.bindingNavigator14.CountItem = this.toolStripLabel13;
             this.bindingNavigator14.DeleteItem = this.toolStripButton87;
             this.bindingNavigator14.Dock = System.Windows.Forms.DockStyle.Bottom;
@@ -2900,6 +2828,11 @@
             this.toolStripButton86.RightToLeftAutoMirrorImage = true;
             this.toolStripButton86.Size = new System.Drawing.Size(23, 22);
             this.toolStripButton86.Text = "Добавить";
+            // 
+            // ценаЗаказа1500BindingSource
+            // 
+            this.ценаЗаказа1500BindingSource.DataMember = "Цена заказа >1500";
+            this.ценаЗаказа1500BindingSource.DataSource = this.bindingSource1;
             // 
             // toolStripLabel13
             // 
@@ -2987,11 +2920,115 @@
             this.toolStripButton92.Size = new System.Drawing.Size(23, 22);
             this.toolStripButton92.Text = "toolStripButton19";
             // 
+            // dataGridView14
+            // 
+            this.dataGridView14.AutoGenerateColumns = false;
+            this.dataGridView14.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dataGridView14.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
+            this.больше1500DataGridViewTextBoxColumn});
+            this.dataGridView14.DataSource = this.ценаЗаказа1500BindingSource;
+            this.dataGridView14.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.dataGridView14.Location = new System.Drawing.Point(3, 3);
+            this.dataGridView14.Name = "dataGridView14";
+            this.dataGridView14.Size = new System.Drawing.Size(780, 493);
+            this.dataGridView14.TabIndex = 4;
+            // 
+            // больше1500DataGridViewTextBoxColumn
+            // 
+            this.больше1500DataGridViewTextBoxColumn.DataPropertyName = "Больше_1500";
+            this.больше1500DataGridViewTextBoxColumn.HeaderText = "Больше_1500";
+            this.больше1500DataGridViewTextBoxColumn.Name = "больше1500DataGridViewTextBoxColumn";
+            // 
+            // mAX_и_MIN_ценаTableAdapter
+            // 
+            this.mAX_и_MIN_ценаTableAdapter.ClearBeforeFill = true;
+            // 
+            // выполненные_заказыTableAdapter
+            // 
+            this.выполненные_заказыTableAdapter.ClearBeforeFill = true;
+            // 
+            // заказы_True_FalseTableAdapter
+            // 
+            this.заказы_True_FalseTableAdapter.ClearBeforeFill = true;
+            // 
+            // заказы_и_работникиTableAdapter
+            // 
+            this.заказы_и_работникиTableAdapter.ClearBeforeFill = true;
+            // 
+            // заказыИРаботникиBindingSource1
+            // 
+            this.заказыИРаботникиBindingSource1.DataMember = "Заказы и работники";
+            this.заказыИРаботникиBindingSource1.DataSource = this.bindingSource1;
+            // 
+            // курьеры_в_доставкеTableAdapter
+            // 
+            this.курьеры_в_доставкеTableAdapter.ClearBeforeFill = true;
+            // 
+            // курьеры_и_заказыTableAdapter
+            // 
+            this.курьеры_и_заказыTableAdapter.ClearBeforeFill = true;
+            // 
+            // работники_кухниTableAdapter
+            // 
+            this.работники_кухниTableAdapter.ClearBeforeFill = true;
+            // 
+            // средняя_цена_заказаTableAdapter
+            // 
+            this.средняя_цена_заказаTableAdapter.ClearBeforeFill = true;
+            // 
+            // сумма_выполненных_заказовTableAdapter
+            // 
+            this.сумма_выполненных_заказовTableAdapter.ClearBeforeFill = true;
+            // 
+            // цена_заказа__1500TableAdapter
+            // 
+            this.цена_заказа__1500TableAdapter.ClearBeforeFill = true;
+            // 
+            // dataGridView8
+            // 
+            this.dataGridView8.AutoGenerateColumns = false;
+            this.dataGridView8.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dataGridView8.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
+            this.workerIDDataGridViewTextBoxColumn2,
+            this.iDOrderDataGridViewTextBoxColumn2,
+            this.orderContentDataGridViewTextBoxColumn1,
+            this.costDataGridViewTextBoxColumn1});
+            this.dataGridView8.DataSource = this.заказыИРаботникиBindingSource;
+            this.dataGridView8.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.dataGridView8.Location = new System.Drawing.Point(3, 3);
+            this.dataGridView8.Name = "dataGridView8";
+            this.dataGridView8.Size = new System.Drawing.Size(761, 468);
+            this.dataGridView8.TabIndex = 2;
+            // 
+            // workerIDDataGridViewTextBoxColumn2
+            // 
+            this.workerIDDataGridViewTextBoxColumn2.DataPropertyName = "WorkerID";
+            this.workerIDDataGridViewTextBoxColumn2.HeaderText = "WorkerID";
+            this.workerIDDataGridViewTextBoxColumn2.Name = "workerIDDataGridViewTextBoxColumn2";
+            // 
+            // iDOrderDataGridViewTextBoxColumn2
+            // 
+            this.iDOrderDataGridViewTextBoxColumn2.DataPropertyName = "ID_Order";
+            this.iDOrderDataGridViewTextBoxColumn2.HeaderText = "ID_Order";
+            this.iDOrderDataGridViewTextBoxColumn2.Name = "iDOrderDataGridViewTextBoxColumn2";
+            // 
+            // orderContentDataGridViewTextBoxColumn1
+            // 
+            this.orderContentDataGridViewTextBoxColumn1.DataPropertyName = "OrderContent";
+            this.orderContentDataGridViewTextBoxColumn1.HeaderText = "OrderContent";
+            this.orderContentDataGridViewTextBoxColumn1.Name = "orderContentDataGridViewTextBoxColumn1";
+            // 
+            // costDataGridViewTextBoxColumn1
+            // 
+            this.costDataGridViewTextBoxColumn1.DataPropertyName = "Cost";
+            this.costDataGridViewTextBoxColumn1.HeaderText = "Cost";
+            this.costDataGridViewTextBoxColumn1.Name = "costDataGridViewTextBoxColumn1";
+            // 
             // Form2
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 576);
+            this.ClientSize = new System.Drawing.Size(803, 576);
             this.Controls.Add(this.tabControl2);
             this.Controls.Add(this.tabControl1);
             this.Controls.Add(this.menuStrip1);
@@ -3000,6 +3037,7 @@
             this.Name = "Form2";
             this.Padding = new System.Windows.Forms.Padding(3, 24, 3, 3);
             this.Text = "Form2";
+            this.FormClosed += new System.Windows.Forms.FormClosedEventHandler(this.Form2_FormClosed);
             this.Load += new System.EventHandler(this.Form2_Load);
             ((System.ComponentModel.ISupportInitialize)(this.bindingSource1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.kR_Ip521_NikitinDataSet)).EndInit();
@@ -3007,106 +3045,107 @@
             this.tabControl1.ResumeLayout(false);
             this.tabPage1.ResumeLayout(false);
             this.tabPage1.PerformLayout();
-            this.tabPage2.ResumeLayout(false);
-            this.tabPage2.PerformLayout();
-            this.tabPage3.ResumeLayout(false);
-            this.tabPage3.PerformLayout();
-            this.tabPage4.ResumeLayout(false);
-            this.tabPage4.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.clientsBindingSource)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.bindingNavigator1)).EndInit();
             this.bindingNavigator1.ResumeLayout(false);
             this.bindingNavigator1.PerformLayout();
+            this.tabPage2.ResumeLayout(false);
+            this.tabPage2.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.dataGridView2)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.couriersBindingSource)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.bindingNavigator2)).EndInit();
             this.bindingNavigator2.ResumeLayout(false);
             this.bindingNavigator2.PerformLayout();
+            this.tabPage3.ResumeLayout(false);
+            this.tabPage3.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.dataGridView3)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.orderBindingSource)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.bindingNavigator3)).EndInit();
             this.bindingNavigator3.ResumeLayout(false);
             this.bindingNavigator3.PerformLayout();
+            this.tabPage4.ResumeLayout(false);
+            this.tabPage4.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.dataGridView4)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.workersBindingSource)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.bindingNavigator4)).EndInit();
             this.bindingNavigator4.ResumeLayout(false);
             this.bindingNavigator4.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.clientsBindingSource)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridView2)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.couriersBindingSource)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridView3)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.orderBindingSource)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridView4)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.workersBindingSource)).EndInit();
             this.menuStrip1.ResumeLayout(false);
             this.menuStrip1.PerformLayout();
             this.tabControl2.ResumeLayout(false);
             this.tabPage5.ResumeLayout(false);
             this.tabPage5.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView5)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.mAXИMINЦенаBindingSource)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.bindingNavigator5)).EndInit();
             this.bindingNavigator5.ResumeLayout(false);
             this.bindingNavigator5.PerformLayout();
             this.tabPage6.ResumeLayout(false);
             this.tabPage6.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView6)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.выполненныеЗаказыBindingSource)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.bindingNavigator6)).EndInit();
             this.bindingNavigator6.ResumeLayout(false);
             this.bindingNavigator6.PerformLayout();
             this.tabPage7.ResumeLayout(false);
             this.tabPage7.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView7)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.заказыTrueFalseBindingSource1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.bindingNavigator7)).EndInit();
             this.bindingNavigator7.ResumeLayout(false);
             this.bindingNavigator7.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.заказыTrueFalseBindingSource)).EndInit();
             this.tabPage8.ResumeLayout(false);
             this.tabPage8.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridView8)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.bindingNavigator8)).EndInit();
             this.bindingNavigator8.ResumeLayout(false);
             this.bindingNavigator8.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.mAXИMINЦенаBindingSource)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.выполненныеЗаказыBindingSource)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.заказыTrueFalseBindingSource)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.заказыИРаботникиBindingSource)).EndInit();
             this.tabPage9.ResumeLayout(false);
             this.tabPage9.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridView9)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.bindingNavigator9)).EndInit();
             this.bindingNavigator9.ResumeLayout(false);
             this.bindingNavigator9.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.заказыИРаботникиBindingSource1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.курьерыВДоставкеBindingSource)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.dataGridView9)).EndInit();
             this.tabPage10.ResumeLayout(false);
             this.tabPage10.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridView10)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.курьерыИЗаказыBindingSource)).EndInit();
-            this.tabPage11.ResumeLayout(false);
-            this.tabPage11.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridView11)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.работникиКухниBindingSource)).EndInit();
-            this.tabPage12.ResumeLayout(false);
-            this.tabPage12.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridView12)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.средняяЦенаЗаказаBindingSource)).EndInit();
-            this.tabPage13.ResumeLayout(false);
-            this.tabPage13.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridView13)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.суммаВыполненныхЗаказовBindingSource)).EndInit();
-            this.tabPage14.ResumeLayout(false);
-            this.tabPage14.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridView14)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.ценаЗаказа1500BindingSource)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.bindingNavigator10)).EndInit();
             this.bindingNavigator10.ResumeLayout(false);
             this.bindingNavigator10.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.курьерыИЗаказыBindingSource)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.dataGridView10)).EndInit();
+            this.tabPage11.ResumeLayout(false);
+            this.tabPage11.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.bindingNavigator11)).EndInit();
             this.bindingNavigator11.ResumeLayout(false);
             this.bindingNavigator11.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.работникиКухниBindingSource)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.dataGridView11)).EndInit();
+            this.tabPage12.ResumeLayout(false);
+            this.tabPage12.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.bindingNavigator12)).EndInit();
             this.bindingNavigator12.ResumeLayout(false);
             this.bindingNavigator12.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.средняяЦенаЗаказаBindingSource)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.dataGridView12)).EndInit();
+            this.tabPage13.ResumeLayout(false);
+            this.tabPage13.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.bindingNavigator13)).EndInit();
             this.bindingNavigator13.ResumeLayout(false);
             this.bindingNavigator13.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.суммаВыполненныхЗаказовBindingSource)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.dataGridView13)).EndInit();
+            this.tabPage14.ResumeLayout(false);
+            this.tabPage14.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.bindingNavigator14)).EndInit();
             this.bindingNavigator14.ResumeLayout(false);
             this.bindingNavigator14.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.ценаЗаказа1500BindingSource)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.dataGridView14)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.заказыИРаботникиBindingSource1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.dataGridView8)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -3242,8 +3281,6 @@
         private System.Windows.Forms.ToolStripSeparator toolStripSeparator15;
         private System.Windows.Forms.ToolStripButton toolStripButton36;
         private System.Windows.Forms.TabPage tabPage7;
-        private System.Windows.Forms.DataGridView dataGridView7;
-        private System.Windows.Forms.DataGridViewCheckBoxColumn dataGridViewCheckBoxColumn2;
         private System.Windows.Forms.BindingNavigator bindingNavigator7;
         private System.Windows.Forms.ToolStripButton toolStripButton37;
         private System.Windows.Forms.ToolStripLabel toolStripLabel6;
@@ -3258,8 +3295,6 @@
         private System.Windows.Forms.ToolStripSeparator toolStripSeparator18;
         private System.Windows.Forms.ToolStripButton toolStripButton43;
         private System.Windows.Forms.TabPage tabPage8;
-        private System.Windows.Forms.DataGridView dataGridView8;
-        private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn14;
         private System.Windows.Forms.BindingNavigator bindingNavigator8;
         private System.Windows.Forms.ToolStripButton toolStripButton44;
         private System.Windows.Forms.ToolStripLabel toolStripLabel7;
@@ -3398,5 +3433,14 @@
         private System.Windows.Forms.ToolStripSeparator toolStripSeparator39;
         private System.Windows.Forms.ToolStripButton toolStripButton92;
         private System.Windows.Forms.DataGridViewTextBoxColumn больше1500DataGridViewTextBoxColumn;
+        private System.Windows.Forms.DataGridView dataGridView7;
+        private System.Windows.Forms.DataGridViewCheckBoxColumn statusDataGridViewCheckBoxColumn2;
+        private System.Windows.Forms.DataGridViewTextBoxColumn колвоDataGridViewTextBoxColumn;
+        private System.Windows.Forms.BindingSource заказыTrueFalseBindingSource1;
+        private System.Windows.Forms.DataGridView dataGridView8;
+        private System.Windows.Forms.DataGridViewTextBoxColumn workerIDDataGridViewTextBoxColumn2;
+        private System.Windows.Forms.DataGridViewTextBoxColumn iDOrderDataGridViewTextBoxColumn2;
+        private System.Windows.Forms.DataGridViewTextBoxColumn orderContentDataGridViewTextBoxColumn1;
+        private System.Windows.Forms.DataGridViewTextBoxColumn costDataGridViewTextBoxColumn1;
     }
 }

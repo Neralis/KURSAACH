@@ -48,6 +48,7 @@
             this.materialTextBox21.MouseState = MaterialSkin.MouseState.OUT;
             this.materialTextBox21.Name = "materialTextBox21";
             this.materialTextBox21.PasswordChar = '\0';
+            this.materialTextBox21.PrefixSuffixText = null;
             this.materialTextBox21.ReadOnly = false;
             this.materialTextBox21.RightToLeft = System.Windows.Forms.RightToLeft.No;
             this.materialTextBox21.SelectedText = "";
@@ -121,6 +122,7 @@
             this.Controls.Add(this.materialTextBox21);
             this.Name = "Form1";
             this.Text = "Вход";
+            this.FormClosed += new System.Windows.Forms.FormClosedEventHandler(this.Form1_FormClosed);
             this.Load += new System.EventHandler(this.Form1_Load);
             this.ResumeLayout(false);
 
