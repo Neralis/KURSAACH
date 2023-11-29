@@ -12,6 +12,7 @@ C:\Users\ip521-14\source\repos\KURSAACH\KURSAACH\obj\Debug\KURSAACH.exe
 C:\Users\ip521-14\source\repos\KURSAACH\KURSAACH\obj\Debug\KURSAACH.pdb
 C:\Users\ip521-14\source\repos\KURSAACH\KURSAACH\obj\Debug\KURSAACH.Form2.resources
 C:\Users\ip521-14\source\repos\KURSAACH\KURSAACH\obj\Debug\KURSAACH.Form3.resources
+<<<<<<< Updated upstream
 C:\Users\ip521-14\source\repos\Git\KURSAACH\KURSAACH\KURSAACH\bin\Debug\KURSAACH.exe.config
 C:\Users\ip521-14\source\repos\Git\KURSAACH\KURSAACH\KURSAACH\bin\Debug\KURSAACH.exe
 C:\Users\ip521-14\source\repos\Git\KURSAACH\KURSAACH\KURSAACH\bin\Debug\KURSAACH.pdb
@@ -26,3 +27,19 @@ C:\Users\ip521-14\source\repos\Git\KURSAACH\KURSAACH\KURSAACH\obj\Debug\KURSAACH
 C:\Users\ip521-14\source\repos\Git\KURSAACH\KURSAACH\KURSAACH\obj\Debug\KURSAACH.csproj.CopyComplete
 C:\Users\ip521-14\source\repos\Git\KURSAACH\KURSAACH\KURSAACH\obj\Debug\KURSAACH.exe
 C:\Users\ip521-14\source\repos\Git\KURSAACH\KURSAACH\KURSAACH\obj\Debug\KURSAACH.pdb
+=======
+D:\GitServer\KURSAACH\KURSAACH\KURSAACH\bin\Debug\KURSAACH.exe.config
+D:\GitServer\KURSAACH\KURSAACH\KURSAACH\bin\Debug\KURSAACH.exe
+D:\GitServer\KURSAACH\KURSAACH\KURSAACH\bin\Debug\KURSAACH.pdb
+D:\GitServer\KURSAACH\KURSAACH\KURSAACH\bin\Debug\MaterialSkin.dll
+D:\GitServer\KURSAACH\KURSAACH\KURSAACH\obj\Debug\KURSAACH.csproj.AssemblyReference.cache
+D:\GitServer\KURSAACH\KURSAACH\KURSAACH\obj\Debug\KURSAACH.Form1.resources
+D:\GitServer\KURSAACH\KURSAACH\KURSAACH\obj\Debug\KURSAACH.Form2.resources
+D:\GitServer\KURSAACH\KURSAACH\KURSAACH\obj\Debug\KURSAACH.Form3.resources
+D:\GitServer\KURSAACH\KURSAACH\KURSAACH\obj\Debug\KURSAACH.Properties.Resources.resources
+D:\GitServer\KURSAACH\KURSAACH\KURSAACH\obj\Debug\KURSAACH.csproj.GenerateResource.cache
+D:\GitServer\KURSAACH\KURSAACH\KURSAACH\obj\Debug\KURSAACH.csproj.CoreCompileInputs.cache
+D:\GitServer\KURSAACH\KURSAACH\KURSAACH\obj\Debug\KURSAACH.csproj.CopyComplete
+D:\GitServer\KURSAACH\KURSAACH\KURSAACH\obj\Debug\KURSAACH.exe
+D:\GitServer\KURSAACH\KURSAACH\KURSAACH\obj\Debug\KURSAACH.pdb
+>>>>>>> Stashed changes

@@ -9,11 +9,13 @@ using System.Threading.Tasks;
 using System.Windows.Forms;
 using MaterialSkin.Controls;
 using MaterialSkin;
+using System.Data.SqlClient;
 
 namespace KURSAACH
 {
     public partial class Form2 : MaterialForm
     {
+        string connectionString = "Data Source=EDU-MSSQL2008R2;Initial Catalog=KR_Ip521_Nikitin;Integrated Security=True";
         public Form2()
         {
             InitializeComponent();
@@ -26,7 +28,7 @@ namespace KURSAACH
 
         private void Form2_Load(object sender, EventArgs e)
         {
-            // TODO: данная строка кода позволяет загрузить данные в таблицу "kR_Ip521_NikitinDataSet._Цена_заказа__1500". При необходимости она может быть перемещена или удалена.
+            /*// TODO: данная строка кода позволяет загрузить данные в таблицу "kR_Ip521_NikitinDataSet._Цена_заказа__1500". При необходимости она может быть перемещена или удалена.
             this.цена_заказа__1500TableAdapter.Fill(this.kR_Ip521_NikitinDataSet._Цена_заказа__1500);
             // TODO: данная строка кода позволяет загрузить данные в таблицу "kR_Ip521_NikitinDataSet.Сумма_выполненных_заказов". При необходимости она может быть перемещена или удалена.
             this.сумма_выполненных_заказовTableAdapter.Fill(this.kR_Ip521_NikitinDataSet.Сумма_выполненных_заказов);
@@ -54,7 +56,7 @@ namespace KURSAACH
             this.couriersTableAdapter.Fill(this.kR_Ip521_NikitinDataSet.Couriers);
             // TODO: данная строка кода позволяет загрузить данные в таблицу "kR_Ip521_NikitinDataSet.Clients". При необходимости она может быть перемещена или удалена.
             this.clientsTableAdapter.Fill(this.kR_Ip521_NikitinDataSet.Clients);
-            
+            */
 
         }
 
@@ -80,6 +82,133 @@ namespace KURSAACH
         private void Form2_FormClosed(object sender, FormClosedEventArgs e)
         {
             Application.Exit();
+            
+        }
+
+        private void materialSwitch1_CheckedChanged(object sender, EventArgs e)
+        {
+            if (materialSwitch1.Checked == true)
+            {
+                materialTextBox21.Visible = false;
+                materialTextBox22.Visible = false;
+                materialTextBox23.Visible = false;
+                materialTextBox26.Visible = true;
+                materialButton3.Visible = true;
+                materialButton1.Visible = false;
+            }
+            else
+            {
+                materialTextBox26.Visible = false;
+                materialTextBox21.Visible = true;
+                materialTextBox22.Visible = true;
+                materialTextBox23.Visible = true;
+                materialButton1.Visible = true;
+                materialButton3.Visible = false;
+            }
+        }
+
+        private void materialSwitch2_CheckedChanged(object sender, EventArgs e)
+        {
+            if (materialSwitch2.Checked == true)
+            {
+                materialTextBox27.Visible = false;
+                materialTextBox25.Visible = true;
+                materialButton2.Visible = true;
+                materialButton4.Visible = false;
+                materialCheckbox1.Visible = false;
+            }
+            else
+            {
+                materialTextBox27.Visible = true;
+                materialTextBox25.Visible = false;
+                materialButton4.Visible = true;
+                materialButton2.Visible = false;
+                materialCheckbox1.Visible = true;
+            }
+        }
+
+        private void materialSwitch3_CheckedChanged(object sender, EventArgs e)
+        {
+            if (materialSwitch3.Checked == true)
+            {
+                materialTextBox21.Visible = false;
+                materialTextBox22.Visible = false;
+                materialTextBox23.Visible = false;
+                materialTextBox26.Visible = true;
+                materialButton3.Visible = true;
+                materialButton1.Visible = false;
+            }
+            else
+            {
+                materialTextBox26.Visible = false;
+                materialTextBox21.Visible = true;
+                materialTextBox22.Visible = true;
+                materialTextBox23.Visible = true;
+                materialButton1.Visible = true;
+                materialButton3.Visible = false;
+            }
+        }
+
+        private void materialSwitch4_CheckedChanged(object sender, EventArgs e)
+        {
+            if (materialSwitch4.Checked == true)
+            {
+                materialTextBox21.Visible = false;
+                materialTextBox22.Visible = false;
+                materialTextBox23.Visible = false;
+                materialTextBox26.Visible = true;
+                materialButton3.Visible = true;
+                materialButton1.Visible = false;
+            }
+            else
+            {
+                materialTextBox26.Visible = false;
+                materialTextBox21.Visible = true;
+                materialTextBox22.Visible = true;
+                materialTextBox23.Visible = true;
+                materialButton1.Visible = true;
+                materialButton3.Visible = false;
+            }
+        }
+
+
+        private void materialButton1_Click(object sender, EventArgs e)
+        {
+
+            // Формируем строку запроса с использованием параметров
+            string queryInsert = "INSERT INTO Clients (ID_Client, ClientName, Adress, PhoneNumber) " +
+                                 "VALUES (@ID_Client, @ClientName, @Adress, @PhoneNumber)";
+
+            using (SqlConnection connection = new SqlConnection(connectionString))
+            {
+                try
+                {
+                    connection.Open();
+
+                    using (SqlCommand command = new SqlCommand(queryInsert, connection))
+                    {
+                        // Добавляем параметры с значениями из textBox
+                        command.Parameters.AddWithValue("@ID_Client", materialTextBox29.Text);
+                        command.Parameters.AddWithValue("@ClientName", materialTextBox210.Text);
+                        command.Parameters.AddWithValue("@Adress", materialTextBox211.Text);
+                        command.Parameters.AddWithValue("@PhoneNumber", materialTextBox212.Text);
+
+                        // Выполняем запрос
+                        command.ExecuteNonQuery();
+
+                        MessageBox.Show("Данные успешно добавлены", "Успех");
+                    }
+                }
+                catch (Exception ex)
+                {
+                    MessageBox.Show("Ошибка при добавлении данных: " + ex.Message, "Ошибка");
+                }
+            }
+        }
+
+        private void materialButton6_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }

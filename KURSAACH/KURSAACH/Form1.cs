@@ -36,14 +36,32 @@ namespace KURSAACH
 
         private void materialButton1_Click(object sender, EventArgs e)
         {
-            Form2 f2 = new Form2();
-            f2.Show();
-            this.Hide();
+            if (materialTextBox21.Text == "admin" && materialTextBox22.Text == "admin")
+            {
+                Form2 f2 = new Form2();
+                f2.Show();
+                this.Hide();
+            }
+            else if (materialTextBox21.Text == "user" && materialTextBox22.Text == "user")
+            {
+                Form2 f2 = new Form2();
+                f2.Show();
+                this.Hide();
+            }
+            else
+            {
+                MessageBox.Show("Неправильный лоин и пароль", "Отказано в доступе", MessageBoxButtons.OK, MessageBoxIcon.Error);
+            }
         }
 
         private void Form1_FormClosed(object sender, FormClosedEventArgs e)
         {
             Application.Exit();
+        }
+
+        private void materialTextBox22_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }

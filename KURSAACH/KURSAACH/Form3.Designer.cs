@@ -34,17 +34,17 @@
             this.materialButton1 = new MaterialSkin.Controls.MaterialButton();
             this.tabControl1 = new System.Windows.Forms.TabControl();
             this.tabPage1 = new System.Windows.Forms.TabPage();
-            this.materialTextBox26 = new MaterialSkin.Controls.MaterialTextBox2();
-            this.tabPage2 = new System.Windows.Forms.TabPage();
             this.materialSwitch1 = new MaterialSkin.Controls.MaterialSwitch();
+            this.materialTextBox26 = new MaterialSkin.Controls.MaterialTextBox2();
             this.materialButton3 = new MaterialSkin.Controls.MaterialButton();
-            this.tabPage3 = new System.Windows.Forms.TabPage();
-            this.tabPage4 = new System.Windows.Forms.TabPage();
+            this.tabPage2 = new System.Windows.Forms.TabPage();
+            this.materialCheckbox1 = new MaterialSkin.Controls.MaterialCheckbox();
             this.materialSwitch2 = new MaterialSkin.Controls.MaterialSwitch();
             this.materialTextBox25 = new MaterialSkin.Controls.MaterialTextBox2();
             this.materialButton2 = new MaterialSkin.Controls.MaterialButton();
             this.materialButton4 = new MaterialSkin.Controls.MaterialButton();
             this.materialTextBox27 = new MaterialSkin.Controls.MaterialTextBox2();
+            this.tabPage3 = new System.Windows.Forms.TabPage();
             this.materialSwitch3 = new MaterialSkin.Controls.MaterialSwitch();
             this.materialTextBox29 = new MaterialSkin.Controls.MaterialTextBox2();
             this.materialTextBox210 = new MaterialSkin.Controls.MaterialTextBox2();
@@ -52,6 +52,7 @@
             this.materialButton6 = new MaterialSkin.Controls.MaterialButton();
             this.materialTextBox211 = new MaterialSkin.Controls.MaterialTextBox2();
             this.materialTextBox212 = new MaterialSkin.Controls.MaterialTextBox2();
+            this.tabPage4 = new System.Windows.Forms.TabPage();
             this.materialSwitch4 = new MaterialSkin.Controls.MaterialSwitch();
             this.materialTextBox213 = new MaterialSkin.Controls.MaterialTextBox2();
             this.materialTextBox214 = new MaterialSkin.Controls.MaterialTextBox2();
@@ -59,7 +60,6 @@
             this.materialButton8 = new MaterialSkin.Controls.MaterialButton();
             this.materialTextBox215 = new MaterialSkin.Controls.MaterialTextBox2();
             this.materialTextBox216 = new MaterialSkin.Controls.MaterialTextBox2();
-            this.materialCheckbox1 = new MaterialSkin.Controls.MaterialCheckbox();
             this.tabControl1.SuspendLayout();
             this.tabPage1.SuspendLayout();
             this.tabPage2.SuspendLayout();
@@ -77,7 +77,7 @@
             this.materialTextBox21.HideSelection = true;
             this.materialTextBox21.Hint = "ClientName";
             this.materialTextBox21.LeadingIcon = null;
-            this.materialTextBox21.Location = new System.Drawing.Point(33, 42);
+            this.materialTextBox21.Location = new System.Drawing.Point(33, 38);
             this.materialTextBox21.MaxLength = 32767;
             this.materialTextBox21.MouseState = MaterialSkin.MouseState.OUT;
             this.materialTextBox21.Name = "materialTextBox21";
@@ -106,7 +106,7 @@
             this.materialTextBox22.HideSelection = true;
             this.materialTextBox22.Hint = "Adress";
             this.materialTextBox22.LeadingIcon = null;
-            this.materialTextBox22.Location = new System.Drawing.Point(33, 96);
+            this.materialTextBox22.Location = new System.Drawing.Point(33, 92);
             this.materialTextBox22.MaxLength = 32767;
             this.materialTextBox22.MouseState = MaterialSkin.MouseState.OUT;
             this.materialTextBox22.Name = "materialTextBox22";
@@ -135,7 +135,7 @@
             this.materialTextBox23.HideSelection = true;
             this.materialTextBox23.Hint = "PhoneNumber";
             this.materialTextBox23.LeadingIcon = null;
-            this.materialTextBox23.Location = new System.Drawing.Point(33, 150);
+            this.materialTextBox23.Location = new System.Drawing.Point(33, 146);
             this.materialTextBox23.MaxLength = 32767;
             this.materialTextBox23.MouseState = MaterialSkin.MouseState.OUT;
             this.materialTextBox23.Name = "materialTextBox23";
@@ -162,7 +162,7 @@
             this.materialButton1.Depth = 0;
             this.materialButton1.HighEmphasis = true;
             this.materialButton1.Icon = null;
-            this.materialButton1.Location = new System.Drawing.Point(100, 242);
+            this.materialButton1.Location = new System.Drawing.Point(100, 238);
             this.materialButton1.Margin = new System.Windows.Forms.Padding(4, 6, 4, 6);
             this.materialButton1.MouseState = MaterialSkin.MouseState.HOVER;
             this.materialButton1.Name = "materialButton1";
@@ -205,6 +205,22 @@
             this.tabPage1.Text = "Clients";
             this.tabPage1.UseVisualStyleBackColor = true;
             // 
+            // materialSwitch1
+            // 
+            this.materialSwitch1.AutoSize = true;
+            this.materialSwitch1.Depth = 0;
+            this.materialSwitch1.Location = new System.Drawing.Point(72, 326);
+            this.materialSwitch1.Margin = new System.Windows.Forms.Padding(0);
+            this.materialSwitch1.MouseLocation = new System.Drawing.Point(-1, -1);
+            this.materialSwitch1.MouseState = MaterialSkin.MouseState.HOVER;
+            this.materialSwitch1.Name = "materialSwitch1";
+            this.materialSwitch1.Ripple = true;
+            this.materialSwitch1.Size = new System.Drawing.Size(176, 37);
+            this.materialSwitch1.TabIndex = 3;
+            this.materialSwitch1.Text = "INSERT/DELETE";
+            this.materialSwitch1.UseVisualStyleBackColor = true;
+            this.materialSwitch1.CheckedChanged += new System.EventHandler(this.materialSwitch1_CheckedChanged);
+            // 
             // materialTextBox26
             // 
             this.materialTextBox26.AnimateReadOnly = false;
@@ -215,7 +231,7 @@
             this.materialTextBox26.HideSelection = true;
             this.materialTextBox26.Hint = "ID_Client";
             this.materialTextBox26.LeadingIcon = null;
-            this.materialTextBox26.Location = new System.Drawing.Point(33, 42);
+            this.materialTextBox26.Location = new System.Drawing.Point(33, 38);
             this.materialTextBox26.MaxLength = 32767;
             this.materialTextBox26.MouseState = MaterialSkin.MouseState.OUT;
             this.materialTextBox26.Name = "materialTextBox26";
@@ -235,6 +251,27 @@
             this.materialTextBox26.UseSystemPasswordChar = false;
             this.materialTextBox26.Visible = false;
             // 
+            // materialButton3
+            // 
+            this.materialButton3.AutoSize = false;
+            this.materialButton3.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
+            this.materialButton3.Density = MaterialSkin.Controls.MaterialButton.MaterialButtonDensity.Default;
+            this.materialButton3.Depth = 0;
+            this.materialButton3.HighEmphasis = true;
+            this.materialButton3.Icon = null;
+            this.materialButton3.Location = new System.Drawing.Point(100, 238);
+            this.materialButton3.Margin = new System.Windows.Forms.Padding(4, 6, 4, 6);
+            this.materialButton3.MouseState = MaterialSkin.MouseState.HOVER;
+            this.materialButton3.Name = "materialButton3";
+            this.materialButton3.NoAccentTextColor = System.Drawing.Color.Empty;
+            this.materialButton3.Size = new System.Drawing.Size(112, 56);
+            this.materialButton3.TabIndex = 2;
+            this.materialButton3.Text = "DELETE";
+            this.materialButton3.Type = MaterialSkin.Controls.MaterialButton.MaterialButtonType.Contained;
+            this.materialButton3.UseAccentColor = false;
+            this.materialButton3.UseVisualStyleBackColor = true;
+            this.materialButton3.Visible = false;
+            // 
             // tabPage2
             // 
             this.tabPage2.Controls.Add(this.materialCheckbox1);
@@ -251,74 +288,21 @@
             this.tabPage2.Text = "Couriers";
             this.tabPage2.UseVisualStyleBackColor = true;
             // 
-            // materialSwitch1
+            // materialCheckbox1
             // 
-            this.materialSwitch1.AutoSize = true;
-            this.materialSwitch1.Depth = 0;
-            this.materialSwitch1.Location = new System.Drawing.Point(72, 330);
-            this.materialSwitch1.Margin = new System.Windows.Forms.Padding(0);
-            this.materialSwitch1.MouseLocation = new System.Drawing.Point(-1, -1);
-            this.materialSwitch1.MouseState = MaterialSkin.MouseState.HOVER;
-            this.materialSwitch1.Name = "materialSwitch1";
-            this.materialSwitch1.Ripple = true;
-            this.materialSwitch1.Size = new System.Drawing.Size(176, 37);
-            this.materialSwitch1.TabIndex = 3;
-            this.materialSwitch1.Text = "INSERT/DELETE";
-            this.materialSwitch1.UseVisualStyleBackColor = true;
-            this.materialSwitch1.CheckedChanged += new System.EventHandler(this.materialSwitch1_CheckedChanged);
-            // 
-            // materialButton3
-            // 
-            this.materialButton3.AutoSize = false;
-            this.materialButton3.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
-            this.materialButton3.Density = MaterialSkin.Controls.MaterialButton.MaterialButtonDensity.Default;
-            this.materialButton3.Depth = 0;
-            this.materialButton3.HighEmphasis = true;
-            this.materialButton3.Icon = null;
-            this.materialButton3.Location = new System.Drawing.Point(100, 242);
-            this.materialButton3.Margin = new System.Windows.Forms.Padding(4, 6, 4, 6);
-            this.materialButton3.MouseState = MaterialSkin.MouseState.HOVER;
-            this.materialButton3.Name = "materialButton3";
-            this.materialButton3.NoAccentTextColor = System.Drawing.Color.Empty;
-            this.materialButton3.Size = new System.Drawing.Size(112, 56);
-            this.materialButton3.TabIndex = 2;
-            this.materialButton3.Text = "DELETE";
-            this.materialButton3.Type = MaterialSkin.Controls.MaterialButton.MaterialButtonType.Contained;
-            this.materialButton3.UseAccentColor = false;
-            this.materialButton3.UseVisualStyleBackColor = true;
-            this.materialButton3.Visible = false;
-            // 
-            // tabPage3
-            // 
-            this.tabPage3.Controls.Add(this.materialSwitch3);
-            this.tabPage3.Controls.Add(this.materialTextBox29);
-            this.tabPage3.Controls.Add(this.materialTextBox210);
-            this.tabPage3.Controls.Add(this.materialButton5);
-            this.tabPage3.Controls.Add(this.materialButton6);
-            this.tabPage3.Controls.Add(this.materialTextBox211);
-            this.tabPage3.Controls.Add(this.materialTextBox212);
-            this.tabPage3.Location = new System.Drawing.Point(4, 22);
-            this.tabPage3.Name = "tabPage3";
-            this.tabPage3.Size = new System.Drawing.Size(334, 449);
-            this.tabPage3.TabIndex = 2;
-            this.tabPage3.Text = "Order";
-            this.tabPage3.UseVisualStyleBackColor = true;
-            // 
-            // tabPage4
-            // 
-            this.tabPage4.Controls.Add(this.materialSwitch4);
-            this.tabPage4.Controls.Add(this.materialTextBox213);
-            this.tabPage4.Controls.Add(this.materialTextBox214);
-            this.tabPage4.Controls.Add(this.materialButton7);
-            this.tabPage4.Controls.Add(this.materialButton8);
-            this.tabPage4.Controls.Add(this.materialTextBox215);
-            this.tabPage4.Controls.Add(this.materialTextBox216);
-            this.tabPage4.Location = new System.Drawing.Point(4, 22);
-            this.tabPage4.Name = "tabPage4";
-            this.tabPage4.Size = new System.Drawing.Size(334, 449);
-            this.tabPage4.TabIndex = 3;
-            this.tabPage4.Text = "Workers";
-            this.tabPage4.UseVisualStyleBackColor = true;
+            this.materialCheckbox1.AutoSize = true;
+            this.materialCheckbox1.Depth = 0;
+            this.materialCheckbox1.Location = new System.Drawing.Point(91, 130);
+            this.materialCheckbox1.Margin = new System.Windows.Forms.Padding(0);
+            this.materialCheckbox1.MouseLocation = new System.Drawing.Point(-1, -1);
+            this.materialCheckbox1.MouseState = MaterialSkin.MouseState.HOVER;
+            this.materialCheckbox1.Name = "materialCheckbox1";
+            this.materialCheckbox1.ReadOnly = false;
+            this.materialCheckbox1.Ripple = true;
+            this.materialCheckbox1.Size = new System.Drawing.Size(137, 37);
+            this.materialCheckbox1.TabIndex = 11;
+            this.materialCheckbox1.Text = "DeliveryStatus";
+            this.materialCheckbox1.UseVisualStyleBackColor = true;
             // 
             // materialSwitch2
             // 
@@ -386,6 +370,7 @@
             this.materialButton2.UseAccentColor = false;
             this.materialButton2.UseVisualStyleBackColor = true;
             this.materialButton2.Visible = false;
+            this.materialButton2.Click += new System.EventHandler(this.materialButton2_Click);
             // 
             // materialButton4
             // 
@@ -435,6 +420,22 @@
             this.materialTextBox27.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
             this.materialTextBox27.TrailingIcon = null;
             this.materialTextBox27.UseSystemPasswordChar = false;
+            // 
+            // tabPage3
+            // 
+            this.tabPage3.Controls.Add(this.materialSwitch3);
+            this.tabPage3.Controls.Add(this.materialTextBox29);
+            this.tabPage3.Controls.Add(this.materialTextBox210);
+            this.tabPage3.Controls.Add(this.materialButton5);
+            this.tabPage3.Controls.Add(this.materialButton6);
+            this.tabPage3.Controls.Add(this.materialTextBox211);
+            this.tabPage3.Controls.Add(this.materialTextBox212);
+            this.tabPage3.Location = new System.Drawing.Point(4, 22);
+            this.tabPage3.Name = "tabPage3";
+            this.tabPage3.Size = new System.Drawing.Size(334, 449);
+            this.tabPage3.TabIndex = 2;
+            this.tabPage3.Text = "Order";
+            this.tabPage3.UseVisualStyleBackColor = true;
             // 
             // materialSwitch3
             // 
@@ -610,6 +611,22 @@
             this.materialTextBox212.TrailingIcon = null;
             this.materialTextBox212.UseSystemPasswordChar = false;
             // 
+            // tabPage4
+            // 
+            this.tabPage4.Controls.Add(this.materialSwitch4);
+            this.tabPage4.Controls.Add(this.materialTextBox213);
+            this.tabPage4.Controls.Add(this.materialTextBox214);
+            this.tabPage4.Controls.Add(this.materialButton7);
+            this.tabPage4.Controls.Add(this.materialButton8);
+            this.tabPage4.Controls.Add(this.materialTextBox215);
+            this.tabPage4.Controls.Add(this.materialTextBox216);
+            this.tabPage4.Location = new System.Drawing.Point(4, 22);
+            this.tabPage4.Name = "tabPage4";
+            this.tabPage4.Size = new System.Drawing.Size(334, 449);
+            this.tabPage4.TabIndex = 3;
+            this.tabPage4.Text = "Workers";
+            this.tabPage4.UseVisualStyleBackColor = true;
+            // 
             // materialSwitch4
             // 
             this.materialSwitch4.AutoSize = true;
@@ -783,22 +800,6 @@
             this.materialTextBox216.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
             this.materialTextBox216.TrailingIcon = null;
             this.materialTextBox216.UseSystemPasswordChar = false;
-            // 
-            // materialCheckbox1
-            // 
-            this.materialCheckbox1.AutoSize = true;
-            this.materialCheckbox1.Depth = 0;
-            this.materialCheckbox1.Location = new System.Drawing.Point(91, 130);
-            this.materialCheckbox1.Margin = new System.Windows.Forms.Padding(0);
-            this.materialCheckbox1.MouseLocation = new System.Drawing.Point(-1, -1);
-            this.materialCheckbox1.MouseState = MaterialSkin.MouseState.HOVER;
-            this.materialCheckbox1.Name = "materialCheckbox1";
-            this.materialCheckbox1.ReadOnly = false;
-            this.materialCheckbox1.Ripple = true;
-            this.materialCheckbox1.Size = new System.Drawing.Size(137, 37);
-            this.materialCheckbox1.TabIndex = 11;
-            this.materialCheckbox1.Text = "DeliveryStatus";
-            this.materialCheckbox1.UseVisualStyleBackColor = true;
             // 
             // Form3
             // 
