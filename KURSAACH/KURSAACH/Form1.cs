@@ -15,6 +15,8 @@ namespace KURSAACH
 {
     public partial class Form1 : MaterialForm
     {
+        static public string User;
+
         public Form1()
         {
             InitializeComponent();
@@ -38,12 +40,14 @@ namespace KURSAACH
         {
             if (materialTextBox21.Text == "admin" && materialTextBox22.Text == "admin")
             {
+                User = "admin";
                 Form2 f2 = new Form2();
                 f2.Show();
                 this.Hide();
             }
             else if (materialTextBox21.Text == "user" && materialTextBox22.Text == "user")
             {
+                User = "user";
                 Form2 f2 = new Form2();
                 f2.Show();
                 this.Hide();

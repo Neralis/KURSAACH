@@ -43,3 +43,10 @@ D:\GitServer\KURSAACH\KURSAACH\KURSAACH\obj\Debug\KURSAACH.csproj.CopyComplete
 D:\GitServer\KURSAACH\KURSAACH\KURSAACH\obj\Debug\KURSAACH.exe
 D:\GitServer\KURSAACH\KURSAACH\KURSAACH\obj\Debug\KURSAACH.pdb
 >>>>>>> Stashed changes
+D:\GitServer\KURSAACH\KURSAACH\KURSAACH\bin\Debug\EPPlus.dll
+D:\GitServer\KURSAACH\KURSAACH\KURSAACH\bin\Debug\EPPlus.Interfaces.dll
+D:\GitServer\KURSAACH\KURSAACH\KURSAACH\bin\Debug\EPPlus.System.Drawing.dll
+D:\GitServer\KURSAACH\KURSAACH\KURSAACH\bin\Debug\Microsoft.IO.RecyclableMemoryStream.dll
+D:\GitServer\KURSAACH\KURSAACH\KURSAACH\bin\Debug\System.ComponentModel.Annotations.dll
+D:\GitServer\KURSAACH\KURSAACH\KURSAACH\bin\Debug\EPPlus.xml
+D:\GitServer\KURSAACH\KURSAACH\KURSAACH\bin\Debug\Microsoft.IO.RecyclableMemoryStream.xml

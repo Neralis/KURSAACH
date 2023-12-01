@@ -10,6 +10,9 @@ using System.Windows.Forms;
 using MaterialSkin.Controls;
 using MaterialSkin;
 using System.Data.SqlClient;
+using OfficeOpenXml;
+using OfficeOpenXml.Style;
+using System.Reflection.Emit;
 
 namespace KURSAACH
 {
@@ -57,6 +60,44 @@ namespace KURSAACH
             // TODO: данная строка кода позволяет загрузить данные в таблицу "kR_Ip521_NikitinDataSet.Clients". При необходимости она может быть перемещена или удалена.
             this.clientsTableAdapter.Fill(this.kR_Ip521_NikitinDataSet.Clients);
             */
+
+            if (Form1.User == "user")
+            {
+                //tabControl1.Visible = false;
+                //tabControl2.Visible = true;
+                materialTextBox26.ReadOnly = true;
+                materialTextBox21.ReadOnly = true;
+                materialTextBox22.ReadOnly = true;
+                materialTextBox23.ReadOnly = true;
+                materialTextBox25.ReadOnly = true;
+                materialTextBox27.ReadOnly = true;
+
+                dataGridView1.ReadOnly = true;
+                dataGridView2.ReadOnly = true;
+                dataGridView3.ReadOnly = true;
+                dataGridView4.ReadOnly = true;
+                dataGridView1.AllowUserToAddRows = false;
+                dataGridView2.AllowUserToAddRows = false;
+                dataGridView3.AllowUserToAddRows = false;
+                dataGridView4.AllowUserToAddRows = false;
+                bindingNavigatorDeleteItem.Visible = false;
+                bindingNavigatorAddNewItem.Visible = false;
+                toolStripButton1.Visible = false;
+                toolStripButton2.Visible = false;
+                toolStripButton7.Visible = false;
+                toolStripButton8.Visible = false;
+                toolStripButton13.Visible = false;
+                toolStripButton14.Visible = false;
+
+                Size = new Size(810, 789);
+                MaximumSize = new Size(810, 789);
+                MinimumSize = new Size(810, 789);
+            }
+            else
+            if (Form1.User == "admin")
+            {
+
+            }
 
         }
 
@@ -209,6 +250,41 @@ namespace KURSAACH
         private void materialButton6_Click(object sender, EventArgs e)
         {
 
+        }
+
+        private void materialButton3_Click(object sender, EventArgs e)
+        {
+                // Получение индекса выбранной строки в DataGridView
+                int selectedIndex = dataGridView1.CurrentCell.RowIndex;
+
+                // Проверка, что строка была выбрана
+                if (selectedIndex >= 0 && selectedIndex < dataGridView1.Rows.Count)
+                {
+                    // Получение значения в ячейке, содержащей идентификатор записи
+                    int recordId = Convert.ToInt32(dataGridView1.Rows[selectedIndex].Cells["ID"].Value);
+
+                    // Выполнение SQL-запроса для удаления записи
+                    using (SqlConnection connection = new SqlConnection(connectionString))
+                    {
+                        connection.Open();
+                        string query = $"DELETE FROM Clients WHERE ID = {recordId}";
+
+                        using (SqlCommand command = new SqlCommand(query, connection))
+                        {
+                            command.ExecuteNonQuery();
+                        }
+                    }
+
+                    // Обновление DataGridView после удаления записи
+                    dataGridView1.Rows.RemoveAt(selectedIndex);
+
+                    MessageBox.Show("Запись успешно удалена.", "Успех", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                }
+                else
+                {
+                    MessageBox.Show("Выберите запись для удаления.", "Внимание", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                
+            }
         }
     }
 }
