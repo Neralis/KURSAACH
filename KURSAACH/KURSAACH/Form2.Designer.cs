@@ -35,6 +35,9 @@
             this.miniToolStrip = new System.Windows.Forms.BindingNavigator(this.components);
             this.tabControl1 = new System.Windows.Forms.TabControl();
             this.tabPage1 = new System.Windows.Forms.TabPage();
+            this.groupBox1 = new System.Windows.Forms.GroupBox();
+            this.materialComboBox1 = new MaterialSkin.Controls.MaterialComboBox();
+            this.materialTextBox3 = new MaterialSkin.Controls.MaterialTextBox();
             this.materialSwitch1 = new MaterialSkin.Controls.MaterialSwitch();
             this.materialTextBox26 = new MaterialSkin.Controls.MaterialTextBox2();
             this.clientsBindingSource = new System.Windows.Forms.BindingSource(this.components);
@@ -100,6 +103,14 @@
             this.materialTextBox211 = new MaterialSkin.Controls.MaterialTextBox2();
             this.materialTextBox212 = new MaterialSkin.Controls.MaterialTextBox2();
             this.dataGridView3 = new System.Windows.Forms.DataGridView();
+            this.iDOrderDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.statusDataGridViewCheckBoxColumn = new System.Windows.Forms.DataGridViewCheckBoxColumn();
+            this.orderContentDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.dateDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.clientsIDClientDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.workersWorkerIDDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.couriersIDCourierDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.costDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.bindingNavigator3 = new System.Windows.Forms.BindingNavigator(this.components);
             this.toolStripButton7 = new System.Windows.Forms.ToolStripButton();
             this.toolStripLabel2 = new System.Windows.Forms.ToolStripLabel();
@@ -342,24 +353,34 @@
             this.средняя_цена_заказаTableAdapter = new KURSAACH.KR_Ip521_NikitinDataSetTableAdapters.Средняя_цена_заказаTableAdapter();
             this.сумма_выполненных_заказовTableAdapter = new KURSAACH.KR_Ip521_NikitinDataSetTableAdapters.Сумма_выполненных_заказовTableAdapter();
             this.цена_заказа__1500TableAdapter = new KURSAACH.KR_Ip521_NikitinDataSetTableAdapters.Цена_заказа__1500TableAdapter();
+            this.materialSwitch5 = new MaterialSkin.Controls.MaterialSwitch();
             this.materialTextBox1 = new MaterialSkin.Controls.MaterialTextBox();
+            this.materialComboBox2 = new MaterialSkin.Controls.MaterialComboBox();
+            this.groupBox2 = new System.Windows.Forms.GroupBox();
+            this.materialSwitch6 = new MaterialSkin.Controls.MaterialSwitch();
+            this.materialComboBox3 = new MaterialSkin.Controls.MaterialComboBox();
+            this.materialComboBox4 = new MaterialSkin.Controls.MaterialComboBox();
             this.materialTextBox2 = new MaterialSkin.Controls.MaterialTextBox();
-            this.materialTextBox3 = new MaterialSkin.Controls.MaterialTextBox();
-            this.groupBox1 = new System.Windows.Forms.GroupBox();
+            this.materialTextBox4 = new MaterialSkin.Controls.MaterialTextBox();
+            this.groupBox3 = new System.Windows.Forms.GroupBox();
+            this.materialSwitch7 = new MaterialSkin.Controls.MaterialSwitch();
+            this.materialComboBox5 = new MaterialSkin.Controls.MaterialComboBox();
+            this.materialComboBox6 = new MaterialSkin.Controls.MaterialComboBox();
+            this.materialTextBox5 = new MaterialSkin.Controls.MaterialTextBox();
+            this.materialTextBox6 = new MaterialSkin.Controls.MaterialTextBox();
+            this.groupBox4 = new System.Windows.Forms.GroupBox();
+            this.materialSwitch8 = new MaterialSkin.Controls.MaterialSwitch();
+            this.materialComboBox7 = new MaterialSkin.Controls.MaterialComboBox();
+            this.materialComboBox8 = new MaterialSkin.Controls.MaterialComboBox();
+            this.materialTextBox7 = new MaterialSkin.Controls.MaterialTextBox();
+            this.materialTextBox8 = new MaterialSkin.Controls.MaterialTextBox();
             this.materialButton9 = new MaterialSkin.Controls.MaterialButton();
-            this.costDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.couriersIDCourierDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.workersWorkerIDDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.clientsIDClientDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.dateDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.orderContentDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.statusDataGridViewCheckBoxColumn = new System.Windows.Forms.DataGridViewCheckBoxColumn();
-            this.iDOrderDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
             ((System.ComponentModel.ISupportInitialize)(this.bindingSource1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.kR_Ip521_NikitinDataSet)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.miniToolStrip)).BeginInit();
             this.tabControl1.SuspendLayout();
             this.tabPage1.SuspendLayout();
+            this.groupBox1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.clientsBindingSource)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.bindingNavigator1)).BeginInit();
@@ -433,7 +454,9 @@
             ((System.ComponentModel.ISupportInitialize)(this.ценаЗаказа1500BindingSource)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView14)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.заказыИРаботникиBindingSource1)).BeginInit();
-            this.groupBox1.SuspendLayout();
+            this.groupBox2.SuspendLayout();
+            this.groupBox3.SuspendLayout();
+            this.groupBox4.SuspendLayout();
             this.SuspendLayout();
             // 
             // bindingSource1
@@ -484,6 +507,7 @@
             // 
             // tabPage1
             // 
+            this.tabPage1.Controls.Add(this.materialButton9);
             this.tabPage1.Controls.Add(this.groupBox1);
             this.tabPage1.Controls.Add(this.materialSwitch1);
             this.tabPage1.Controls.Add(this.materialTextBox26);
@@ -501,6 +525,60 @@
             this.tabPage1.TabIndex = 0;
             this.tabPage1.Text = "Clients";
             this.tabPage1.UseVisualStyleBackColor = true;
+            // 
+            // groupBox1
+            // 
+            this.groupBox1.Controls.Add(this.materialSwitch5);
+            this.groupBox1.Controls.Add(this.materialComboBox2);
+            this.groupBox1.Controls.Add(this.materialComboBox1);
+            this.groupBox1.Controls.Add(this.materialTextBox1);
+            this.groupBox1.Controls.Add(this.materialTextBox3);
+            this.groupBox1.Location = new System.Drawing.Point(6, 566);
+            this.groupBox1.Name = "groupBox1";
+            this.groupBox1.Size = new System.Drawing.Size(777, 86);
+            this.groupBox1.TabIndex = 12;
+            this.groupBox1.TabStop = false;
+            this.groupBox1.Text = "Поиск";
+            // 
+            // materialComboBox1
+            // 
+            this.materialComboBox1.AutoResize = false;
+            this.materialComboBox1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
+            this.materialComboBox1.Depth = 0;
+            this.materialComboBox1.DrawMode = System.Windows.Forms.DrawMode.OwnerDrawVariable;
+            this.materialComboBox1.DropDownHeight = 174;
+            this.materialComboBox1.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.materialComboBox1.DropDownWidth = 121;
+            this.materialComboBox1.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Pixel);
+            this.materialComboBox1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(222)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
+            this.materialComboBox1.FormattingEnabled = true;
+            this.materialComboBox1.IntegralHeight = false;
+            this.materialComboBox1.ItemHeight = 43;
+            this.materialComboBox1.Location = new System.Drawing.Point(6, 20);
+            this.materialComboBox1.MaxDropDownItems = 4;
+            this.materialComboBox1.MouseState = MaterialSkin.MouseState.OUT;
+            this.materialComboBox1.Name = "materialComboBox1";
+            this.materialComboBox1.Size = new System.Drawing.Size(141, 49);
+            this.materialComboBox1.StartIndex = 0;
+            this.materialComboBox1.TabIndex = 12;
+            // 
+            // materialTextBox3
+            // 
+            this.materialTextBox3.AnimateReadOnly = false;
+            this.materialTextBox3.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.materialTextBox3.Depth = 0;
+            this.materialTextBox3.Font = new System.Drawing.Font("Roboto", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel);
+            this.materialTextBox3.Hint = "Условие";
+            this.materialTextBox3.LeadingIcon = null;
+            this.materialTextBox3.Location = new System.Drawing.Point(169, 19);
+            this.materialTextBox3.MaxLength = 50;
+            this.materialTextBox3.MouseState = MaterialSkin.MouseState.OUT;
+            this.materialTextBox3.Multiline = false;
+            this.materialTextBox3.Name = "materialTextBox3";
+            this.materialTextBox3.Size = new System.Drawing.Size(146, 50);
+            this.materialTextBox3.TabIndex = 11;
+            this.materialTextBox3.Text = "";
+            this.materialTextBox3.TrailingIcon = null;
             // 
             // materialSwitch1
             // 
@@ -707,6 +785,7 @@
             this.iDClientDataGridViewTextBoxColumn.DataPropertyName = "ID_Client";
             this.iDClientDataGridViewTextBoxColumn.HeaderText = "ID_Client";
             this.iDClientDataGridViewTextBoxColumn.Name = "iDClientDataGridViewTextBoxColumn";
+            this.iDClientDataGridViewTextBoxColumn.ReadOnly = true;
             // 
             // clientNameDataGridViewTextBoxColumn
             // 
@@ -857,6 +936,7 @@
             // 
             // tabPage2
             // 
+            this.tabPage2.Controls.Add(this.groupBox2);
             this.tabPage2.Controls.Add(this.materialCheckbox1);
             this.tabPage2.Controls.Add(this.materialSwitch2);
             this.tabPage2.Controls.Add(this.materialTextBox25);
@@ -1175,6 +1255,7 @@
             // 
             // tabPage3
             // 
+            this.tabPage3.Controls.Add(this.groupBox3);
             this.tabPage3.Controls.Add(this.materialCheckbox2);
             this.tabPage3.Controls.Add(this.materialSwitch3);
             this.tabPage3.Controls.Add(this.materialTextBox218);
@@ -1505,6 +1586,55 @@
             this.dataGridView3.Size = new System.Drawing.Size(780, 552);
             this.dataGridView3.TabIndex = 2;
             // 
+            // iDOrderDataGridViewTextBoxColumn
+            // 
+            this.iDOrderDataGridViewTextBoxColumn.DataPropertyName = "ID_Order";
+            this.iDOrderDataGridViewTextBoxColumn.HeaderText = "ID_Order";
+            this.iDOrderDataGridViewTextBoxColumn.Name = "iDOrderDataGridViewTextBoxColumn";
+            this.iDOrderDataGridViewTextBoxColumn.ReadOnly = true;
+            // 
+            // statusDataGridViewCheckBoxColumn
+            // 
+            this.statusDataGridViewCheckBoxColumn.DataPropertyName = "Status";
+            this.statusDataGridViewCheckBoxColumn.HeaderText = "Status";
+            this.statusDataGridViewCheckBoxColumn.Name = "statusDataGridViewCheckBoxColumn";
+            // 
+            // orderContentDataGridViewTextBoxColumn
+            // 
+            this.orderContentDataGridViewTextBoxColumn.DataPropertyName = "OrderContent";
+            this.orderContentDataGridViewTextBoxColumn.HeaderText = "OrderContent";
+            this.orderContentDataGridViewTextBoxColumn.Name = "orderContentDataGridViewTextBoxColumn";
+            // 
+            // dateDataGridViewTextBoxColumn
+            // 
+            this.dateDataGridViewTextBoxColumn.DataPropertyName = "Date";
+            this.dateDataGridViewTextBoxColumn.HeaderText = "Date";
+            this.dateDataGridViewTextBoxColumn.Name = "dateDataGridViewTextBoxColumn";
+            // 
+            // clientsIDClientDataGridViewTextBoxColumn
+            // 
+            this.clientsIDClientDataGridViewTextBoxColumn.DataPropertyName = "Clients_ID_Client";
+            this.clientsIDClientDataGridViewTextBoxColumn.HeaderText = "Clients_ID_Client";
+            this.clientsIDClientDataGridViewTextBoxColumn.Name = "clientsIDClientDataGridViewTextBoxColumn";
+            // 
+            // workersWorkerIDDataGridViewTextBoxColumn
+            // 
+            this.workersWorkerIDDataGridViewTextBoxColumn.DataPropertyName = "Workers_WorkerID";
+            this.workersWorkerIDDataGridViewTextBoxColumn.HeaderText = "Workers_WorkerID";
+            this.workersWorkerIDDataGridViewTextBoxColumn.Name = "workersWorkerIDDataGridViewTextBoxColumn";
+            // 
+            // couriersIDCourierDataGridViewTextBoxColumn
+            // 
+            this.couriersIDCourierDataGridViewTextBoxColumn.DataPropertyName = "Couriers_ID_Courier";
+            this.couriersIDCourierDataGridViewTextBoxColumn.HeaderText = "Couriers_ID_Courier";
+            this.couriersIDCourierDataGridViewTextBoxColumn.Name = "couriersIDCourierDataGridViewTextBoxColumn";
+            // 
+            // costDataGridViewTextBoxColumn
+            // 
+            this.costDataGridViewTextBoxColumn.DataPropertyName = "Cost";
+            this.costDataGridViewTextBoxColumn.HeaderText = "Cost";
+            this.costDataGridViewTextBoxColumn.Name = "costDataGridViewTextBoxColumn";
+            // 
             // bindingNavigator3
             // 
             this.bindingNavigator3.AddNewItem = this.toolStripButton7;
@@ -1635,6 +1765,7 @@
             // 
             // tabPage4
             // 
+            this.tabPage4.Controls.Add(this.groupBox4);
             this.tabPage4.Controls.Add(this.materialSwitch4);
             this.tabPage4.Controls.Add(this.materialTextBox213);
             this.tabPage4.Controls.Add(this.materialTextBox214);
@@ -2041,21 +2172,21 @@
             // таблицыToolStripMenuItem
             // 
             this.таблицыToolStripMenuItem.Name = "таблицыToolStripMenuItem";
-            this.таблицыToolStripMenuItem.Size = new System.Drawing.Size(171, 22);
+            this.таблицыToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
             this.таблицыToolStripMenuItem.Text = "Таблицы";
             this.таблицыToolStripMenuItem.Click += new System.EventHandler(this.таблицыToolStripMenuItem_Click);
             // 
             // представленияToolStripMenuItem
             // 
             this.представленияToolStripMenuItem.Name = "представленияToolStripMenuItem";
-            this.представленияToolStripMenuItem.Size = new System.Drawing.Size(171, 22);
+            this.представленияToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
             this.представленияToolStripMenuItem.Text = "Представления";
             this.представленияToolStripMenuItem.Click += new System.EventHandler(this.представленияToolStripMenuItem_Click);
             // 
             // генерацияОтчетаToolStripMenuItem
             // 
             this.генерацияОтчетаToolStripMenuItem.Name = "генерацияОтчетаToolStripMenuItem";
-            this.генерацияОтчетаToolStripMenuItem.Size = new System.Drawing.Size(171, 22);
+            this.генерацияОтчетаToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
             this.генерацияОтчетаToolStripMenuItem.Text = "Генерация отчета";
             // 
             // tabControl2
@@ -3829,15 +3960,30 @@
             // 
             this.цена_заказа__1500TableAdapter.ClearBeforeFill = true;
             // 
+            // materialSwitch5
+            // 
+            this.materialSwitch5.AutoSize = true;
+            this.materialSwitch5.Depth = 0;
+            this.materialSwitch5.Location = new System.Drawing.Point(321, 26);
+            this.materialSwitch5.Margin = new System.Windows.Forms.Padding(0);
+            this.materialSwitch5.MouseLocation = new System.Drawing.Point(-1, -1);
+            this.materialSwitch5.MouseState = MaterialSkin.MouseState.HOVER;
+            this.materialSwitch5.Name = "materialSwitch5";
+            this.materialSwitch5.Ripple = true;
+            this.materialSwitch5.Size = new System.Drawing.Size(132, 37);
+            this.materialSwitch5.TabIndex = 13;
+            this.materialSwitch5.Text = "2 условия";
+            this.materialSwitch5.UseVisualStyleBackColor = true;
+            // 
             // materialTextBox1
             // 
             this.materialTextBox1.AnimateReadOnly = false;
             this.materialTextBox1.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.materialTextBox1.Depth = 0;
             this.materialTextBox1.Font = new System.Drawing.Font("Microsoft Sans Serif", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel);
-            this.materialTextBox1.Hint = "Таблица";
+            this.materialTextBox1.Hint = "Условие";
             this.materialTextBox1.LeadingIcon = null;
-            this.materialTextBox1.Location = new System.Drawing.Point(6, 19);
+            this.materialTextBox1.Location = new System.Drawing.Point(625, 19);
             this.materialTextBox1.MaxLength = 50;
             this.materialTextBox1.MouseState = MaterialSkin.MouseState.OUT;
             this.materialTextBox1.Multiline = false;
@@ -3847,15 +3993,110 @@
             this.materialTextBox1.Text = "";
             this.materialTextBox1.TrailingIcon = null;
             // 
+            // materialComboBox2
+            // 
+            this.materialComboBox2.AutoResize = false;
+            this.materialComboBox2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
+            this.materialComboBox2.Depth = 0;
+            this.materialComboBox2.DrawMode = System.Windows.Forms.DrawMode.OwnerDrawVariable;
+            this.materialComboBox2.DropDownHeight = 174;
+            this.materialComboBox2.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.materialComboBox2.DropDownWidth = 121;
+            this.materialComboBox2.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Pixel);
+            this.materialComboBox2.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(222)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
+            this.materialComboBox2.FormattingEnabled = true;
+            this.materialComboBox2.IntegralHeight = false;
+            this.materialComboBox2.ItemHeight = 43;
+            this.materialComboBox2.Location = new System.Drawing.Point(462, 20);
+            this.materialComboBox2.MaxDropDownItems = 4;
+            this.materialComboBox2.MouseState = MaterialSkin.MouseState.OUT;
+            this.materialComboBox2.Name = "materialComboBox2";
+            this.materialComboBox2.Size = new System.Drawing.Size(141, 49);
+            this.materialComboBox2.StartIndex = 0;
+            this.materialComboBox2.TabIndex = 12;
+            // 
+            // groupBox2
+            // 
+            this.groupBox2.Controls.Add(this.materialSwitch6);
+            this.groupBox2.Controls.Add(this.materialComboBox3);
+            this.groupBox2.Controls.Add(this.materialComboBox4);
+            this.groupBox2.Controls.Add(this.materialTextBox2);
+            this.groupBox2.Controls.Add(this.materialTextBox4);
+            this.groupBox2.Location = new System.Drawing.Point(6, 566);
+            this.groupBox2.Name = "groupBox2";
+            this.groupBox2.Size = new System.Drawing.Size(777, 86);
+            this.groupBox2.TabIndex = 18;
+            this.groupBox2.TabStop = false;
+            this.groupBox2.Text = "Поиск";
+            // 
+            // materialSwitch6
+            // 
+            this.materialSwitch6.AutoSize = true;
+            this.materialSwitch6.Depth = 0;
+            this.materialSwitch6.Location = new System.Drawing.Point(321, 26);
+            this.materialSwitch6.Margin = new System.Windows.Forms.Padding(0);
+            this.materialSwitch6.MouseLocation = new System.Drawing.Point(-1, -1);
+            this.materialSwitch6.MouseState = MaterialSkin.MouseState.HOVER;
+            this.materialSwitch6.Name = "materialSwitch6";
+            this.materialSwitch6.Ripple = true;
+            this.materialSwitch6.Size = new System.Drawing.Size(132, 37);
+            this.materialSwitch6.TabIndex = 13;
+            this.materialSwitch6.Text = "2 условия";
+            this.materialSwitch6.UseVisualStyleBackColor = true;
+            // 
+            // materialComboBox3
+            // 
+            this.materialComboBox3.AutoResize = false;
+            this.materialComboBox3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
+            this.materialComboBox3.Depth = 0;
+            this.materialComboBox3.DrawMode = System.Windows.Forms.DrawMode.OwnerDrawVariable;
+            this.materialComboBox3.DropDownHeight = 174;
+            this.materialComboBox3.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.materialComboBox3.DropDownWidth = 121;
+            this.materialComboBox3.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Pixel);
+            this.materialComboBox3.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(222)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
+            this.materialComboBox3.FormattingEnabled = true;
+            this.materialComboBox3.IntegralHeight = false;
+            this.materialComboBox3.ItemHeight = 43;
+            this.materialComboBox3.Location = new System.Drawing.Point(462, 20);
+            this.materialComboBox3.MaxDropDownItems = 4;
+            this.materialComboBox3.MouseState = MaterialSkin.MouseState.OUT;
+            this.materialComboBox3.Name = "materialComboBox3";
+            this.materialComboBox3.Size = new System.Drawing.Size(141, 49);
+            this.materialComboBox3.StartIndex = 0;
+            this.materialComboBox3.TabIndex = 12;
+            // 
+            // materialComboBox4
+            // 
+            this.materialComboBox4.AutoResize = false;
+            this.materialComboBox4.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
+            this.materialComboBox4.Depth = 0;
+            this.materialComboBox4.DrawMode = System.Windows.Forms.DrawMode.OwnerDrawVariable;
+            this.materialComboBox4.DropDownHeight = 174;
+            this.materialComboBox4.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.materialComboBox4.DropDownWidth = 121;
+            this.materialComboBox4.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Pixel);
+            this.materialComboBox4.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(222)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
+            this.materialComboBox4.FormattingEnabled = true;
+            this.materialComboBox4.IntegralHeight = false;
+            this.materialComboBox4.ItemHeight = 43;
+            this.materialComboBox4.Location = new System.Drawing.Point(6, 20);
+            this.materialComboBox4.MaxDropDownItems = 4;
+            this.materialComboBox4.MouseState = MaterialSkin.MouseState.OUT;
+            this.materialComboBox4.Name = "materialComboBox4";
+            this.materialComboBox4.Size = new System.Drawing.Size(141, 49);
+            this.materialComboBox4.StartIndex = 0;
+            this.materialComboBox4.TabIndex = 12;
+            // 
             // materialTextBox2
             // 
             this.materialTextBox2.AnimateReadOnly = false;
             this.materialTextBox2.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.materialTextBox2.Depth = 0;
-            this.materialTextBox2.Font = new System.Drawing.Font("Roboto", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel);
-            this.materialTextBox2.Hint = "Ряд";
+            this.materialTextBox2.Font = new System.Drawing.Font("Microsoft Sans Serif", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel);
+            this.materialTextBox2.Hint = "Условие";
             this.materialTextBox2.LeadingIcon = null;
-            this.materialTextBox2.Location = new System.Drawing.Point(6, 75);
+            this.materialTextBox2.Location = new System.Drawing.Point(625, 19);
             this.materialTextBox2.MaxLength = 50;
             this.materialTextBox2.MouseState = MaterialSkin.MouseState.OUT;
             this.materialTextBox2.Multiline = false;
@@ -3865,36 +4106,241 @@
             this.materialTextBox2.Text = "";
             this.materialTextBox2.TrailingIcon = null;
             // 
-            // materialTextBox3
+            // materialTextBox4
             // 
-            this.materialTextBox3.AnimateReadOnly = false;
-            this.materialTextBox3.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.materialTextBox3.Depth = 0;
-            this.materialTextBox3.Font = new System.Drawing.Font("Microsoft Sans Serif", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel);
-            this.materialTextBox3.Hint = "Условие";
-            this.materialTextBox3.LeadingIcon = null;
-            this.materialTextBox3.Location = new System.Drawing.Point(175, 75);
-            this.materialTextBox3.MaxLength = 50;
-            this.materialTextBox3.MouseState = MaterialSkin.MouseState.OUT;
-            this.materialTextBox3.Multiline = false;
-            this.materialTextBox3.Name = "materialTextBox3";
-            this.materialTextBox3.Size = new System.Drawing.Size(146, 50);
-            this.materialTextBox3.TabIndex = 11;
-            this.materialTextBox3.Text = "";
-            this.materialTextBox3.TrailingIcon = null;
+            this.materialTextBox4.AnimateReadOnly = false;
+            this.materialTextBox4.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.materialTextBox4.Depth = 0;
+            this.materialTextBox4.Font = new System.Drawing.Font("Microsoft Sans Serif", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel);
+            this.materialTextBox4.Hint = "Условие";
+            this.materialTextBox4.LeadingIcon = null;
+            this.materialTextBox4.Location = new System.Drawing.Point(169, 19);
+            this.materialTextBox4.MaxLength = 50;
+            this.materialTextBox4.MouseState = MaterialSkin.MouseState.OUT;
+            this.materialTextBox4.Multiline = false;
+            this.materialTextBox4.Name = "materialTextBox4";
+            this.materialTextBox4.Size = new System.Drawing.Size(146, 50);
+            this.materialTextBox4.TabIndex = 11;
+            this.materialTextBox4.Text = "";
+            this.materialTextBox4.TrailingIcon = null;
             // 
-            // groupBox1
+            // groupBox3
             // 
-            this.groupBox1.Controls.Add(this.materialButton9);
-            this.groupBox1.Controls.Add(this.materialTextBox1);
-            this.groupBox1.Controls.Add(this.materialTextBox3);
-            this.groupBox1.Controls.Add(this.materialTextBox2);
-            this.groupBox1.Location = new System.Drawing.Point(6, 566);
-            this.groupBox1.Name = "groupBox1";
-            this.groupBox1.Size = new System.Drawing.Size(471, 159);
-            this.groupBox1.TabIndex = 12;
-            this.groupBox1.TabStop = false;
-            this.groupBox1.Text = "Поиск";
+            this.groupBox3.Controls.Add(this.materialSwitch7);
+            this.groupBox3.Controls.Add(this.materialComboBox5);
+            this.groupBox3.Controls.Add(this.materialComboBox6);
+            this.groupBox3.Controls.Add(this.materialTextBox5);
+            this.groupBox3.Controls.Add(this.materialTextBox6);
+            this.groupBox3.Location = new System.Drawing.Point(6, 561);
+            this.groupBox3.Name = "groupBox3";
+            this.groupBox3.Size = new System.Drawing.Size(777, 86);
+            this.groupBox3.TabIndex = 19;
+            this.groupBox3.TabStop = false;
+            this.groupBox3.Text = "Поиск";
+            // 
+            // materialSwitch7
+            // 
+            this.materialSwitch7.AutoSize = true;
+            this.materialSwitch7.Depth = 0;
+            this.materialSwitch7.Location = new System.Drawing.Point(321, 26);
+            this.materialSwitch7.Margin = new System.Windows.Forms.Padding(0);
+            this.materialSwitch7.MouseLocation = new System.Drawing.Point(-1, -1);
+            this.materialSwitch7.MouseState = MaterialSkin.MouseState.HOVER;
+            this.materialSwitch7.Name = "materialSwitch7";
+            this.materialSwitch7.Ripple = true;
+            this.materialSwitch7.Size = new System.Drawing.Size(132, 37);
+            this.materialSwitch7.TabIndex = 13;
+            this.materialSwitch7.Text = "2 условия";
+            this.materialSwitch7.UseVisualStyleBackColor = true;
+            // 
+            // materialComboBox5
+            // 
+            this.materialComboBox5.AutoResize = false;
+            this.materialComboBox5.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
+            this.materialComboBox5.Depth = 0;
+            this.materialComboBox5.DrawMode = System.Windows.Forms.DrawMode.OwnerDrawVariable;
+            this.materialComboBox5.DropDownHeight = 174;
+            this.materialComboBox5.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.materialComboBox5.DropDownWidth = 121;
+            this.materialComboBox5.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Pixel);
+            this.materialComboBox5.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(222)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
+            this.materialComboBox5.FormattingEnabled = true;
+            this.materialComboBox5.IntegralHeight = false;
+            this.materialComboBox5.ItemHeight = 43;
+            this.materialComboBox5.Location = new System.Drawing.Point(462, 20);
+            this.materialComboBox5.MaxDropDownItems = 4;
+            this.materialComboBox5.MouseState = MaterialSkin.MouseState.OUT;
+            this.materialComboBox5.Name = "materialComboBox5";
+            this.materialComboBox5.Size = new System.Drawing.Size(141, 49);
+            this.materialComboBox5.StartIndex = 0;
+            this.materialComboBox5.TabIndex = 12;
+            // 
+            // materialComboBox6
+            // 
+            this.materialComboBox6.AutoResize = false;
+            this.materialComboBox6.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
+            this.materialComboBox6.Depth = 0;
+            this.materialComboBox6.DrawMode = System.Windows.Forms.DrawMode.OwnerDrawVariable;
+            this.materialComboBox6.DropDownHeight = 174;
+            this.materialComboBox6.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.materialComboBox6.DropDownWidth = 121;
+            this.materialComboBox6.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Pixel);
+            this.materialComboBox6.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(222)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
+            this.materialComboBox6.FormattingEnabled = true;
+            this.materialComboBox6.IntegralHeight = false;
+            this.materialComboBox6.ItemHeight = 43;
+            this.materialComboBox6.Location = new System.Drawing.Point(6, 20);
+            this.materialComboBox6.MaxDropDownItems = 4;
+            this.materialComboBox6.MouseState = MaterialSkin.MouseState.OUT;
+            this.materialComboBox6.Name = "materialComboBox6";
+            this.materialComboBox6.Size = new System.Drawing.Size(141, 49);
+            this.materialComboBox6.StartIndex = 0;
+            this.materialComboBox6.TabIndex = 12;
+            // 
+            // materialTextBox5
+            // 
+            this.materialTextBox5.AnimateReadOnly = false;
+            this.materialTextBox5.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.materialTextBox5.Depth = 0;
+            this.materialTextBox5.Font = new System.Drawing.Font("Microsoft Sans Serif", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel);
+            this.materialTextBox5.Hint = "Условие";
+            this.materialTextBox5.LeadingIcon = null;
+            this.materialTextBox5.Location = new System.Drawing.Point(625, 19);
+            this.materialTextBox5.MaxLength = 50;
+            this.materialTextBox5.MouseState = MaterialSkin.MouseState.OUT;
+            this.materialTextBox5.Multiline = false;
+            this.materialTextBox5.Name = "materialTextBox5";
+            this.materialTextBox5.Size = new System.Drawing.Size(146, 50);
+            this.materialTextBox5.TabIndex = 11;
+            this.materialTextBox5.Text = "";
+            this.materialTextBox5.TrailingIcon = null;
+            // 
+            // materialTextBox6
+            // 
+            this.materialTextBox6.AnimateReadOnly = false;
+            this.materialTextBox6.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.materialTextBox6.Depth = 0;
+            this.materialTextBox6.Font = new System.Drawing.Font("Microsoft Sans Serif", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel);
+            this.materialTextBox6.Hint = "Условие";
+            this.materialTextBox6.LeadingIcon = null;
+            this.materialTextBox6.Location = new System.Drawing.Point(169, 19);
+            this.materialTextBox6.MaxLength = 50;
+            this.materialTextBox6.MouseState = MaterialSkin.MouseState.OUT;
+            this.materialTextBox6.Multiline = false;
+            this.materialTextBox6.Name = "materialTextBox6";
+            this.materialTextBox6.Size = new System.Drawing.Size(146, 50);
+            this.materialTextBox6.TabIndex = 11;
+            this.materialTextBox6.Text = "";
+            this.materialTextBox6.TrailingIcon = null;
+            // 
+            // groupBox4
+            // 
+            this.groupBox4.Controls.Add(this.materialSwitch8);
+            this.groupBox4.Controls.Add(this.materialComboBox7);
+            this.groupBox4.Controls.Add(this.materialComboBox8);
+            this.groupBox4.Controls.Add(this.materialTextBox7);
+            this.groupBox4.Controls.Add(this.materialTextBox8);
+            this.groupBox4.Location = new System.Drawing.Point(9, 554);
+            this.groupBox4.Name = "groupBox4";
+            this.groupBox4.Size = new System.Drawing.Size(777, 86);
+            this.groupBox4.TabIndex = 18;
+            this.groupBox4.TabStop = false;
+            this.groupBox4.Text = "Поиск";
+            // 
+            // materialSwitch8
+            // 
+            this.materialSwitch8.AutoSize = true;
+            this.materialSwitch8.Depth = 0;
+            this.materialSwitch8.Location = new System.Drawing.Point(321, 26);
+            this.materialSwitch8.Margin = new System.Windows.Forms.Padding(0);
+            this.materialSwitch8.MouseLocation = new System.Drawing.Point(-1, -1);
+            this.materialSwitch8.MouseState = MaterialSkin.MouseState.HOVER;
+            this.materialSwitch8.Name = "materialSwitch8";
+            this.materialSwitch8.Ripple = true;
+            this.materialSwitch8.Size = new System.Drawing.Size(132, 37);
+            this.materialSwitch8.TabIndex = 13;
+            this.materialSwitch8.Text = "2 условия";
+            this.materialSwitch8.UseVisualStyleBackColor = true;
+            // 
+            // materialComboBox7
+            // 
+            this.materialComboBox7.AutoResize = false;
+            this.materialComboBox7.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
+            this.materialComboBox7.Depth = 0;
+            this.materialComboBox7.DrawMode = System.Windows.Forms.DrawMode.OwnerDrawVariable;
+            this.materialComboBox7.DropDownHeight = 174;
+            this.materialComboBox7.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.materialComboBox7.DropDownWidth = 121;
+            this.materialComboBox7.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Pixel);
+            this.materialComboBox7.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(222)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
+            this.materialComboBox7.FormattingEnabled = true;
+            this.materialComboBox7.IntegralHeight = false;
+            this.materialComboBox7.ItemHeight = 43;
+            this.materialComboBox7.Location = new System.Drawing.Point(462, 20);
+            this.materialComboBox7.MaxDropDownItems = 4;
+            this.materialComboBox7.MouseState = MaterialSkin.MouseState.OUT;
+            this.materialComboBox7.Name = "materialComboBox7";
+            this.materialComboBox7.Size = new System.Drawing.Size(141, 49);
+            this.materialComboBox7.StartIndex = 0;
+            this.materialComboBox7.TabIndex = 12;
+            // 
+            // materialComboBox8
+            // 
+            this.materialComboBox8.AutoResize = false;
+            this.materialComboBox8.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
+            this.materialComboBox8.Depth = 0;
+            this.materialComboBox8.DrawMode = System.Windows.Forms.DrawMode.OwnerDrawVariable;
+            this.materialComboBox8.DropDownHeight = 174;
+            this.materialComboBox8.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.materialComboBox8.DropDownWidth = 121;
+            this.materialComboBox8.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Pixel);
+            this.materialComboBox8.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(222)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
+            this.materialComboBox8.FormattingEnabled = true;
+            this.materialComboBox8.IntegralHeight = false;
+            this.materialComboBox8.ItemHeight = 43;
+            this.materialComboBox8.Location = new System.Drawing.Point(6, 20);
+            this.materialComboBox8.MaxDropDownItems = 4;
+            this.materialComboBox8.MouseState = MaterialSkin.MouseState.OUT;
+            this.materialComboBox8.Name = "materialComboBox8";
+            this.materialComboBox8.Size = new System.Drawing.Size(141, 49);
+            this.materialComboBox8.StartIndex = 0;
+            this.materialComboBox8.TabIndex = 12;
+            // 
+            // materialTextBox7
+            // 
+            this.materialTextBox7.AnimateReadOnly = false;
+            this.materialTextBox7.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.materialTextBox7.Depth = 0;
+            this.materialTextBox7.Font = new System.Drawing.Font("Microsoft Sans Serif", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel);
+            this.materialTextBox7.Hint = "Условие";
+            this.materialTextBox7.LeadingIcon = null;
+            this.materialTextBox7.Location = new System.Drawing.Point(625, 19);
+            this.materialTextBox7.MaxLength = 50;
+            this.materialTextBox7.MouseState = MaterialSkin.MouseState.OUT;
+            this.materialTextBox7.Multiline = false;
+            this.materialTextBox7.Name = "materialTextBox7";
+            this.materialTextBox7.Size = new System.Drawing.Size(146, 50);
+            this.materialTextBox7.TabIndex = 11;
+            this.materialTextBox7.Text = "";
+            this.materialTextBox7.TrailingIcon = null;
+            // 
+            // materialTextBox8
+            // 
+            this.materialTextBox8.AnimateReadOnly = false;
+            this.materialTextBox8.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.materialTextBox8.Depth = 0;
+            this.materialTextBox8.Font = new System.Drawing.Font("Microsoft Sans Serif", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel);
+            this.materialTextBox8.Hint = "Условие";
+            this.materialTextBox8.LeadingIcon = null;
+            this.materialTextBox8.Location = new System.Drawing.Point(169, 19);
+            this.materialTextBox8.MaxLength = 50;
+            this.materialTextBox8.MouseState = MaterialSkin.MouseState.OUT;
+            this.materialTextBox8.Multiline = false;
+            this.materialTextBox8.Name = "materialTextBox8";
+            this.materialTextBox8.Size = new System.Drawing.Size(146, 50);
+            this.materialTextBox8.TabIndex = 11;
+            this.materialTextBox8.Text = "";
+            this.materialTextBox8.TrailingIcon = null;
             // 
             // materialButton9
             // 
@@ -3902,68 +4348,20 @@
             this.materialButton9.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
             this.materialButton9.Density = MaterialSkin.Controls.MaterialButton.MaterialButtonDensity.Default;
             this.materialButton9.Depth = 0;
-            this.materialButton9.Font = new System.Drawing.Font("Microsoft YaHei", 72F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.materialButton9.HighEmphasis = true;
             this.materialButton9.Icon = null;
-            this.materialButton9.Location = new System.Drawing.Point(359, 54);
+            this.materialButton9.Location = new System.Drawing.Point(899, 467);
             this.materialButton9.Margin = new System.Windows.Forms.Padding(4, 6, 4, 6);
             this.materialButton9.MouseState = MaterialSkin.MouseState.HOVER;
             this.materialButton9.Name = "materialButton9";
             this.materialButton9.NoAccentTextColor = System.Drawing.Color.Empty;
-            this.materialButton9.Size = new System.Drawing.Size(75, 71);
-            this.materialButton9.TabIndex = 12;
+            this.materialButton9.Size = new System.Drawing.Size(75, 36);
+            this.materialButton9.TabIndex = 13;
+            this.materialButton9.Text = "SAVE";
             this.materialButton9.Type = MaterialSkin.Controls.MaterialButton.MaterialButtonType.Contained;
             this.materialButton9.UseAccentColor = false;
             this.materialButton9.UseVisualStyleBackColor = true;
-            // 
-            // costDataGridViewTextBoxColumn
-            // 
-            this.costDataGridViewTextBoxColumn.DataPropertyName = "Cost";
-            this.costDataGridViewTextBoxColumn.HeaderText = "Cost";
-            this.costDataGridViewTextBoxColumn.Name = "costDataGridViewTextBoxColumn";
-            // 
-            // couriersIDCourierDataGridViewTextBoxColumn
-            // 
-            this.couriersIDCourierDataGridViewTextBoxColumn.DataPropertyName = "Couriers_ID_Courier";
-            this.couriersIDCourierDataGridViewTextBoxColumn.HeaderText = "Couriers_ID_Courier";
-            this.couriersIDCourierDataGridViewTextBoxColumn.Name = "couriersIDCourierDataGridViewTextBoxColumn";
-            // 
-            // workersWorkerIDDataGridViewTextBoxColumn
-            // 
-            this.workersWorkerIDDataGridViewTextBoxColumn.DataPropertyName = "Workers_WorkerID";
-            this.workersWorkerIDDataGridViewTextBoxColumn.HeaderText = "Workers_WorkerID";
-            this.workersWorkerIDDataGridViewTextBoxColumn.Name = "workersWorkerIDDataGridViewTextBoxColumn";
-            // 
-            // clientsIDClientDataGridViewTextBoxColumn
-            // 
-            this.clientsIDClientDataGridViewTextBoxColumn.DataPropertyName = "Clients_ID_Client";
-            this.clientsIDClientDataGridViewTextBoxColumn.HeaderText = "Clients_ID_Client";
-            this.clientsIDClientDataGridViewTextBoxColumn.Name = "clientsIDClientDataGridViewTextBoxColumn";
-            // 
-            // dateDataGridViewTextBoxColumn
-            // 
-            this.dateDataGridViewTextBoxColumn.DataPropertyName = "Date";
-            this.dateDataGridViewTextBoxColumn.HeaderText = "Date";
-            this.dateDataGridViewTextBoxColumn.Name = "dateDataGridViewTextBoxColumn";
-            // 
-            // orderContentDataGridViewTextBoxColumn
-            // 
-            this.orderContentDataGridViewTextBoxColumn.DataPropertyName = "OrderContent";
-            this.orderContentDataGridViewTextBoxColumn.HeaderText = "OrderContent";
-            this.orderContentDataGridViewTextBoxColumn.Name = "orderContentDataGridViewTextBoxColumn";
-            // 
-            // statusDataGridViewCheckBoxColumn
-            // 
-            this.statusDataGridViewCheckBoxColumn.DataPropertyName = "Status";
-            this.statusDataGridViewCheckBoxColumn.HeaderText = "Status";
-            this.statusDataGridViewCheckBoxColumn.Name = "statusDataGridViewCheckBoxColumn";
-            // 
-            // iDOrderDataGridViewTextBoxColumn
-            // 
-            this.iDOrderDataGridViewTextBoxColumn.DataPropertyName = "ID_Order";
-            this.iDOrderDataGridViewTextBoxColumn.HeaderText = "ID_Order";
-            this.iDOrderDataGridViewTextBoxColumn.Name = "iDOrderDataGridViewTextBoxColumn";
-            this.iDOrderDataGridViewTextBoxColumn.ReadOnly = true;
+            this.materialButton9.Click += new System.EventHandler(this.materialButton9_Click);
             // 
             // Form2
             // 
@@ -3986,6 +4384,8 @@
             this.tabControl1.ResumeLayout(false);
             this.tabPage1.ResumeLayout(false);
             this.tabPage1.PerformLayout();
+            this.groupBox1.ResumeLayout(false);
+            this.groupBox1.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.clientsBindingSource)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.bindingNavigator1)).EndInit();
@@ -4087,7 +4487,12 @@
             ((System.ComponentModel.ISupportInitialize)(this.ценаЗаказа1500BindingSource)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView14)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.заказыИРаботникиBindingSource1)).EndInit();
-            this.groupBox1.ResumeLayout(false);
+            this.groupBox2.ResumeLayout(false);
+            this.groupBox2.PerformLayout();
+            this.groupBox3.ResumeLayout(false);
+            this.groupBox3.PerformLayout();
+            this.groupBox4.ResumeLayout(false);
+            this.groupBox4.PerformLayout();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -4407,11 +4812,8 @@
         private MaterialSkin.Controls.MaterialTextBox2 materialTextBox28;
         private MaterialSkin.Controls.MaterialCheckbox materialCheckbox2;
         private MaterialSkin.Controls.MaterialTextBox2 materialTextBox210;
-        private MaterialSkin.Controls.MaterialTextBox materialTextBox2;
-        private MaterialSkin.Controls.MaterialTextBox materialTextBox1;
         private MaterialSkin.Controls.MaterialTextBox materialTextBox3;
         private System.Windows.Forms.GroupBox groupBox1;
-        private MaterialSkin.Controls.MaterialButton materialButton9;
         private System.Windows.Forms.DataGridViewTextBoxColumn iDOrderDataGridViewTextBoxColumn;
         private System.Windows.Forms.DataGridViewCheckBoxColumn statusDataGridViewCheckBoxColumn;
         private System.Windows.Forms.DataGridViewTextBoxColumn orderContentDataGridViewTextBoxColumn;
@@ -4420,5 +4822,28 @@
         private System.Windows.Forms.DataGridViewTextBoxColumn workersWorkerIDDataGridViewTextBoxColumn;
         private System.Windows.Forms.DataGridViewTextBoxColumn couriersIDCourierDataGridViewTextBoxColumn;
         private System.Windows.Forms.DataGridViewTextBoxColumn costDataGridViewTextBoxColumn;
+        private MaterialSkin.Controls.MaterialComboBox materialComboBox1;
+        private MaterialSkin.Controls.MaterialSwitch materialSwitch5;
+        private MaterialSkin.Controls.MaterialComboBox materialComboBox2;
+        private MaterialSkin.Controls.MaterialTextBox materialTextBox1;
+        private System.Windows.Forms.GroupBox groupBox2;
+        private MaterialSkin.Controls.MaterialSwitch materialSwitch6;
+        private MaterialSkin.Controls.MaterialComboBox materialComboBox3;
+        private MaterialSkin.Controls.MaterialComboBox materialComboBox4;
+        private MaterialSkin.Controls.MaterialTextBox materialTextBox2;
+        private MaterialSkin.Controls.MaterialTextBox materialTextBox4;
+        private System.Windows.Forms.GroupBox groupBox3;
+        private MaterialSkin.Controls.MaterialSwitch materialSwitch7;
+        private MaterialSkin.Controls.MaterialComboBox materialComboBox5;
+        private MaterialSkin.Controls.MaterialComboBox materialComboBox6;
+        private MaterialSkin.Controls.MaterialTextBox materialTextBox5;
+        private MaterialSkin.Controls.MaterialTextBox materialTextBox6;
+        private System.Windows.Forms.GroupBox groupBox4;
+        private MaterialSkin.Controls.MaterialSwitch materialSwitch8;
+        private MaterialSkin.Controls.MaterialComboBox materialComboBox7;
+        private MaterialSkin.Controls.MaterialComboBox materialComboBox8;
+        private MaterialSkin.Controls.MaterialTextBox materialTextBox7;
+        private MaterialSkin.Controls.MaterialTextBox materialTextBox8;
+        private MaterialSkin.Controls.MaterialButton materialButton9;
     }
 }

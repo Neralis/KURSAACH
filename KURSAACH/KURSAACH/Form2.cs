@@ -13,12 +13,18 @@ using System.Data.SqlClient;
 using OfficeOpenXml;
 using OfficeOpenXml.Style;
 using System.Reflection.Emit;
+using System.Collections.Generic;
+using System.Linq;
+
+
 
 namespace KURSAACH
 {
     public partial class Form2 : MaterialForm
     {
         string connectionString = "Data Source=EDU-MSSQL2008R2;Initial Catalog=KR_Ip521_Nikitin;Integrated Security=True";
+
+
         public Form2()
         {
             InitializeComponent();
@@ -60,6 +66,58 @@ namespace KURSAACH
             // TODO: данная строка кода позволяет загрузить данные в таблицу "kR_Ip521_NikitinDataSet.Clients". При необходимости она может быть перемещена или удалена.
             this.clientsTableAdapter.Fill(this.kR_Ip521_NikitinDataSet.Clients);
             */
+
+
+            /* Настроить в колледже ----------------------------------------------------------------------
+             
+            PC1 = new SqlConnection("Data Source=(LocalDB)\\MSSQLLocalDB;AttachDbFilename=C:\\Users\\kosty\\source\\repos\\PC1.mdf;Integrated Security=True;Connect Timeout=30");
+            PC1.Open();
+            SqlDataAdapter dataAdapter = new SqlDataAdapter("SELECT * FROM Computers", PC1);
+            DataSet db = new DataSet();
+            dataAdapter.Fill(db);
+            dataGridView1.DataSource = db.Tables[0];
+
+            // Заполняем ComboBox названиями столбцов ----------------НАСТРОИТЬ ДЛЯ МАТЕРИАЛ------------
+            foreach (DataColumn column in db.Tables[0].Columns)
+            {
+                comboBox1.Items.Add(column.ColumnName);
+            }
+            ----------------------------------------------------------------------------------------------- */
+
+
+            // ----------------- Настроить для НЕСКОЛЬКИХ tabPage в tabControl
+
+
+            /* private void textBox1_TextChanged(object sender, EventArgs e) -------------- Событие обновления поиска
+        {
+            if (comboBox1.SelectedItem != null)
+            {
+                string columnName = comboBox1.SelectedItem.ToString();
+                string filterExpression = $"{columnName} LIKE '%{textBox1.Text}%'";
+
+                // Проверяем, является ли столбец числовым
+                if (dataGridView1.Columns[columnName].ValueType == typeof(int) || dataGridView1.Columns[columnName].ValueType == typeof(decimal))
+                {
+                    // Если столбец числовой, используем метод Convert.ToString() для преобразования числа в строку перед использованием LIKE
+                    filterExpression = $"Convert({columnName}, 'System.String') LIKE '%{textBox1.Text}%'";
+                }
+
+                (dataGridView1.DataSource as DataTable).DefaultView.RowFilter = filterExpression;
+            }
+        }
+
+        private void comboBox1_SelectedIndexChanged(object sender, EventArgs e)
+        {
+            // При изменении выбранного столбца вызываем обработчик изменения текста для обновления фильтрации
+            textBox1_TextChanged(sender, e);
+        } */
+
+
+
+
+
+
+
 
             if (Form1.User == "user")
             {
@@ -123,7 +181,7 @@ namespace KURSAACH
         private void Form2_FormClosed(object sender, FormClosedEventArgs e)
         {
             Application.Exit();
-            
+
         }
 
         private void materialSwitch1_CheckedChanged(object sender, EventArgs e)
@@ -254,37 +312,68 @@ namespace KURSAACH
 
         private void materialButton3_Click(object sender, EventArgs e)
         {
-                // Получение индекса выбранной строки в DataGridView
-                int selectedIndex = dataGridView1.CurrentCell.RowIndex;
+            // Получение индекса выбранной строки в DataGridView
+            int selectedIndex = dataGridView1.CurrentCell.RowIndex;
 
-                // Проверка, что строка была выбрана
-                if (selectedIndex >= 0 && selectedIndex < dataGridView1.Rows.Count)
+            // Проверка, что строка была выбрана
+            if (selectedIndex >= 0 && selectedIndex < dataGridView1.Rows.Count)
+            {
+                // Получение значения в ячейке, содержащей идентификатор записи
+                int recordId = Convert.ToInt32(dataGridView1.Rows[selectedIndex].Cells["ID"].Value);
+
+                // Выполнение SQL-запроса для удаления записи
+                using (SqlConnection connection = new SqlConnection(connectionString))
                 {
-                    // Получение значения в ячейке, содержащей идентификатор записи
-                    int recordId = Convert.ToInt32(dataGridView1.Rows[selectedIndex].Cells["ID"].Value);
+                    connection.Open();
+                    string query = $"DELETE FROM Clients WHERE ID = {recordId}";
 
-                    // Выполнение SQL-запроса для удаления записи
-                    using (SqlConnection connection = new SqlConnection(connectionString))
+                    using (SqlCommand command = new SqlCommand(query, connection))
                     {
-                        connection.Open();
-                        string query = $"DELETE FROM Clients WHERE ID = {recordId}";
-
-                        using (SqlCommand command = new SqlCommand(query, connection))
-                        {
-                            command.ExecuteNonQuery();
-                        }
+                        command.ExecuteNonQuery();
                     }
-
-                    // Обновление DataGridView после удаления записи
-                    dataGridView1.Rows.RemoveAt(selectedIndex);
-
-                    MessageBox.Show("Запись успешно удалена.", "Успех", MessageBoxButtons.OK, MessageBoxIcon.Information);
                 }
-                else
-                {
-                    MessageBox.Show("Выберите запись для удаления.", "Внимание", MessageBoxButtons.OK, MessageBoxIcon.Warning);
-                
+
+                // Обновление DataGridView после удаления записи
+                dataGridView1.Rows.RemoveAt(selectedIndex);
+
+                MessageBox.Show("Запись успешно удалена.", "Успех", MessageBoxButtons.OK, MessageBoxIcon.Information);
             }
+            else
+            {
+                MessageBox.Show("Выберите запись для удаления.", "Внимание", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+
+            }
+
+        }
+
+        private void materialButton9_Click(object sender, EventArgs e)
+        {
+            // ----------------------- Настроить под свои таблицы --------------------------------------
+            /*
+            категориитоваровBindingSource.EndEdit();
+			категории_товаровTableAdapter.Update(_ip521_11_Ivakov_Курсовая1DataSet);
+
+			товарыBindingSource.EndEdit();
+			товарыTableAdapter.Update(_ip521_11_Ivakov_Курсовая1DataSet);
+
+			поставкиBindingSource.EndEdit();
+			поставкиTableAdapter.Update(_ip521_11_Ivakov_Курсовая1DataSet);
+
+			складыBindingSource.EndEdit();
+			складыTableAdapter1.Update(_ip521_11_Ivakov_Курсовая1DataSet);
+
+			товарынаскладеBindingSource.EndEdit();
+			товары_на_складеTableAdapter.Update(_ip521_11_Ivakov_Курсовая1DataSet);
+
+			поставщикиBindingSource.EndEdit();
+			поставщикиTableAdapter.Update(_ip521_11_Ivakov_Курсовая1DataSet);
+
+			складыBindingSource.EndEdit();
+			складыTableAdapter.Update(___AAA_SegaIp521_18DataSet);
+
+			цветыBindingSource.EndEdit();
+			цветыTableAdapter.Update(___AAA_SegaIp521_18DataSet); 
+             */
         }
     }
 }
