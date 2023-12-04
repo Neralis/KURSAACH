@@ -15,6 +15,8 @@ using OfficeOpenXml.Style;
 using System.Reflection.Emit;
 using System.Collections.Generic;
 using System.Linq;
+using static System.Windows.Forms.VisualStyles.VisualStyleElement;
+using System.IO;
 
 
 
@@ -374,6 +376,75 @@ namespace KURSAACH
 			цветыBindingSource.EndEdit();
 			цветыTableAdapter.Update(___AAA_SegaIp521_18DataSet); 
              */
+        }
+
+        string filepath = "";
+
+        private void materialButton10_Click(object sender, EventArgs e)
+        {
+            string table = materialComboBox9.Text;
+            switch (table)
+            {
+                case "Clients":
+                    filepath = $"{materialTextBox9.Text}.xlsx";
+                    break;
+                case "Couriers":
+                    filepath = $"{materialTextBox9.Text}.xlsx";
+                    break;
+                case "Workers":
+                    filepath = $"{materialTextBox9.Text}.xlsx";
+                    break;
+                case "Order":
+                    filepath = $"{materialTextBox9.Text}.xlsx";
+                    break;
+                default:
+                    MessageBox.Show("Такой таблицы не существует!", "Ошибка!", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                    break;
+            }
+            exportToExcel(dataGridView1, filepath);
+        }
+
+        private void exportToExcel(DataGridView dataGridView, string filepath)
+        {
+            try
+            {
+                if (materialTextBox9.Text != "")
+                {
+                    ExcelPackage.LicenseContext = OfficeOpenXml.LicenseContext.NonCommercial;
+
+                    using (ExcelPackage excelPackage = new ExcelPackage())
+                    {
+                        ExcelWorksheet worksheet = excelPackage.Workbook.Worksheets.Add($"{materialTextBox9.Text}");
+
+                        for (int column = 0; column < dataGridView.ColumnCount; column++)
+                        {
+                            worksheet.Cells[1, column + 1].Value = dataGridView.Columns[column].HeaderText;
+                        }
+
+                        for (int row = 0; row < dataGridView.Rows.Count; row++)
+                        {
+                            for (int column = 0; column < dataGridView.ColumnCount; column++)
+                            {
+                                worksheet.Cells[row + 2, column + 1].Value = dataGridView.Rows[row].Cells[column].Value;
+                            }
+                        }
+                        using (ExcelRange range = worksheet.Cells[1, 1, dataGridView.Rows.Count + 1, dataGridView.ColumnCount])
+                        {
+                            range.Style.HorizontalAlignment = ExcelHorizontalAlignment.Center;
+                            range.AutoFitColumns();
+                        }
+                        FileInfo excelFile = new FileInfo(filepath);
+                        excelPackage.SaveAs(excelFile);
+                    }
+                    MessageBox.Show($"Таблица " + $"{materialTextBox9.Text}" + " успешно экспортирована!", "Успех!", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                }
+                else
+                    MessageBox.Show("Введите название таблицы.", "Ошибка!", MessageBoxButtons.OK, MessageBoxIcon.Error);
+            }
+            catch
+            {
+                MessageBox.Show("При экспорте таблицы произошла ошибка", "Ошибка!", MessageBoxButtons.OK, MessageBoxIcon.Error);
+            }
         }
     }
 }
