@@ -39,7 +39,7 @@ namespace KURSAACH
 
         private void Form2_Load(object sender, EventArgs e)
         {
-            // TODO: данная строка кода позволяет загрузить данные в таблицу "kR_Ip521_NikitinDataSet._Цена_заказа__1500". При необходимости она может быть перемещена или удалена.
+            /*// TODO: данная строка кода позволяет загрузить данные в таблицу "kR_Ip521_NikitinDataSet._Цена_заказа__1500". При необходимости она может быть перемещена или удалена.
             this.цена_заказа__1500TableAdapter.Fill(this.kR_Ip521_NikitinDataSet._Цена_заказа__1500);
             // TODO: данная строка кода позволяет загрузить данные в таблицу "kR_Ip521_NikitinDataSet.Сумма_выполненных_заказов". При необходимости она может быть перемещена или удалена.
             this.сумма_выполненных_заказовTableAdapter.Fill(this.kR_Ip521_NikitinDataSet.Сумма_выполненных_заказов);
@@ -67,7 +67,7 @@ namespace KURSAACH
             this.couriersTableAdapter.Fill(this.kR_Ip521_NikitinDataSet.Couriers);
             // TODO: данная строка кода позволяет загрузить данные в таблицу "kR_Ip521_NikitinDataSet.Clients". При необходимости она может быть перемещена или удалена.
             this.clientsTableAdapter.Fill(this.kR_Ip521_NikitinDataSet.Clients);
-            
+            */
 
 
             /* Настроить в колледже ----------------------------------------------------------------------
@@ -116,7 +116,7 @@ namespace KURSAACH
 
 
 
-
+            FillComboBoxWithTables();
 
 
 
@@ -125,12 +125,12 @@ namespace KURSAACH
             {
                 //tabControl1.Visible = false;
                 //tabControl2.Visible = true;
-                materialTextBox26.ReadOnly = true;
+                /*materialTextBox26.ReadOnly = true;
                 materialTextBox21.ReadOnly = true;
                 materialTextBox22.ReadOnly = true;
                 materialTextBox23.ReadOnly = true;
                 materialTextBox25.ReadOnly = true;
-                materialTextBox27.ReadOnly = true;
+                materialTextBox27.ReadOnly = true;*/
 
                 dataGridView1.ReadOnly = true;
                 dataGridView2.ReadOnly = true;
@@ -172,12 +172,18 @@ namespace KURSAACH
         {
             tabControl1.Visible = true;
             tabControl2.Visible = false;
+            materialButton10.Visible = true;
+            materialTextBox9.Visible = true;
+            materialComboBox9.Visible = true;
         }
 
         private void представленияToolStripMenuItem_Click(object sender, EventArgs e)
         {
             tabControl2.Visible = true;
             tabControl1.Visible = false;
+            materialButton10.Visible = false;
+            materialTextBox9.Visible = false;
+            materialComboBox9.Visible = false;
         }
 
         private void Form2_FormClosed(object sender, FormClosedEventArgs e)
@@ -186,7 +192,7 @@ namespace KURSAACH
 
         }
 
-        private void materialSwitch1_CheckedChanged(object sender, EventArgs e)
+        /*private void materialSwitch1_CheckedChanged(object sender, EventArgs e)
         {
             if (materialSwitch1.Checked == true)
             {
@@ -207,8 +213,8 @@ namespace KURSAACH
                 materialButton3.Visible = false;
             }
         }
-
-        private void materialSwitch2_CheckedChanged(object sender, EventArgs e)
+        */
+        /*private void materialSwitch2_CheckedChanged(object sender, EventArgs e)
         {
             if (materialSwitch2.Checked == true)
             {
@@ -226,9 +232,9 @@ namespace KURSAACH
                 materialButton2.Visible = false;
                 materialCheckbox1.Visible = true;
             }
-        }
+        }*/
 
-        private void materialSwitch3_CheckedChanged(object sender, EventArgs e)
+        /*private void materialSwitch3_CheckedChanged(object sender, EventArgs e)
         {
             if (materialSwitch3.Checked == true)
             {
@@ -248,9 +254,9 @@ namespace KURSAACH
                 materialButton1.Visible = true;
                 materialButton3.Visible = false;
             }
-        }
+        }*/
 
-        private void materialSwitch4_CheckedChanged(object sender, EventArgs e)
+        /*private void materialSwitch4_CheckedChanged(object sender, EventArgs e)
         {
             if (materialSwitch4.Checked == true)
             {
@@ -270,10 +276,10 @@ namespace KURSAACH
                 materialButton1.Visible = true;
                 materialButton3.Visible = false;
             }
-        }
+        }*/
 
 
-        private void materialButton1_Click(object sender, EventArgs e)
+       /* private void materialButton1_Click(object sender, EventArgs e)
         {
 
             // Формируем строку запроса с использованием параметров
@@ -305,7 +311,7 @@ namespace KURSAACH
                     MessageBox.Show("Ошибка при добавлении данных: " + ex.Message, "Ошибка");
                 }
             }
-        }
+        }*/
 
         private void materialButton6_Click(object sender, EventArgs e)
         {
@@ -376,34 +382,50 @@ namespace KURSAACH
             {
                 case "Clients":
                     filepath = $"{materialTextBox9.Text}.xlsx";
+                    exportToExcel(dataGridView1, filepath);
                     break;
                 case "Couriers":
                     filepath = $"{materialTextBox9.Text}.xlsx";
-                    break;
-                case "Workers":
-                    filepath = $"{materialTextBox9.Text}.xlsx";
+                    exportToExcel(dataGridView2, filepath);
                     break;
                 case "Order":
                     filepath = $"{materialTextBox9.Text}.xlsx";
+                    exportToExcel(dataGridView3, filepath);
+                    break;
+                case "Workers":
+                    filepath = $"{materialTextBox9.Text}.xlsx";
+                    exportToExcel(dataGridView4, filepath);
                     break;
                 default:
                     MessageBox.Show("Такой таблицы не существует!", "Ошибка!", MessageBoxButtons.OK, MessageBoxIcon.Error);
                     break;
             }
-            exportToExcel(dataGridView1, filepath);
+            
+        }
+
+        private void FillComboBoxWithTables()
+        {
+            // Замените этот код реальными именами ваших таблиц
+            materialComboBox9.Items.Add("Clients");
+            materialComboBox9.Items.Add("Couriers");
+            materialComboBox9.Items.Add("Order");
+            materialComboBox9.Items.Add("Workers");
+            // ...
         }
 
         private void exportToExcel(DataGridView dataGridView, string filepath)
         {
             try
             {
-                if (materialTextBox9.Text != "")
+                if (materialComboBox9.SelectedItem != null)
                 {
+                    string tableName = materialComboBox9.SelectedItem.ToString();
+
                     ExcelPackage.LicenseContext = OfficeOpenXml.LicenseContext.NonCommercial;
 
                     using (ExcelPackage excelPackage = new ExcelPackage())
                     {
-                        ExcelWorksheet worksheet = excelPackage.Workbook.Worksheets.Add($"{materialTextBox9.Text}");
+                        ExcelWorksheet worksheet = excelPackage.Workbook.Worksheets.Add(tableName);
 
                         for (int column = 0; column < dataGridView.ColumnCount; column++)
                         {
@@ -425,10 +447,10 @@ namespace KURSAACH
                         FileInfo excelFile = new FileInfo(filepath);
                         excelPackage.SaveAs(excelFile);
                     }
-                    MessageBox.Show($"Таблица " + $"{materialTextBox9.Text}" + " успешно экспортирована!", "Успех!", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                    MessageBox.Show($"Таблица {tableName} успешно экспортирована!", "Успех!", MessageBoxButtons.OK, MessageBoxIcon.Information);
                 }
                 else
-                    MessageBox.Show("Введите название таблицы.", "Ошибка!", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                    MessageBox.Show("Выберите таблицу для экспорта.", "Ошибка!", MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
             catch
             {
