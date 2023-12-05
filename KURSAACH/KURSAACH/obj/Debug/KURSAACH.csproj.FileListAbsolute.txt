@@ -50,3 +50,10 @@ D:\GitServer\KURSAACH\KURSAACH\KURSAACH\bin\Debug\Microsoft.IO.RecyclableMemoryS
 D:\GitServer\KURSAACH\KURSAACH\KURSAACH\bin\Debug\System.ComponentModel.Annotations.dll
 D:\GitServer\KURSAACH\KURSAACH\KURSAACH\bin\Debug\EPPlus.xml
 D:\GitServer\KURSAACH\KURSAACH\KURSAACH\bin\Debug\Microsoft.IO.RecyclableMemoryStream.xml
+C:\Users\ip521-14\source\repos\Git\KURSAACH\KURSAACH\KURSAACH\bin\Debug\EPPlus.dll
+C:\Users\ip521-14\source\repos\Git\KURSAACH\KURSAACH\KURSAACH\bin\Debug\EPPlus.Interfaces.dll
+C:\Users\ip521-14\source\repos\Git\KURSAACH\KURSAACH\KURSAACH\bin\Debug\EPPlus.System.Drawing.dll
+C:\Users\ip521-14\source\repos\Git\KURSAACH\KURSAACH\KURSAACH\bin\Debug\Microsoft.IO.RecyclableMemoryStream.dll
+C:\Users\ip521-14\source\repos\Git\KURSAACH\KURSAACH\KURSAACH\bin\Debug\System.ComponentModel.Annotations.dll
+C:\Users\ip521-14\source\repos\Git\KURSAACH\KURSAACH\KURSAACH\bin\Debug\EPPlus.xml
+C:\Users\ip521-14\source\repos\Git\KURSAACH\KURSAACH\KURSAACH\bin\Debug\Microsoft.IO.RecyclableMemoryStream.xml

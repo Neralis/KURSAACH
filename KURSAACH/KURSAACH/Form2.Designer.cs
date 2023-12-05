@@ -35,6 +35,9 @@
             this.miniToolStrip = new System.Windows.Forms.BindingNavigator(this.components);
             this.tabControl1 = new System.Windows.Forms.TabControl();
             this.tabPage1 = new System.Windows.Forms.TabPage();
+            this.materialComboBox9 = new MaterialSkin.Controls.MaterialComboBox();
+            this.materialTextBox9 = new MaterialSkin.Controls.MaterialTextBox();
+            this.materialButton10 = new MaterialSkin.Controls.MaterialButton();
             this.materialButton9 = new MaterialSkin.Controls.MaterialButton();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
             this.materialSwitch5 = new MaterialSkin.Controls.MaterialSwitch();
@@ -69,6 +72,9 @@
             this.bindingNavigatorSeparator2 = new System.Windows.Forms.ToolStripSeparator();
             this.toolStripButton19 = new System.Windows.Forms.ToolStripButton();
             this.tabPage2 = new System.Windows.Forms.TabPage();
+            this.materialComboBox10 = new MaterialSkin.Controls.MaterialComboBox();
+            this.materialTextBox10 = new MaterialSkin.Controls.MaterialTextBox();
+            this.materialButton11 = new MaterialSkin.Controls.MaterialButton();
             this.groupBox2 = new System.Windows.Forms.GroupBox();
             this.materialSwitch6 = new MaterialSkin.Controls.MaterialSwitch();
             this.materialComboBox3 = new MaterialSkin.Controls.MaterialComboBox();
@@ -375,12 +381,6 @@
             this.средняя_цена_заказаTableAdapter = new KURSAACH.KR_Ip521_NikitinDataSetTableAdapters.Средняя_цена_заказаTableAdapter();
             this.сумма_выполненных_заказовTableAdapter = new KURSAACH.KR_Ip521_NikitinDataSetTableAdapters.Сумма_выполненных_заказовTableAdapter();
             this.цена_заказа__1500TableAdapter = new KURSAACH.KR_Ip521_NikitinDataSetTableAdapters.Цена_заказа__1500TableAdapter();
-            this.materialButton10 = new MaterialSkin.Controls.MaterialButton();
-            this.materialTextBox9 = new MaterialSkin.Controls.MaterialTextBox();
-            this.materialComboBox9 = new MaterialSkin.Controls.MaterialComboBox();
-            this.materialComboBox10 = new MaterialSkin.Controls.MaterialComboBox();
-            this.materialTextBox10 = new MaterialSkin.Controls.MaterialTextBox();
-            this.materialButton11 = new MaterialSkin.Controls.MaterialButton();
             ((System.ComponentModel.ISupportInitialize)(this.bindingSource1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.kR_Ip521_NikitinDataSet)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.miniToolStrip)).BeginInit();
@@ -534,6 +534,71 @@
             this.tabPage1.TabIndex = 0;
             this.tabPage1.Text = "Clients";
             this.tabPage1.UseVisualStyleBackColor = true;
+            // 
+            // materialComboBox9
+            // 
+            this.materialComboBox9.AutoResize = false;
+            this.materialComboBox9.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
+            this.materialComboBox9.Depth = 0;
+            this.materialComboBox9.DrawMode = System.Windows.Forms.DrawMode.OwnerDrawVariable;
+            this.materialComboBox9.DropDownHeight = 174;
+            this.materialComboBox9.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.materialComboBox9.DropDownWidth = 121;
+            this.materialComboBox9.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Pixel);
+            this.materialComboBox9.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(222)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
+            this.materialComboBox9.FormattingEnabled = true;
+            this.materialComboBox9.IntegralHeight = false;
+            this.materialComboBox9.ItemHeight = 43;
+            this.materialComboBox9.Items.AddRange(new object[] {
+            "Clients",
+            "Couriers",
+            "Order",
+            "Adress"});
+            this.materialComboBox9.Location = new System.Drawing.Point(276, 662);
+            this.materialComboBox9.MaxDropDownItems = 4;
+            this.materialComboBox9.MouseState = MaterialSkin.MouseState.OUT;
+            this.materialComboBox9.Name = "materialComboBox9";
+            this.materialComboBox9.Size = new System.Drawing.Size(146, 49);
+            this.materialComboBox9.StartIndex = 0;
+            this.materialComboBox9.TabIndex = 15;
+            // 
+            // materialTextBox9
+            // 
+            this.materialTextBox9.AnimateReadOnly = false;
+            this.materialTextBox9.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.materialTextBox9.Depth = 0;
+            this.materialTextBox9.Font = new System.Drawing.Font("Roboto", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel);
+            this.materialTextBox9.LeadingIcon = null;
+            this.materialTextBox9.Location = new System.Drawing.Point(453, 661);
+            this.materialTextBox9.MaxLength = 50;
+            this.materialTextBox9.MouseState = MaterialSkin.MouseState.OUT;
+            this.materialTextBox9.Multiline = false;
+            this.materialTextBox9.Name = "materialTextBox9";
+            this.materialTextBox9.Size = new System.Drawing.Size(183, 50);
+            this.materialTextBox9.TabIndex = 14;
+            this.materialTextBox9.Text = "";
+            this.materialTextBox9.TrailingIcon = null;
+            // 
+            // materialButton10
+            // 
+            this.materialButton10.AutoSize = false;
+            this.materialButton10.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
+            this.materialButton10.Density = MaterialSkin.Controls.MaterialButton.MaterialButtonDensity.Default;
+            this.materialButton10.Depth = 0;
+            this.materialButton10.HighEmphasis = true;
+            this.materialButton10.Icon = null;
+            this.materialButton10.Location = new System.Drawing.Point(658, 661);
+            this.materialButton10.Margin = new System.Windows.Forms.Padding(4, 6, 4, 6);
+            this.materialButton10.MouseState = MaterialSkin.MouseState.HOVER;
+            this.materialButton10.Name = "materialButton10";
+            this.materialButton10.NoAccentTextColor = System.Drawing.Color.Empty;
+            this.materialButton10.Size = new System.Drawing.Size(119, 50);
+            this.materialButton10.TabIndex = 3;
+            this.materialButton10.Text = "Отчет";
+            this.materialButton10.Type = MaterialSkin.Controls.MaterialButton.MaterialButtonType.Contained;
+            this.materialButton10.UseAccentColor = false;
+            this.materialButton10.UseVisualStyleBackColor = true;
+            this.materialButton10.Click += new System.EventHandler(this.materialButton10_Click);
             // 
             // materialButton9
             // 
@@ -1040,6 +1105,70 @@
             this.tabPage2.TabIndex = 1;
             this.tabPage2.Text = "Couriers";
             this.tabPage2.UseVisualStyleBackColor = true;
+            // 
+            // materialComboBox10
+            // 
+            this.materialComboBox10.AutoResize = false;
+            this.materialComboBox10.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
+            this.materialComboBox10.Depth = 0;
+            this.materialComboBox10.DrawMode = System.Windows.Forms.DrawMode.OwnerDrawVariable;
+            this.materialComboBox10.DropDownHeight = 174;
+            this.materialComboBox10.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.materialComboBox10.DropDownWidth = 121;
+            this.materialComboBox10.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Pixel);
+            this.materialComboBox10.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(222)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
+            this.materialComboBox10.FormattingEnabled = true;
+            this.materialComboBox10.IntegralHeight = false;
+            this.materialComboBox10.ItemHeight = 43;
+            this.materialComboBox10.Items.AddRange(new object[] {
+            "Clients",
+            "Couriers",
+            "Order",
+            "Adress"});
+            this.materialComboBox10.Location = new System.Drawing.Point(276, 662);
+            this.materialComboBox10.MaxDropDownItems = 4;
+            this.materialComboBox10.MouseState = MaterialSkin.MouseState.OUT;
+            this.materialComboBox10.Name = "materialComboBox10";
+            this.materialComboBox10.Size = new System.Drawing.Size(146, 49);
+            this.materialComboBox10.StartIndex = 0;
+            this.materialComboBox10.TabIndex = 21;
+            // 
+            // materialTextBox10
+            // 
+            this.materialTextBox10.AnimateReadOnly = false;
+            this.materialTextBox10.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.materialTextBox10.Depth = 0;
+            this.materialTextBox10.Font = new System.Drawing.Font("Roboto", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel);
+            this.materialTextBox10.LeadingIcon = null;
+            this.materialTextBox10.Location = new System.Drawing.Point(453, 661);
+            this.materialTextBox10.MaxLength = 50;
+            this.materialTextBox10.MouseState = MaterialSkin.MouseState.OUT;
+            this.materialTextBox10.Multiline = false;
+            this.materialTextBox10.Name = "materialTextBox10";
+            this.materialTextBox10.Size = new System.Drawing.Size(183, 50);
+            this.materialTextBox10.TabIndex = 20;
+            this.materialTextBox10.Text = "";
+            this.materialTextBox10.TrailingIcon = null;
+            // 
+            // materialButton11
+            // 
+            this.materialButton11.AutoSize = false;
+            this.materialButton11.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
+            this.materialButton11.Density = MaterialSkin.Controls.MaterialButton.MaterialButtonDensity.Default;
+            this.materialButton11.Depth = 0;
+            this.materialButton11.HighEmphasis = true;
+            this.materialButton11.Icon = null;
+            this.materialButton11.Location = new System.Drawing.Point(658, 661);
+            this.materialButton11.Margin = new System.Windows.Forms.Padding(4, 6, 4, 6);
+            this.materialButton11.MouseState = MaterialSkin.MouseState.HOVER;
+            this.materialButton11.Name = "materialButton11";
+            this.materialButton11.NoAccentTextColor = System.Drawing.Color.Empty;
+            this.materialButton11.Size = new System.Drawing.Size(119, 50);
+            this.materialButton11.TabIndex = 19;
+            this.materialButton11.Text = "Отчет";
+            this.materialButton11.Type = MaterialSkin.Controls.MaterialButton.MaterialButtonType.Contained;
+            this.materialButton11.UseAccentColor = false;
+            this.materialButton11.UseVisualStyleBackColor = true;
             // 
             // groupBox2
             // 
@@ -4374,135 +4503,6 @@
             // цена_заказа__1500TableAdapter
             // 
             this.цена_заказа__1500TableAdapter.ClearBeforeFill = true;
-            // 
-            // materialButton10
-            // 
-            this.materialButton10.AutoSize = false;
-            this.materialButton10.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
-            this.materialButton10.Density = MaterialSkin.Controls.MaterialButton.MaterialButtonDensity.Default;
-            this.materialButton10.Depth = 0;
-            this.materialButton10.HighEmphasis = true;
-            this.materialButton10.Icon = null;
-            this.materialButton10.Location = new System.Drawing.Point(658, 661);
-            this.materialButton10.Margin = new System.Windows.Forms.Padding(4, 6, 4, 6);
-            this.materialButton10.MouseState = MaterialSkin.MouseState.HOVER;
-            this.materialButton10.Name = "materialButton10";
-            this.materialButton10.NoAccentTextColor = System.Drawing.Color.Empty;
-            this.materialButton10.Size = new System.Drawing.Size(119, 50);
-            this.materialButton10.TabIndex = 3;
-            this.materialButton10.Text = "Отчет";
-            this.materialButton10.Type = MaterialSkin.Controls.MaterialButton.MaterialButtonType.Contained;
-            this.materialButton10.UseAccentColor = false;
-            this.materialButton10.UseVisualStyleBackColor = true;
-            this.materialButton10.Click += new System.EventHandler(this.materialButton10_Click);
-            // 
-            // materialTextBox9
-            // 
-            this.materialTextBox9.AnimateReadOnly = false;
-            this.materialTextBox9.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.materialTextBox9.Depth = 0;
-            this.materialTextBox9.Font = new System.Drawing.Font("Roboto", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel);
-            this.materialTextBox9.LeadingIcon = null;
-            this.materialTextBox9.Location = new System.Drawing.Point(453, 661);
-            this.materialTextBox9.MaxLength = 50;
-            this.materialTextBox9.MouseState = MaterialSkin.MouseState.OUT;
-            this.materialTextBox9.Multiline = false;
-            this.materialTextBox9.Name = "materialTextBox9";
-            this.materialTextBox9.Size = new System.Drawing.Size(183, 50);
-            this.materialTextBox9.TabIndex = 14;
-            this.materialTextBox9.Text = "";
-            this.materialTextBox9.TrailingIcon = null;
-            // 
-            // materialComboBox9
-            // 
-            this.materialComboBox9.AutoResize = false;
-            this.materialComboBox9.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
-            this.materialComboBox9.Depth = 0;
-            this.materialComboBox9.DrawMode = System.Windows.Forms.DrawMode.OwnerDrawVariable;
-            this.materialComboBox9.DropDownHeight = 174;
-            this.materialComboBox9.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
-            this.materialComboBox9.DropDownWidth = 121;
-            this.materialComboBox9.Font = new System.Drawing.Font("Roboto Medium", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Pixel);
-            this.materialComboBox9.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(222)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
-            this.materialComboBox9.FormattingEnabled = true;
-            this.materialComboBox9.IntegralHeight = false;
-            this.materialComboBox9.ItemHeight = 43;
-            this.materialComboBox9.Items.AddRange(new object[] {
-            "Clients",
-            "Couriers",
-            "Order",
-            "Adress"});
-            this.materialComboBox9.Location = new System.Drawing.Point(276, 662);
-            this.materialComboBox9.MaxDropDownItems = 4;
-            this.materialComboBox9.MouseState = MaterialSkin.MouseState.OUT;
-            this.materialComboBox9.Name = "materialComboBox9";
-            this.materialComboBox9.Size = new System.Drawing.Size(146, 49);
-            this.materialComboBox9.StartIndex = 0;
-            this.materialComboBox9.TabIndex = 15;
-            // 
-            // materialComboBox10
-            // 
-            this.materialComboBox10.AutoResize = false;
-            this.materialComboBox10.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
-            this.materialComboBox10.Depth = 0;
-            this.materialComboBox10.DrawMode = System.Windows.Forms.DrawMode.OwnerDrawVariable;
-            this.materialComboBox10.DropDownHeight = 174;
-            this.materialComboBox10.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
-            this.materialComboBox10.DropDownWidth = 121;
-            this.materialComboBox10.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Pixel);
-            this.materialComboBox10.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(222)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
-            this.materialComboBox10.FormattingEnabled = true;
-            this.materialComboBox10.IntegralHeight = false;
-            this.materialComboBox10.ItemHeight = 43;
-            this.materialComboBox10.Items.AddRange(new object[] {
-            "Clients",
-            "Couriers",
-            "Order",
-            "Adress"});
-            this.materialComboBox10.Location = new System.Drawing.Point(276, 662);
-            this.materialComboBox10.MaxDropDownItems = 4;
-            this.materialComboBox10.MouseState = MaterialSkin.MouseState.OUT;
-            this.materialComboBox10.Name = "materialComboBox10";
-            this.materialComboBox10.Size = new System.Drawing.Size(146, 49);
-            this.materialComboBox10.StartIndex = 0;
-            this.materialComboBox10.TabIndex = 21;
-            // 
-            // materialTextBox10
-            // 
-            this.materialTextBox10.AnimateReadOnly = false;
-            this.materialTextBox10.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.materialTextBox10.Depth = 0;
-            this.materialTextBox10.Font = new System.Drawing.Font("Roboto", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel);
-            this.materialTextBox10.LeadingIcon = null;
-            this.materialTextBox10.Location = new System.Drawing.Point(453, 661);
-            this.materialTextBox10.MaxLength = 50;
-            this.materialTextBox10.MouseState = MaterialSkin.MouseState.OUT;
-            this.materialTextBox10.Multiline = false;
-            this.materialTextBox10.Name = "materialTextBox10";
-            this.materialTextBox10.Size = new System.Drawing.Size(183, 50);
-            this.materialTextBox10.TabIndex = 20;
-            this.materialTextBox10.Text = "";
-            this.materialTextBox10.TrailingIcon = null;
-            // 
-            // materialButton11
-            // 
-            this.materialButton11.AutoSize = false;
-            this.materialButton11.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
-            this.materialButton11.Density = MaterialSkin.Controls.MaterialButton.MaterialButtonDensity.Default;
-            this.materialButton11.Depth = 0;
-            this.materialButton11.HighEmphasis = true;
-            this.materialButton11.Icon = null;
-            this.materialButton11.Location = new System.Drawing.Point(658, 661);
-            this.materialButton11.Margin = new System.Windows.Forms.Padding(4, 6, 4, 6);
-            this.materialButton11.MouseState = MaterialSkin.MouseState.HOVER;
-            this.materialButton11.Name = "materialButton11";
-            this.materialButton11.NoAccentTextColor = System.Drawing.Color.Empty;
-            this.materialButton11.Size = new System.Drawing.Size(119, 50);
-            this.materialButton11.TabIndex = 19;
-            this.materialButton11.Text = "Отчет";
-            this.materialButton11.Type = MaterialSkin.Controls.MaterialButton.MaterialButtonType.Contained;
-            this.materialButton11.UseAccentColor = false;
-            this.materialButton11.UseVisualStyleBackColor = true;
             // 
             // Form2
             // 

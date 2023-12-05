@@ -39,7 +39,7 @@ namespace KURSAACH
 
         private void Form2_Load(object sender, EventArgs e)
         {
-            /*// TODO: данная строка кода позволяет загрузить данные в таблицу "kR_Ip521_NikitinDataSet._Цена_заказа__1500". При необходимости она может быть перемещена или удалена.
+            // TODO: данная строка кода позволяет загрузить данные в таблицу "kR_Ip521_NikitinDataSet._Цена_заказа__1500". При необходимости она может быть перемещена или удалена.
             this.цена_заказа__1500TableAdapter.Fill(this.kR_Ip521_NikitinDataSet._Цена_заказа__1500);
             // TODO: данная строка кода позволяет загрузить данные в таблицу "kR_Ip521_NikitinDataSet.Сумма_выполненных_заказов". При необходимости она может быть перемещена или удалена.
             this.сумма_выполненных_заказовTableAdapter.Fill(this.kR_Ip521_NikitinDataSet.Сумма_выполненных_заказов);
@@ -67,7 +67,7 @@ namespace KURSAACH
             this.couriersTableAdapter.Fill(this.kR_Ip521_NikitinDataSet.Couriers);
             // TODO: данная строка кода позволяет загрузить данные в таблицу "kR_Ip521_NikitinDataSet.Clients". При необходимости она может быть перемещена или удалена.
             this.clientsTableAdapter.Fill(this.kR_Ip521_NikitinDataSet.Clients);
-            */
+            
 
 
             /* Настроить в колледже ----------------------------------------------------------------------
@@ -351,31 +351,20 @@ namespace KURSAACH
         private void materialButton9_Click(object sender, EventArgs e)
         {
             // ----------------------- Настроить под свои таблицы --------------------------------------
-            /*
-            категориитоваровBindingSource.EndEdit();
-			категории_товаровTableAdapter.Update(_ip521_11_Ivakov_Курсовая1DataSet);
+            
+            clientsBindingSource.EndEdit();
+			clientsTableAdapter.Update(kR_Ip521_NikitinDataSet);
 
-			товарыBindingSource.EndEdit();
-			товарыTableAdapter.Update(_ip521_11_Ivakov_Курсовая1DataSet);
+			couriersBindingSource.EndEdit();
+            couriersTableAdapter.Update(kR_Ip521_NikitinDataSet);
 
-			поставкиBindingSource.EndEdit();
-			поставкиTableAdapter.Update(_ip521_11_Ivakov_Курсовая1DataSet);
+			orderBindingSource.EndEdit();
+            orderTableAdapter.Update(kR_Ip521_NikitinDataSet);
 
-			складыBindingSource.EndEdit();
-			складыTableAdapter1.Update(_ip521_11_Ivakov_Курсовая1DataSet);
+			workersBindingSource.EndEdit();
+			workersTableAdapter.Update(kR_Ip521_NikitinDataSet);
 
-			товарынаскладеBindingSource.EndEdit();
-			товары_на_складеTableAdapter.Update(_ip521_11_Ivakov_Курсовая1DataSet);
-
-			поставщикиBindingSource.EndEdit();
-			поставщикиTableAdapter.Update(_ip521_11_Ivakov_Курсовая1DataSet);
-
-			складыBindingSource.EndEdit();
-			складыTableAdapter.Update(___AAA_SegaIp521_18DataSet);
-
-			цветыBindingSource.EndEdit();
-			цветыTableAdapter.Update(___AAA_SegaIp521_18DataSet); 
-             */
+             
         }
 
         string filepath = "";
