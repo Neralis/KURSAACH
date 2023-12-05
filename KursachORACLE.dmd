@@ -1,0 +1,8 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="KursachORACLE" id="C4910F46-8897-F953-DE76-20B4DFBFE247" version="3.5">
+<createdBy>ip521-14</createdBy>
+<createdTime>2023-09-29 05:55:32 UTC</createdTime>
+<ownerDesignName>KURSACH</ownerDesignName>
+<capitalNames>false</capitalNames>
+<designId>C4910F46-8897-F953-DE76-20B4DFBFE247</designId>
+</OSDM_Design>
