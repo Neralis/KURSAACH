@@ -1,0 +1,65 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="F1964911-ED65-6BED-973E-D0CCCD475A9D" name="Couriers">
+<createdBy>kosty</createdBy>
+<createdTime>2023-12-06 17:37:29 UTC</createdTime>
+<ownerDesignName>321</ownerDesignName>
+<engineerTo>
+<item key="32C0C913-7361-9B46-003F-35A5A5FBDEAC" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="ID_Courier" id="CCE81C95-956C-B189-72C1-113F99BC6B44">
+<createdBy>kosty</createdBy>
+<createdTime>2023-12-06 17:37:38 UTC</createdTime>
+<ownerDesignName>321</ownerDesignName>
+<engineerTo>
+<item key="32C0C913-7361-9B46-003F-35A5A5FBDEAC" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="DeliveryStatus" id="0FD9C2AE-7CAF-C6E6-9908-8FD985F3DFB7">
+<createdBy>kosty</createdBy>
+<createdTime>2023-12-06 17:37:44 UTC</createdTime>
+<ownerDesignName>321</ownerDesignName>
+<engineerTo>
+<item key="32C0C913-7361-9B46-003F-35A5A5FBDEAC" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="CourierName" id="506CE54E-D0FD-9B17-84DF-D8E139AAC83E">
+<createdBy>kosty</createdBy>
+<createdTime>2023-12-06 17:37:51 UTC</createdTime>
+<ownerDesignName>321</ownerDesignName>
+<engineerTo>
+<item key="32C0C913-7361-9B46-003F-35A5A5FBDEAC" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="3CF2F754-E53E-D1DA-C74E-C0057CBE2093" name="Couriers PK">
+<createdBy>kosty</createdBy>
+<createdTime>2023-12-06 19:21:18 UTC</createdTime>
+<ownerDesignName>321</ownerDesignName>
+<engineerTo>
+<item key="32C0C913-7361-9B46-003F-35A5A5FBDEAC" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>CCE81C95-956C-B189-72C1-113F99BC6B44</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

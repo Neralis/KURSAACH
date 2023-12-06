@@ -1,0 +1,77 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="A3CB139E-2227-8661-CB16-A41D104CFC78" name="Couriers">
+<createdBy>kosty</createdBy>
+<createdTime>2023-12-06 17:40:15 UTC</createdTime>
+<generatorID>F1964911-ED65-6BED-973E-D0CCCD475A9D</generatorID>
+<ownerDesignName>321</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID_Courier" id="7744727A-9F2D-D551-8FB0-7A9352544C0A">
+<createdBy>kosty</createdBy>
+<createdTime>2023-12-06 17:40:15 UTC</createdTime>
+<generatorID>CCE81C95-956C-B189-72C1-113F99BC6B44</generatorID>
+<ownerDesignName>321</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DeliveryStatus" id="636F28F2-1C12-B64A-D0CF-73C361EE3AF1">
+<createdBy>kosty</createdBy>
+<createdTime>2023-12-06 17:40:15 UTC</createdTime>
+<generatorID>0FD9C2AE-7CAF-C6E6-9908-8FD985F3DFB7</generatorID>
+<ownerDesignName>321</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CourierName" id="63CC945E-D2B6-77BE-BBB9-49B7A02243F4">
+<createdBy>kosty</createdBy>
+<createdTime>2023-12-06 17:40:15 UTC</createdTime>
+<generatorID>506CE54E-D0FD-9B17-84DF-D8E139AAC83E</generatorID>
+<ownerDesignName>321</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Couriers_ID" id="74E4FB5D-37BA-236F-187E-5EB758993ECD">
+<createdBy>kosty</createdBy>
+<createdTime>2023-12-06 17:40:15 UTC</createdTime>
+<ownerDesignName>321</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementColumn>true</autoIncrementColumn>
+<identityColumn>true</identityColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<isSurrogateColumn>true</isSurrogateColumn>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="63A4AD43-2467-2751-F374-E91F3BD0CBC1" name="Couriers_PK">
+<createdBy>kosty</createdBy>
+<createdTime>2023-12-06 17:40:15 UTC</createdTime>
+<ownerDesignName>321</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<indexColumnUsage>
+<colUsage columnID="74E4FB5D-37BA-236F-187E-5EB758993ECD"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="7E7CC231-1DC0-4FBF-F15B-2C3BD8EE2A99" name="Couriers_ID_Courier_UN">
+<createdBy>kosty</createdBy>
+<createdTime>2023-12-06 19:21:30 UTC</createdTime>
+<generatorID>3CF2F754-E53E-D1DA-C74E-C0057CBE2093</generatorID>
+<ownerDesignName>321</ownerDesignName>
+<indexState>Unique Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="7744727A-9F2D-D551-8FB0-7A9352544C0A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

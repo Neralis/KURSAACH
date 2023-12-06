@@ -1,0 +1,76 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="6A0819FF-19F9-AE50-218E-89F0C17FD621" name="Clients">
+<createdBy>kosty</createdBy>
+<createdTime>2023-12-06 17:35:58 UTC</createdTime>
+<ownerDesignName>321</ownerDesignName>
+<engineerTo>
+<item key="32C0C913-7361-9B46-003F-35A5A5FBDEAC" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="ID_Client" id="CEA2BE4C-8EDB-1780-D1A4-917531E23C87">
+<createdBy>kosty</createdBy>
+<createdTime>2023-12-06 17:36:04 UTC</createdTime>
+<ownerDesignName>321</ownerDesignName>
+<engineerTo>
+<item key="32C0C913-7361-9B46-003F-35A5A5FBDEAC" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ClientName" id="8C3FF564-5DA1-D0B0-E291-6CDE2C994C1E">
+<createdBy>kosty</createdBy>
+<createdTime>2023-12-06 17:36:14 UTC</createdTime>
+<ownerDesignName>321</ownerDesignName>
+<engineerTo>
+<item key="32C0C913-7361-9B46-003F-35A5A5FBDEAC" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Adress" id="00290665-BEA7-BC54-50A0-B6F0259FF0D4">
+<createdBy>kosty</createdBy>
+<createdTime>2023-12-06 17:36:18 UTC</createdTime>
+<ownerDesignName>321</ownerDesignName>
+<engineerTo>
+<item key="32C0C913-7361-9B46-003F-35A5A5FBDEAC" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="PhoneNumber" id="C24B1065-6446-6B8E-EFF4-28C5E56731A4">
+<createdBy>kosty</createdBy>
+<createdTime>2023-12-06 17:36:23 UTC</createdTime>
+<ownerDesignName>321</ownerDesignName>
+<engineerTo>
+<item key="32C0C913-7361-9B46-003F-35A5A5FBDEAC" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="9BC06A68-C197-C258-6020-8358E85537CD" name="Clients PK">
+<createdBy>kosty</createdBy>
+<createdTime>2023-12-06 19:21:12 UTC</createdTime>
+<ownerDesignName>321</ownerDesignName>
+<engineerTo>
+<item key="32C0C913-7361-9B46-003F-35A5A5FBDEAC" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>CEA2BE4C-8EDB-1780-D1A4-917531E23C87</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

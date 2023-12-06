@@ -1,0 +1,87 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="04E0E300-E357-9ECA-AB71-31CD53B045D6" name="Clients">
+<createdBy>kosty</createdBy>
+<createdTime>2023-12-06 17:40:15 UTC</createdTime>
+<generatorID>6A0819FF-19F9-AE50-218E-89F0C17FD621</generatorID>
+<ownerDesignName>321</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID_Client" id="3E9D9FDD-CA66-B304-799D-BA9F9CB33F99">
+<createdBy>kosty</createdBy>
+<createdTime>2023-12-06 17:40:15 UTC</createdTime>
+<generatorID>CEA2BE4C-8EDB-1780-D1A4-917531E23C87</generatorID>
+<ownerDesignName>321</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ClientName" id="1F6580E4-6992-7532-34C9-247250E2B5CE">
+<createdBy>kosty</createdBy>
+<createdTime>2023-12-06 17:40:15 UTC</createdTime>
+<generatorID>8C3FF564-5DA1-D0B0-E291-6CDE2C994C1E</generatorID>
+<ownerDesignName>321</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Adress" id="BE50A26E-3781-8771-B1D8-DD9A4F7A0E45">
+<createdBy>kosty</createdBy>
+<createdTime>2023-12-06 17:40:15 UTC</createdTime>
+<generatorID>00290665-BEA7-BC54-50A0-B6F0259FF0D4</generatorID>
+<ownerDesignName>321</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="PhoneNumber" id="6F7E111C-BD24-831F-FA75-7220919230F8">
+<createdBy>kosty</createdBy>
+<createdTime>2023-12-06 17:40:15 UTC</createdTime>
+<generatorID>C24B1065-6446-6B8E-EFF4-28C5E56731A4</generatorID>
+<ownerDesignName>321</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Clients_ID" id="18081FFD-E3ED-ABCB-D52D-78FF60A6FAE9">
+<createdBy>kosty</createdBy>
+<createdTime>2023-12-06 17:40:15 UTC</createdTime>
+<ownerDesignName>321</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementColumn>true</autoIncrementColumn>
+<identityColumn>true</identityColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<isSurrogateColumn>true</isSurrogateColumn>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="63081044-8C2B-EF2C-631C-3CB082C6A7B2" name="Clients_PK">
+<createdBy>kosty</createdBy>
+<createdTime>2023-12-06 17:40:15 UTC</createdTime>
+<ownerDesignName>321</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<indexColumnUsage>
+<colUsage columnID="18081FFD-E3ED-ABCB-D52D-78FF60A6FAE9"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="400253D6-DB5F-F799-7809-ACC5A1410957" name="Clients_ID_Client_UN">
+<createdBy>kosty</createdBy>
+<createdTime>2023-12-06 19:21:30 UTC</createdTime>
+<generatorID>9BC06A68-C197-C258-6020-8358E85537CD</generatorID>
+<ownerDesignName>321</ownerDesignName>
+<indexState>Unique Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="3E9D9FDD-CA66-B304-799D-BA9F9CB33F99"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

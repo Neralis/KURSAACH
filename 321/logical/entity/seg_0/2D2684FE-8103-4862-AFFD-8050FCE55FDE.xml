@@ -1,0 +1,112 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="2D2684FE-8103-4862-AFFD-8050FCE55FDE" name="Order">
+<createdBy>kosty</createdBy>
+<createdTime>2023-12-06 17:37:04 UTC</createdTime>
+<ownerDesignName>321</ownerDesignName>
+<engineerTo>
+<item key="32C0C913-7361-9B46-003F-35A5A5FBDEAC" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="ID_Order" id="03E2F148-5B31-30B6-0544-F1B6312438E0">
+<createdBy>kosty</createdBy>
+<createdTime>2023-12-06 17:37:09 UTC</createdTime>
+<ownerDesignName>321</ownerDesignName>
+<engineerTo>
+<item key="32C0C913-7361-9B46-003F-35A5A5FBDEAC" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Status" id="E066EDDC-4181-54CE-56D4-07EA807ACE17">
+<createdBy>kosty</createdBy>
+<createdTime>2023-12-06 17:37:15 UTC</createdTime>
+<ownerDesignName>321</ownerDesignName>
+<engineerTo>
+<item key="32C0C913-7361-9B46-003F-35A5A5FBDEAC" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="OrderContent" id="47F31F9A-69D5-12BE-0645-5166394D2029">
+<createdBy>kosty</createdBy>
+<createdTime>2023-12-06 17:37:18 UTC</createdTime>
+<ownerDesignName>321</ownerDesignName>
+<engineerTo>
+<item key="32C0C913-7361-9B46-003F-35A5A5FBDEAC" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Date" id="8B73137C-8B1C-594A-05C0-F1AC4DD55C16">
+<createdBy>kosty</createdBy>
+<createdTime>2023-12-06 17:37:25 UTC</createdTime>
+<ownerDesignName>321</ownerDesignName>
+<engineerTo>
+<item key="32C0C913-7361-9B46-003F-35A5A5FBDEAC" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ID_Client" id="6A54293B-52AF-0857-7D24-514109A10EA2">
+<createdBy>kosty</createdBy>
+<createdTime>2023-12-06 19:21:13 UTC</createdTime>
+<generatorID>F7565A88-D526-CA23-241C-805BECEA52E3</generatorID>
+<ownerDesignName>321</ownerDesignName>
+<engineerTo>
+<item key="32C0C913-7361-9B46-003F-35A5A5FBDEAC" value="true"/>
+</engineerTo>
+<referedAttribute>CEA2BE4C-8EDB-1780-D1A4-917531E23C87</referedAttribute>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="WorkerID" id="6871260F-715F-77FC-1B04-3D8290B38EA8">
+<createdBy>kosty</createdBy>
+<createdTime>2023-12-06 19:21:16 UTC</createdTime>
+<generatorID>89BEFD71-5F11-A113-B576-297398AB14E6</generatorID>
+<ownerDesignName>321</ownerDesignName>
+<engineerTo>
+<item key="32C0C913-7361-9B46-003F-35A5A5FBDEAC" value="true"/>
+</engineerTo>
+<referedAttribute>975C508B-B887-1D11-B5D2-261C178ED868</referedAttribute>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ID_Courier" id="EF117442-4032-7EF0-FC06-5A361EB5836F">
+<createdBy>kosty</createdBy>
+<createdTime>2023-12-06 19:21:19 UTC</createdTime>
+<generatorID>F5BEE2F9-7ABC-62C4-5239-D104FD444885</generatorID>
+<ownerDesignName>321</ownerDesignName>
+<engineerTo>
+<item key="32C0C913-7361-9B46-003F-35A5A5FBDEAC" value="true"/>
+</engineerTo>
+<referedAttribute>CCE81C95-956C-B189-72C1-113F99BC6B44</referedAttribute>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="5844D5EB-3806-F362-B29D-AF13750B8AEA" name="Order PK">
+<createdBy>kosty</createdBy>
+<createdTime>2023-12-06 19:21:22 UTC</createdTime>
+<ownerDesignName>321</ownerDesignName>
+<engineerTo>
+<item key="32C0C913-7361-9B46-003F-35A5A5FBDEAC" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>03E2F148-5B31-30B6-0544-F1B6312438E0</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

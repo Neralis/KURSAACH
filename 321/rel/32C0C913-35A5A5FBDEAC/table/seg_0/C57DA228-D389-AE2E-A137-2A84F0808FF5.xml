@@ -1,0 +1,87 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="C57DA228-D389-AE2E-A137-2A84F0808FF5" name="Workers">
+<createdBy>kosty</createdBy>
+<createdTime>2023-12-06 17:40:15 UTC</createdTime>
+<generatorID>F3693924-1389-6973-2D82-38A453E86B43</generatorID>
+<ownerDesignName>321</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="WorkerID" id="6852990C-D67D-4701-867B-79E9456579EC">
+<createdBy>kosty</createdBy>
+<createdTime>2023-12-06 17:40:15 UTC</createdTime>
+<generatorID>975C508B-B887-1D11-B5D2-261C178ED868</generatorID>
+<ownerDesignName>321</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="WorkerName" id="4830B0D8-5AC5-B324-CF00-F9CA8F0CD082">
+<createdBy>kosty</createdBy>
+<createdTime>2023-12-06 17:40:15 UTC</createdTime>
+<generatorID>24DCEEB7-2052-C51C-0311-78F63B6650E2</generatorID>
+<ownerDesignName>321</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Post" id="EB7E42C1-9E00-7AA5-CDDC-9A1246CA8ED4">
+<createdBy>kosty</createdBy>
+<createdTime>2023-12-06 17:40:15 UTC</createdTime>
+<generatorID>35D10429-4954-2CA0-A43E-823CFE471A3B</generatorID>
+<ownerDesignName>321</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="WorkPlace" id="10F51F7D-EF8E-CC43-3F06-0E16CE9340CD">
+<createdBy>kosty</createdBy>
+<createdTime>2023-12-06 17:40:15 UTC</createdTime>
+<generatorID>A5C98221-BC2B-95AC-FB69-D535B9B7FFDC</generatorID>
+<ownerDesignName>321</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Workers_ID" id="F59AD377-D09A-4676-8AC4-5D8EAC00E628">
+<createdBy>kosty</createdBy>
+<createdTime>2023-12-06 17:40:15 UTC</createdTime>
+<ownerDesignName>321</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementColumn>true</autoIncrementColumn>
+<identityColumn>true</identityColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<isSurrogateColumn>true</isSurrogateColumn>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="5E94DC59-45B4-099C-FBDD-41D07EA01BA2" name="Workers_PK">
+<createdBy>kosty</createdBy>
+<createdTime>2023-12-06 17:40:15 UTC</createdTime>
+<ownerDesignName>321</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<indexColumnUsage>
+<colUsage columnID="F59AD377-D09A-4676-8AC4-5D8EAC00E628"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="232FD447-5CF5-A593-98C2-1DBA3F5DCAC6" name="Workers_WorkerID_UN">
+<createdBy>kosty</createdBy>
+<createdTime>2023-12-06 19:21:30 UTC</createdTime>
+<generatorID>AFA33FAA-4B7E-19BA-A915-EEE3E3EF7862</generatorID>
+<ownerDesignName>321</ownerDesignName>
+<indexState>Unique Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="6852990C-D67D-4701-867B-79E9456579EC"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

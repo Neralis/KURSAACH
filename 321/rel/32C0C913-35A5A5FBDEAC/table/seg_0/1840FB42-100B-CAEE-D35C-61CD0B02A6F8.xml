@@ -1,0 +1,170 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="1840FB42-100B-CAEE-D35C-61CD0B02A6F8" name="Order">
+<createdBy>kosty</createdBy>
+<createdTime>2023-12-06 17:40:15 UTC</createdTime>
+<generatorID>2D2684FE-8103-4862-AFFD-8050FCE55FDE</generatorID>
+<ownerDesignName>321</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID_Order" id="F4D47520-D47A-4EA2-12B1-411F24E38D08">
+<createdBy>kosty</createdBy>
+<createdTime>2023-12-06 17:40:15 UTC</createdTime>
+<generatorID>03E2F148-5B31-30B6-0544-F1B6312438E0</generatorID>
+<ownerDesignName>321</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Status" id="86DD43EF-E8DC-867D-256F-1F5BFAF44387">
+<createdBy>kosty</createdBy>
+<createdTime>2023-12-06 17:40:15 UTC</createdTime>
+<generatorID>E066EDDC-4181-54CE-56D4-07EA807ACE17</generatorID>
+<ownerDesignName>321</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="OrderContent" id="D6C18DC8-0E9A-EF30-F655-5BCBC40E08B2">
+<createdBy>kosty</createdBy>
+<createdTime>2023-12-06 17:40:15 UTC</createdTime>
+<generatorID>47F31F9A-69D5-12BE-0645-5166394D2029</generatorID>
+<ownerDesignName>321</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Date" id="0EF58289-229F-7C1D-EC40-3B5095B424C5">
+<createdBy>kosty</createdBy>
+<createdTime>2023-12-06 17:40:15 UTC</createdTime>
+<generatorID>8B73137C-8B1C-594A-05C0-F1AC4DD55C16</generatorID>
+<ownerDesignName>321</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Clients_Clients_ID" id="10DA682F-FED0-DA96-3E63-D990694F3402">
+<createdBy>kosty</createdBy>
+<createdTime>2023-12-06 17:40:15 UTC</createdTime>
+<ownerDesignName>321</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Workers_Workers_ID" id="3CE3BDF4-8E10-0132-A5EB-7DF23EAFA3AF">
+<createdBy>kosty</createdBy>
+<createdTime>2023-12-06 17:40:15 UTC</createdTime>
+<ownerDesignName>321</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Couriers_Couriers_ID" id="C8D0E305-324E-D84D-2273-F5DB94DDF9F3">
+<createdBy>kosty</createdBy>
+<createdTime>2023-12-06 17:40:15 UTC</createdTime>
+<ownerDesignName>321</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ID_Client" id="C13FC856-2AA7-9759-5328-2DAD23D771F9">
+<createdBy>kosty</createdBy>
+<createdTime>2023-12-06 19:21:30 UTC</createdTime>
+<generatorID>6A54293B-52AF-0857-7D24-514109A10EA2</generatorID>
+<ownerDesignName>321</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="1A65DE47-11E9-9036-CB75-B4BA87156D70" referredColumn="3E9D9FDD-CA66-B304-799D-BA9F9CB33F99"/>
+</associations>
+</Column>
+<Column name="WorkerID" id="F67E99D5-A05C-675B-D321-A2B590BD023F">
+<createdBy>kosty</createdBy>
+<createdTime>2023-12-06 19:21:30 UTC</createdTime>
+<generatorID>6871260F-715F-77FC-1B04-3D8290B38EA8</generatorID>
+<ownerDesignName>321</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="7B38AE2C-F0AE-323A-ED25-6117DBDF06FA" referredColumn="6852990C-D67D-4701-867B-79E9456579EC"/>
+</associations>
+</Column>
+<Column name="ID_Courier" id="9C534438-E9DB-A13D-4548-09747ACAE866">
+<createdBy>kosty</createdBy>
+<createdTime>2023-12-06 19:21:30 UTC</createdTime>
+<generatorID>EF117442-4032-7EF0-FC06-5A361EB5836F</generatorID>
+<ownerDesignName>321</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="77A8182F-22A9-4604-2C13-2E2AC3E0E14D" referredColumn="7744727A-9F2D-D551-8FB0-7A9352544C0A"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="07AA9E37-91B7-AD76-BF1D-A3A70192C833" name="Order_PK">
+<createdBy>kosty</createdBy>
+<createdTime>2023-12-06 19:21:30 UTC</createdTime>
+<generatorID>5844D5EB-3806-F362-B29D-AF13750B8AEA</generatorID>
+<ownerDesignName>321</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F4D47520-D47A-4EA2-12B1-411F24E38D08"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="5E9C8CF2-41D1-BF34-6479-853B02A8A1C8" name="Order_Clients_FK">
+<createdBy>kosty</createdBy>
+<createdTime>2023-12-06 17:40:15 UTC</createdTime>
+<generatorID>F7565A88-D526-CA23-241C-805BECEA52E3</generatorID>
+<ownerDesignName>321</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="C13FC856-2AA7-9759-5328-2DAD23D771F9"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="ACE72E4C-C119-0FBC-C8BB-7054EAF4A25C" name="Order_Workers_FK">
+<createdBy>kosty</createdBy>
+<createdTime>2023-12-06 17:40:15 UTC</createdTime>
+<generatorID>89BEFD71-5F11-A113-B576-297398AB14E6</generatorID>
+<ownerDesignName>321</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F67E99D5-A05C-675B-D321-A2B590BD023F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="12A0F460-429C-F2F8-C787-5DB3721C06AE" name="Order_Couriers_FK">
+<createdBy>kosty</createdBy>
+<createdTime>2023-12-06 17:40:15 UTC</createdTime>
+<generatorID>F5BEE2F9-7ABC-62C4-5239-D104FD444885</generatorID>
+<ownerDesignName>321</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="9C534438-E9DB-A13D-4548-09747ACAE866"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>
