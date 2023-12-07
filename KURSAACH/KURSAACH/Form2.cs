@@ -124,14 +124,6 @@ namespace KURSAACH
 
             if (Form1.User == "user")
             {
-                //tabControl1.Visible = false;
-                //tabControl2.Visible = true;
-                /*materialTextBox26.ReadOnly = true;
-                materialTextBox21.ReadOnly = true;
-                materialTextBox22.ReadOnly = true;
-                materialTextBox23.ReadOnly = true;
-                materialTextBox25.ReadOnly = true;
-                materialTextBox27.ReadOnly = true;*/
 
                 dataGridView1.ReadOnly = true;
                 dataGridView2.ReadOnly = true;
@@ -149,15 +141,22 @@ namespace KURSAACH
                 toolStripButton8.Visible = false;
                 tabPage1.Visible = false;
 
+                dataGridView3.Columns[2].Visible = false;
+                dataGridView3.Columns[3].Visible = false;
+                dataGridView3.Columns[4].Visible = false;
+                dataGridView3.Columns[5].Visible = false;
+                dataGridView3.Columns[6].Visible = false;
+                dataGridView3.Columns[7].Visible = false;
 
-                /*Size = new Size(810, 789);
-                MaximumSize = new Size(810, 789);
-                MinimumSize = new Size(810, 789);*/
+                
+
             }
             else
             if (Form1.User == "admin")
             {
-
+                groupBox2.Visible = false;
+                groupBox3.Visible = false;
+                groupBox4.Visible = false;
             }
 
         }
@@ -319,7 +318,7 @@ namespace KURSAACH
 
         }
 
-        private void materialButton3_Click(object sender, EventArgs e)
+        /*private void materialButton3_Click(object sender, EventArgs e)
         {
             // Получение индекса выбранной строки в DataGridView
             int selectedIndex = dataGridView1.CurrentCell.RowIndex;
@@ -353,7 +352,7 @@ namespace KURSAACH
 
             }
 
-        }
+        }*/
 
         private void materialButton9_Click(object sender, EventArgs e)
         {
@@ -406,12 +405,22 @@ namespace KURSAACH
 
         private void FillComboBoxWithTables()
         {
-            // Замените этот код реальными именами ваших таблиц
-            materialComboBox9.Items.Add("Clients");
-            materialComboBox9.Items.Add("Couriers");
-            materialComboBox9.Items.Add("Order");
-            materialComboBox9.Items.Add("Workers");
-            // ...
+            if (Form1.User == "admin")
+            {
+                // Замените этот код реальными именами ваших таблиц
+                materialComboBox1.Items.Add("Clients");
+                materialComboBox1.Items.Add("Couriers");
+                materialComboBox1.Items.Add("Order");
+                materialComboBox1.Items.Add("Workers");
+                // ...
+            }
+            else if (Form1.User == "user")
+            {
+                // Замените этот код реальными именами ваших таблиц
+                materialComboBox1.Items.Add("Order");
+                // ...
+            }
+
         }
 
         private void exportToExcel(DataGridView dataGridView, string filepath)
@@ -482,56 +491,98 @@ namespace KURSAACH
 
         }
 
+        private string GetFilterCondition(string columnName, string filterValue, bool isSecondColumn = false, bool useOr = false, string secondColumnName = null, string secondFilterValue = null)
+        {
+            string condition = isSecondColumn ? (useOr ? " or " : " and ") : "";
+
+            if (!string.IsNullOrEmpty(secondColumnName) && !string.IsNullOrEmpty(secondFilterValue))
+            {
+                // Add the second condition if provided
+                condition += $"{secondColumnName} = '{secondFilterValue}'";
+            }
+
+            if (int.TryParse(filterValue, out _))
+            {
+                // Numeric value
+                return $"{columnName} = {filterValue}" + condition;
+            }
+            else
+            {
+                // String value
+                return $"{columnName} = '{filterValue}'" + condition;
+            }
+        }
+
         private void materialButton1_Click(object sender, EventArgs e)
         {
             string columnName = materialTextBox2.Text;
             string filterValue = materialTextBox3.Text;
             string a = materialComboBox1.SelectedItem.ToString();
-            if (materialSwitch5.Checked == true)
-            {
+            string secondColumnName = materialTextBox4.Text;
+            string secondFilterValue = materialTextBox1.Text;
 
+            bool useOrCondition = materialSwitch1.Checked;
+
+            if (materialSwitch5.Checked == false)
+            {
                 switch (a)
                 {
-                    case "Clients": clientsBindingSource.Filter = materialTextBox2.Text + " = ('" + materialTextBox3.Text + "')"; break;
-                    case "Couriers": couriersBindingSource.Filter = materialTextBox2.Text + " = ('" + materialTextBox3.Text + "')"; break;
-                    case "Order": orderBindingSource.Filter = materialTextBox2.Text + " = ('" + materialTextBox3.Text + "')"; break;
-                    case "Workers": workersBindingSource.Filter = materialTextBox2.Text + " = ('" + materialTextBox3.Text + "')"; break;
-                    
-
-                    default: MessageBox.Show("Таблица не найдена", "Ошибка"); break;
+                    case "Clients":
+                        clientsBindingSource.Filter = GetFilterCondition(columnName, filterValue, false, useOrCondition);
+                        break;
+                    case "Couriers":
+                        couriersBindingSource.Filter = GetFilterCondition(columnName, filterValue, false, useOrCondition);
+                        break;
+                    case "Order":
+                        orderBindingSource.Filter = GetFilterCondition(columnName, filterValue, false, useOrCondition);
+                        break;
+                    case "Workers":
+                        workersBindingSource.Filter = GetFilterCondition(columnName, filterValue, false, useOrCondition);
+                        break;
+                    default:
+                        MessageBox.Show("Таблица не найдена", "Ошибка");
+                        break;
                 }
             }
             else
             {
-
-                if (materialSwitch1.Checked == false)
+                switch (a)
                 {
-                    switch (a)
-                    {
-                        case "Clients": clientsBindingSource.Filter = materialTextBox2.Text + " = ('" + materialTextBox3.Text + "') and " + materialTextBox4.Text + " =('" + materialTextBox1.Text + "')"; break;
-                        case "Couriers": couriersBindingSource.Filter = materialTextBox2.Text + " = ('" + materialTextBox3.Text + "') and " + materialTextBox4.Text + " =('" + materialTextBox1.Text + "')"; break;
-                        case "Order": orderBindingSource.Filter = materialTextBox2.Text + " = ('" + materialTextBox3.Text + "') and " + materialTextBox4.Text + " =('" + materialTextBox1.Text + "')"; break;
-                        case "Workers": workersBindingSource.Filter = materialTextBox2.Text + " = ('" + materialTextBox3.Text + "') and " + materialTextBox4.Text + " =('" + materialTextBox1.Text + "')"; break;
-                        
-                        default: MessageBox.Show("Таблица не найдена", "Ошибка"); break;
-                    }
-
-
-
-                }
-                else
-                {
-                    switch (a)
-                    {
-                        case "Clients": clientsBindingSource.Filter = materialTextBox2.Text + " = ('" + materialTextBox3.Text + "') or " + materialTextBox4.Text + " =('" + materialTextBox1.Text + "')"; break;
-                        case "Couriers": couriersBindingSource.Filter = materialTextBox2.Text + " = ('" + materialTextBox3.Text + "') or " + materialTextBox4.Text + " =('" + materialTextBox1.Text + "')"; break;
-                        case "Order": orderBindingSource.Filter = materialTextBox2.Text + " = ('" + materialTextBox3.Text + "') or " + materialTextBox4.Text + " =('" + materialTextBox1.Text + "')"; break;
-                        case "Workers": workersBindingSource.Filter = materialTextBox2.Text + " = ('" + materialTextBox3.Text + "') or " + materialTextBox4.Text + " =('" + materialTextBox1.Text + "')"; break;
-                        
-                        default: MessageBox.Show("Таблица не найдена", "Ошибка"); break;
-                    }
+                    case "Clients":
+                        clientsBindingSource.Filter = GetFilterCondition(columnName, filterValue, true, useOrCondition, secondColumnName, secondFilterValue);
+                        break;
+                    case "Couriers":
+                        couriersBindingSource.Filter = GetFilterCondition(columnName, filterValue, true, useOrCondition, secondColumnName, secondFilterValue);
+                        break;
+                    case "Order":
+                        orderBindingSource.Filter = GetFilterCondition(columnName, filterValue, true, useOrCondition, secondColumnName, secondFilterValue);
+                        break;
+                    case "Workers":
+                        workersBindingSource.Filter = GetFilterCondition(columnName, filterValue, true, useOrCondition, secondColumnName, secondFilterValue);
+                        break;
+                    default:
+                        MessageBox.Show("Таблица не найдена", "Ошибка");
+                        break;
                 }
             }
+        }
+        private void resetFilterButton_Click(object sender, EventArgs e)
+        {
+            // Reset filters for each binding source
+            clientsBindingSource.RemoveFilter();
+            couriersBindingSource.RemoveFilter();
+            orderBindingSource.RemoveFilter();
+            workersBindingSource.RemoveFilter();
+
+            // You may also clear the text in the filter-related textboxes
+            materialTextBox2.Clear();
+            materialTextBox3.Clear();
+            materialTextBox4.Clear();
+            materialTextBox1.Clear();
+
+            // Additionally, you may want to reset the state of your switches
+            materialSwitch5.Checked = false;
+            materialSwitch1.Checked = false;
         }
     }
 }
