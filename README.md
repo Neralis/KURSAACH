@@ -1,3 +1,2 @@
 # KURSAACH
-КУРСАААААЧ
-zdraste ia kot
+КУРСОВАЯ РАБОТА
